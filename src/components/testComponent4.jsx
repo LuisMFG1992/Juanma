@@ -3,7 +3,7 @@ const testComponent4 = () => {
     <>
       <section className='body-font relative text-gray-600'>
         <div className='container mx-auto flex flex-wrap px-5 py-24 sm:flex-nowrap'>
-          <div className='relative flex items-end justify-start overflow-hidden rounded-lg bg-gray-300 p-10 sm:mr-10 md:w-1/2 lg:w-2/3'>
+          <div className='relative flex h-60 w-full items-end justify-start overflow-hidden rounded-lg bg-gray-300 p-10 sm:mr-10 sm:h-auto sm:w-auto md:w-1/2 lg:w-2/3'>
             <iframe
               width='100%'
               height='100%'
@@ -12,7 +12,7 @@ const testComponent4 = () => {
               src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d310847.3324236927!2d13.094416267945796!3d52.50638427292411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin%2C%20Germany!5e0!3m2!1sen!2snl!4v1714852729633!5m2!1sen!2snl'
               // style='filter: grayscale(1) contrast(1.2) opacity(0.4);'
             ></iframe>
-            <div className='relative flex flex-wrap rounded bg-white py-6 shadow-md'>
+            <div className='relative hidden flex-wrap rounded bg-white py-6 shadow-md sm:flex'>
               <div className='px-6 lg:w-1/2'>
                 <h2 className='title-font text-xs font-semibold tracking-widest text-gray-900'>
                   ADDRESS
