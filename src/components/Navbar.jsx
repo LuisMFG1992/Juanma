@@ -11,7 +11,7 @@ import { navLinks } from '../constants'
 
 const Navbar = () => {
   return (
-    <div className='sticky top-0 z-10 w-full'>
+    <div className='sticky top-0 z-10 w-full shadow-md'>
       <div className='bg-primary px-6 text-end text-sm text-light'>
         (+214) 2594 246 246 | info@email.com | Address
       </div>
