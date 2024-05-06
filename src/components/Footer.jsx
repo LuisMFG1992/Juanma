@@ -1,6 +1,6 @@
 import logo from '../assets/logo.svg'
 
-const testComponent5 = () => {
+const Footer = () => {
   return (
     <>
       <footer className='body-font bg-light text-gray-600'>
@@ -214,4 +214,4 @@ const testComponent5 = () => {
   )
 }
 
-export default testComponent5
+export default Footer
