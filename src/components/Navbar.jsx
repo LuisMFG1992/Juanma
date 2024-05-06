@@ -24,20 +24,16 @@ const Navbar = () => {
           <img src={logo} alt='' className='my-2 h-[55px]' />
           <span className='ml-3 text-xl font-semibold'>Name</span>
         </NavbarBrand>
-        <NavbarToggle
-          class={({ isActive }) =>
-            isActive
-              ? 'text-lg font-extrabold text-primary'
-              : 'text-lg text-lightGray'
-          }
-        />
+        <NavbarToggle class='md:hidden' />
         <NavbarCollapse className='py-5 text-center '>
           {navLinks.map((link) => (
             <NavLink
               key={link.url}
               to={link.url}
               className={({ isActive }) =>
-                isActive ? 'text-lg text-primary' : 'text-lg text-lightGray'
+                isActive
+                  ? 'text-lg font-bold text-primary'
+                  : 'text-lg text-lightGray'
               }
             >
               {link.label}
