@@ -23,6 +23,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-trailing-spaces': 'off',
     'eol-last': 'off',
-    'no-multiple-empty-lines': 'off'
+    'no-multiple-empty-lines': 'off',
+    'react/prop-types': 'off'
   }
 }
