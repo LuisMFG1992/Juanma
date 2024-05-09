@@ -8,6 +8,8 @@ import Footer from './Footer.jsx'
 import ContactForm from './ContactForm.jsx'
 import Banner from './Banner.jsx'
 import Map from './Map.jsx'
+import Mission from './Mission.jsx'
+import Quote from './sections/Quote.jsx'
 
 export {
   Hero,
@@ -19,5 +21,7 @@ export {
   Footer,
   ContactForm,
   Banner,
-  Map
+  Map,
+  Mission,
+  Quote
 }

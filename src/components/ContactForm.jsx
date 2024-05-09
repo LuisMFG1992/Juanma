@@ -117,9 +117,7 @@ const ContactForm = () => {
             <div className='mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center'>
               <a className='text-primary'>example@email.com</a>
               <p className='my-5 leading-normal'>
-                49 Smith St.
-                <br />
-                Saint Cloud, MN 56301
+                49 Smith St. Saint Cloud, MN 56301
               </p>
               <span className='inline-flex'>
                 <a className='text-primary'>
