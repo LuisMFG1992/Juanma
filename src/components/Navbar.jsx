@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-10 w-full shadow-md'>
-      <div className='bg-primary px-6 text-end text-sm text-light'>
+      <div className='bg-primary px-6 text-center text-sm text-light sm:text-end'>
         {contactInfo.phone} | {contactInfo.mail} | {contactInfo.address}
       </div>
       <nav className='border-b-1 border border-lightGray bg-white px-6'>
