@@ -6,56 +6,54 @@ import { contactInfo } from '../constants'
 const ContactForm = () => {
   return (
     <section className='body-font relative text-gray-600'>
-      <div className='container mx-auto px-5 py-10'>
-        {/*  */}
-        <section className='body-font mb-8 rounded-lg bg-light text-gray-600'>
-          <div className='container mx-auto px-5 py-24'>
-            <div className='sm: -mx-4 -my-8 flex flex-col flex-wrap sm:flex-row'>
-              <div className='flex justify-center py-4 sm:w-1/3'>
-                <div className='flex h-full items-start'>
-                  <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
-                    <div className='flex items-end gap-2 text-3xl text-primary'>
-                      <GrLocation />
-                      <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
-                        OFFICES
-                      </h2>
-                    </div>
-                    <p className='mb-5 leading-relaxed'>
-                      {contactInfo.address}
-                    </p>
+      {/*  */}
+      <section className='body-font my-8 flex justify-center rounded-lg bg-light text-gray-600'>
+        <div className='container  px-5 py-10'>
+          <div className='flex flex-col flex-wrap sm:flex-row'>
+            <div className='flex justify-center py-4 sm:w-1/3'>
+              <div className='flex h-full items-start'>
+                <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
+                  <div className='flex items-end gap-2 text-3xl text-primary'>
+                    <GrLocation />
+                    <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
+                      OFFICES
+                    </h2>
                   </div>
+                  <p className='mb-5 leading-relaxed'>{contactInfo.address}</p>
                 </div>
               </div>
-              <div className='flex justify-center py-4 sm:w-1/3'>
-                <div className='flex h-full items-start'>
-                  <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
-                    <div className='flex items-end gap-2 text-3xl text-primary'>
-                      <MdOutlineEmail />
-                      <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
-                        MAIL
-                      </h2>
-                    </div>
-                    <p className='mb-5 leading-relaxed'>{contactInfo.mail}</p>
+            </div>
+            <div className='flex justify-center py-4 sm:w-1/3'>
+              <div className='flex h-full items-start'>
+                <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
+                  <div className='flex items-end gap-2 text-3xl text-primary'>
+                    <MdOutlineEmail />
+                    <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
+                      MAIL
+                    </h2>
                   </div>
+                  <p className='mb-5 leading-relaxed'>{contactInfo.mail}</p>
                 </div>
               </div>
-              <div className='flex justify-center py-4 sm:w-1/3'>
-                <div className='flex h-full items-start'>
-                  <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
-                    <div className='flex items-end gap-2 text-3xl text-primary'>
-                      <FiSmartphone />
-                      <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
-                        CELLPHONE
-                      </h2>
-                    </div>
-                    <p className='mb-5 leading-relaxed'>{contactInfo.phone}</p>
+            </div>
+            <div className='flex justify-center py-4 sm:w-1/3'>
+              <div className='flex h-full items-start'>
+                <div className='flex flex-grow flex-col items-center pl-6  sm:items-start'>
+                  <div className='flex items-end gap-2 text-3xl text-primary'>
+                    <FiSmartphone />
+                    <h2 className='title-font mb-1 text-xs font-medium tracking-widest text-primary'>
+                      CELLPHONE
+                    </h2>
                   </div>
+                  <p className='mb-5 leading-relaxed'>{contactInfo.phone}</p>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        {/*  */}
+        </div>
+      </section>
+      {/*  */}
+      <div className='container mx-auto px-5 py-10'>
         <h1 className='pb-8 text-center text-2xl'>
           If you have any question, please {"don't"} hesitate to send us a
           message
