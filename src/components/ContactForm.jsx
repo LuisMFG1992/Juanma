@@ -6,8 +6,8 @@ import { contactInfo } from '../constants'
 const ContactForm = () => {
   return (
     <section className='body-font relative text-gray-600'>
-      {/*  */}
-      <section className='body-font my-8 flex justify-center rounded-lg bg-light text-gray-600'>
+      {/* Icons */}
+      {/* <section className='body-font my-8 flex justify-center rounded-lg bg-light text-gray-600'>
         <div className='container  px-5 py-10'>
           <div className='flex flex-col flex-wrap sm:flex-row'>
             <div className='flex justify-center py-4 sm:w-1/3'>
@@ -51,7 +51,66 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
+      </section> */}
+
+      <section className='body-font text-gray-600'>
+        <div className='container mx-auto px-5 py-24'>
+          <div className='-m-4 flex flex-wrap justify-center'>
+            <div className='p-4 md:w-1/3'>
+              <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
+                <div className='mb-3 flex items-center'>
+                  <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
+                    <GrLocation />
+                  </div>
+                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                    Address
+                  </h2>
+                </div>
+                <div className='flex-grow'>
+                  <p className='text-base leading-relaxed'>
+                    {contactInfo.address}{' '}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
+                <div className='mb-3 flex items-center'>
+                  <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
+                    <FiSmartphone />
+                  </div>
+                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                    Cellphone
+                  </h2>
+                </div>
+                <div className='flex-grow'>
+                  <p className='text-base leading-relaxed'>
+                    {contactInfo.phone}
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='p-4 md:w-1/3'>
+              <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
+                <div className='mb-3 flex items-center'>
+                  <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
+                    <MdOutlineEmail />
+                  </div>
+                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                    Mail
+                  </h2>
+                </div>
+                <div className='flex-grow'>
+                  <p className='text-base leading-relaxed'>
+                    {contactInfo.mail}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
       {/*  */}
       <div className='container mx-auto px-5 py-10'>
         <h1 className='pb-8 text-center text-2xl'>
