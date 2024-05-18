@@ -1,4 +1,5 @@
 import logo from '../assets/logo.svg'
+import logoAndName from '../assets/logoAndName.png'
 
 const Footer = () => {
   return (
@@ -7,20 +8,7 @@ const Footer = () => {
         <div className='container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start'>
           <div className='mx-auto mt-10 w-64 flex-shrink-0 text-center md:mx-0 md:mt-0 md:text-left'>
             <a className='title-font flex items-center justify-center font-medium text-gray-900 md:justify-start'>
-              <img src={logo} alt='' className='w-[50px]' />
-              {/* <svg
-                xmlns='http://www.w3.org/2000/svg'
-                fill='none'
-                stroke='currentColor'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                className='h-10 w-10 rounded-full bg-indigo-500 p-2 text-white'
-                viewBox='0 0 24 24'
-              >
-                <path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'></path>
-              </svg> */}
-              <span className='ml-3 text-xl'>Name</span>
+              <img src={logoAndName} alt='' className='w-[80px]' />
             </a>
             <p className='mt-2 text-sm text-gray-500'>
               Air plant banjo lyft occupy retro adaptogen indego
