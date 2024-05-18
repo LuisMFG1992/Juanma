@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const tesComponent1 = () => {
   return (
     <>
@@ -5,7 +7,7 @@ const tesComponent1 = () => {
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 text-center'>
             <h1 className='title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl'>
-              Raw Denim Heirloom Man Braid
+              Services
             </h1>
             <p className='text-gray-500s mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4'>
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
@@ -40,20 +42,6 @@ const tesComponent1 = () => {
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 inline-flex items-center text-primary'>
-                  Learn More
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='ml-2 h-4 w-4'
-                    viewBox='0 0 24 24'
-                  >
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
             <div className='flex flex-col items-center p-4 text-center md:w-1/3'>
@@ -81,20 +69,6 @@ const tesComponent1 = () => {
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 inline-flex items-center text-primary'>
-                  Learn More
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='ml-2 h-4 w-4'
-                    viewBox='0 0 24 24'
-                  >
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
             <div className='flex flex-col items-center p-4 text-center md:w-1/3'>
@@ -121,26 +95,14 @@ const tesComponent1 = () => {
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
                 </p>
-                <a className='mt-3 inline-flex items-center text-primary'>
-                  Learn More
-                  <svg
-                    fill='none'
-                    stroke='currentColor'
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth='2'
-                    className='ml-2 h-4 w-4'
-                    viewBox='0 0 24 24'
-                  >
-                    <path d='M5 12h14M12 5l7 7-7 7'></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
-          <button className='mx-auto mt-16 flex rounded border-0 bg-primary px-8 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
-            Button
-          </button>
+          <Link to={'/services'}>
+            <button className='mx-auto mt-16 flex rounded border-0 bg-primary px-8 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
+              Learn more
+            </button>
+          </Link>
         </div>
       </section>
     </>

@@ -84,7 +84,7 @@ const testComponent4 = () => {
               ></textarea>
             </div>
             <button className='rounded border-0 bg-primary px-6 py-2 text-lg text-white hover:opacity-80 focus:outline-none'>
-              Button
+              Send
             </button>
             <p className='mt-3 text-xs text-gray-500'>
               Chicharrones blog helvetica normcore iceland tousled brook viral
