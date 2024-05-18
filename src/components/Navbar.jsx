@@ -25,10 +25,12 @@ const Navbar = () => {
       <nav className='border-b-1 border border-lightGray bg-white px-6'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
-            <div className='flex items-center'>
-              <img src={logo} alt='' className='my-2 h-[55px]' />
-              <span className='ml-3 text-xl font-semibold'>Name</span>
-            </div>
+            <NavLink to={'/'}>
+              <div className='flex items-center'>
+                <img src={logo} alt='' className='my-2 h-[55px]' />
+                <span className='ml-3 text-xl font-semibold'>Name</span>
+              </div>
+            </NavLink>
 
             {/* Desktop */}
             <div className='hidden gap-8 md:flex'>
