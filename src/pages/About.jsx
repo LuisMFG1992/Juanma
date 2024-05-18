@@ -1,3 +1,7 @@
+import Juan from '../assets/Juan.png'
+import Nicholaj from '../assets/Nicholaj.png'
+import Manuel from '../assets/Manuel.png'
+
 import {
   Banner,
   Mission
@@ -126,10 +130,10 @@ const About = () => {
                 <img
                   alt='team'
                   className='mb-4 h-56 w-56 flex-shrink-0 rounded-full object-cover object-center'
-                  src='https://dummyimage.com/200x200'
+                  src={Juan}
                 />
                 <div className='w-full'>
-                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                  <h2 className='title-font text-lg font-medium text-primary'>
                     JUAN MANUEL ROLDAN
                   </h2>
                   <h3 className='mb-1 text-gray-500'>
@@ -142,7 +146,7 @@ const About = () => {
                     }
                   </p>
                   <span className='inline-flex'>
-                    <a className='text-gray-500'>
+                    <a className='text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -155,7 +159,7 @@ const About = () => {
                         <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -168,7 +172,7 @@ const About = () => {
                         <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -190,10 +194,10 @@ const About = () => {
                 <img
                   alt='team'
                   className='mb-4 h-56 w-56 flex-shrink-0 rounded-full object-cover object-center'
-                  src='https://dummyimage.com/200x200'
+                  src={Nicholaj}
                 />
                 <div className='w-full'>
-                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                  <h2 className='title-font text-lg font-medium text-primary'>
                     NICHOLAJ HANSEN
                   </h2>
                   <h3 className='mb-1 text-gray-500'>Strategic Advisor</h3>
@@ -206,7 +210,7 @@ const About = () => {
                     }
                   </p>
                   <span className='inline-flex'>
-                    <a className='text-gray-500'>
+                    <a className='text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -219,7 +223,7 @@ const About = () => {
                         <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -232,7 +236,7 @@ const About = () => {
                         <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -254,10 +258,10 @@ const About = () => {
                 <img
                   alt='team'
                   className='mb-4 h-56 w-56 flex-shrink-0 rounded-full object-cover object-center'
-                  src='https://dummyimage.com/200x200'
+                  src={Manuel}
                 />
                 <div className='w-full'>
-                  <h2 className='title-font text-lg font-medium text-gray-900'>
+                  <h2 className='title-font text-lg font-medium text-primary'>
                     MANUEL GIMENEZ
                   </h2>
                   <h3 className='mb-1 text-gray-500'>
@@ -272,7 +276,7 @@ const About = () => {
                     }
                   </p>
                   <span className='inline-flex'>
-                    <a className='text-gray-500'>
+                    <a className='text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -285,7 +289,7 @@ const About = () => {
                         <path d='M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
@@ -298,7 +302,7 @@ const About = () => {
                         <path d='M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z'></path>
                       </svg>
                     </a>
-                    <a className='ml-2 text-gray-500'>
+                    <a className='ml-2 text-primary'>
                       <svg
                         fill='none'
                         stroke='currentColor'
