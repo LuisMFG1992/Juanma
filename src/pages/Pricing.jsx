@@ -149,7 +149,7 @@ const Pricing = () => {
           <p className='title-font mb-2 text-2xl font-medium text-primary sm:text-2xl'>
             Ready to power up your projects?
           </p>
-          <a href='https://calendly.com/jmr-fidgate/60-meeting'>
+          <a href='https://calendly.com/jmr-fidgate/'>
             <button className='inline-flex rounded border-0 bg-primary px-6 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
               Book a meeting
             </button>
@@ -229,9 +229,6 @@ const Pricing = () => {
           </div>
         </div>
       </section> */}
-
-      {/* Conversation with calendar */}
-      {/* <div className='flex h-[400px] w-full items-center justify-center bg-light text-3xl font-bold'></div> */}
     </>
   )
 }

@@ -72,6 +72,34 @@ const testComponent4 = () => {
             </div>
             <div className='relative mb-4'>
               <label
+                htmlFor='email'
+                className='text-sm leading-7 text-gray-600'
+              >
+                Phone
+              </label>
+              <input
+                type='email'
+                id='email'
+                name='email'
+                className='w-full rounded border border-gray-300 bg-white px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:ring-2 focus:ring-indigo-200'
+              />
+            </div>
+            <div className='relative mb-4'>
+              <label
+                htmlFor='email'
+                className='text-sm leading-7 text-gray-600'
+              >
+                Subject
+              </label>
+              <input
+                type='email'
+                id='email'
+                name='email'
+                className='w-full rounded border border-gray-300 bg-white px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:ring-2 focus:ring-indigo-200'
+              />
+            </div>
+            <div className='relative mb-4'>
+              <label
                 htmlFor='message'
                 className='text-sm leading-7 text-gray-600'
               >
