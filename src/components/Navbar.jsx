@@ -1,7 +1,7 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
 
 import logo from '../assets/logo.svg'
-import logoAndName from '../assets/logoAndName.png'
+import LogoNegro from '../assets/LogoNegro.jpg'
 import { NavLink } from 'react-router-dom'
 import { contactInfo, navLinks } from '../constants'
 import { useContext, useEffect } from 'react'
@@ -28,7 +28,7 @@ const Navbar = () => {
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
               <div className='flex items-center'>
-                <img src={logoAndName} alt='' className='my-2 h-[50px]' />
+                <img src={LogoNegro} alt='' className='my-2 h-[50px]' />
               </div>
             </NavLink>
 

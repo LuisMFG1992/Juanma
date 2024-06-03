@@ -119,38 +119,75 @@ const ContactForm = () => {
         </h1>
         <div className='mx-auto md:w-2/3 lg:w-1/2'>
           <div className='-m-2 flex flex-wrap'>
-            <div className='w-1/2 p-2'>
-              <div className='relative'>
-                <label
-                  htmlFor='name'
-                  className='text-sm leading-7 text-gray-600'
-                >
-                  Name
-                </label>
-                <input
-                  type='text'
-                  id='name'
-                  name='name'
-                  className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
-                />
+            <div className='flex w-full flex-col justify-center gap-2 sm:flex-row'>
+              <div className='w-full p-2'>
+                <div className='relative'>
+                  <label
+                    htmlFor='name'
+                    className='text-sm leading-7 text-gray-600'
+                  >
+                    Name
+                  </label>
+                  <input
+                    type='text'
+                    id='name'
+                    name='name'
+                    className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
+                  />
+                </div>
+              </div>
+              <div className='w-full p-2 '>
+                <div className='relative'>
+                  <label
+                    htmlFor='email'
+                    className='text-sm leading-7 text-gray-600'
+                  >
+                    Email
+                  </label>
+                  <input
+                    type='email'
+                    id='email'
+                    name='email'
+                    className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
+                  />
+                </div>
               </div>
             </div>
-            <div className='w-1/2 p-2'>
-              <div className='relative'>
-                <label
-                  htmlFor='email'
-                  className='text-sm leading-7 text-gray-600'
-                >
-                  Email
-                </label>
-                <input
-                  type='email'
-                  id='email'
-                  name='email'
-                  className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
-                />
+            <div className='flex w-full flex-col justify-center gap-2 sm:flex-row'>
+              <div className='w-full p-2'>
+                <div className='relative'>
+                  <label
+                    htmlFor='name'
+                    className='text-sm leading-7 text-gray-600'
+                  >
+                    Phone
+                  </label>
+                  <input
+                    type='text'
+                    id='name'
+                    name='name'
+                    className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
+                  />
+                </div>
+              </div>
+              <div className='w-full p-2 '>
+                <div className='relative'>
+                  <label
+                    htmlFor='email'
+                    className='text-sm leading-7 text-gray-600'
+                  >
+                    Subject
+                  </label>
+                  <input
+                    type='email'
+                    id='email'
+                    name='email'
+                    className='w-full rounded border border-gray-300 bg-gray-100 bg-opacity-50 px-3 py-1 text-base leading-8 text-gray-700 outline-none transition-colors duration-200 ease-in-out focus:border-primary focus:bg-white focus:ring-2 focus:ring-indigo-200'
+                  />
+                </div>
               </div>
             </div>
+
             <div className='w-full p-2'>
               <div className='relative'>
                 <label

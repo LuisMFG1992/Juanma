@@ -1,14 +1,14 @@
-import logo from '../assets/logo.svg'
+import logo from '../assets/LogoNegro.jpg'
 import logoAndName from '../assets/logoAndName.png'
 
 const Footer = () => {
   return (
     <>
-      <footer className='body-font bg-light text-gray-600'>
+      <footer className='body-font border border-t-2 bg-light text-gray-600'>
         <div className='container mx-auto flex flex-col flex-wrap px-5 py-24 md:flex-row md:flex-nowrap md:items-center lg:items-start'>
           <div className='mx-auto mt-10 w-64 flex-shrink-0 text-center md:mx-0 md:mt-0 md:text-left'>
             <a className='title-font flex items-center justify-center font-medium text-gray-900 md:justify-start'>
-              <img src={logoAndName} alt='' className='w-[80px]' />
+              <img src={logo} alt='' className='w-[80px]' />
             </a>
             <p className='mt-2 text-sm text-gray-500'>
               Air plant banjo lyft occupy retro adaptogen indego

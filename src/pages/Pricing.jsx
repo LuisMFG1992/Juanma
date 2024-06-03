@@ -145,10 +145,20 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+        <div className='flex flex-col items-center justify-center gap-4 pb-16'>
+          <p className='title-font mb-2 text-2xl font-medium text-primary sm:text-2xl'>
+            Ready to power up your projects?
+          </p>
+          <a href='https://calendly.com/jmr-fidgate/60-meeting'>
+            <button className='inline-flex rounded border-0 bg-primary px-6 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
+              Book a meeting
+            </button>
+          </a>
+        </div>
       </section>
 
       {/* Testimonials */}
-      <section className='body-font bg-light text-gray-600'>
+      {/* <section className='body-font bg-light text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <h1 className='title-font mb-12 text-center text-3xl font-medium text-gray-900'>
             Testimonials
@@ -218,12 +228,10 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Conversation with calendar */}
-      <div className='flex h-[400px] w-full items-center justify-center text-3xl font-bold'>
-        Calendar
-      </div>
+      {/* <div className='flex h-[400px] w-full items-center justify-center bg-light text-3xl font-bold'></div> */}
     </>
   )
 }
