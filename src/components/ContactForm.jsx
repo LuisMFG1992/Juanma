@@ -9,7 +9,7 @@ const ContactForm = () => {
       <section className='body-font text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='-m-4 flex flex-wrap justify-center'>
-            <div className='p-4 md:w-1/3'>
+            <div className='w-full p-4 md:w-1/3'>
               <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
                 <div className='mb-3 flex items-center'>
                   <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
@@ -26,7 +26,7 @@ const ContactForm = () => {
                 </div>
               </div>
             </div>
-            <div className='p-4 md:w-1/3'>
+            <div className='w-full p-4 md:w-1/3'>
               <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
                 <div className='mb-3 flex items-center'>
                   <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
@@ -43,7 +43,7 @@ const ContactForm = () => {
                 </div>
               </div>
             </div>
-            <div className='p-4 md:w-1/3'>
+            <div className='w-full p-4 md:w-1/3'>
               <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
                 <div className='mb-3 flex items-center'>
                   <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>

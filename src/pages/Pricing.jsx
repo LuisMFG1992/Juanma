@@ -147,7 +147,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className='flex flex-col items-center justify-center gap-4 pb-16'>
+        <div className='flex flex-col items-center justify-center gap-4 px-5 pb-16 text-center'>
           <p className='text-title mb-2 font-medium text-primary'>
             Ready to power up your projects?
           </p>
