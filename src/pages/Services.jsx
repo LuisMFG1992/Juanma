@@ -5,14 +5,14 @@ const Services = () => {
     <>
       <Banner />
 
-      {/* Services */}
+      {/* Our Services */}
       <section className='body-font text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 text-center'>
-            <h1 className='title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl'>
+            <h1 className='text-title mb-4 font-medium text-gray-900 '>
               Our services
             </h1>
-            <p className='text-gray-500s mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4'>
+            <p className='text-gray-500s text-paragraph mx-auto leading-relaxed lg:w-3/4 xl:w-2/4'>
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
               mi pug.
@@ -37,14 +37,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow pl-6'>
-                <h2 className='title-font mb-2 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                   Shooting Stars
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                  live-edge tilde.
+                  banh mi pug.
                 </p>
               </div>
             </div>
@@ -65,14 +64,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow pl-6'>
-                <h2 className='title-font mb-2 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                   The Catalyzer
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                  live-edge tilde.
+                  banh mi pug.
                 </p>
               </div>
             </div>
@@ -92,14 +90,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow pl-6'>
-                <h2 className='title-font mb-2 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                   Neptune
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard ugh iceland kickstarter tumblr
-                  live-edge tilde.
+                  banh mi pug.
                 </p>
               </div>
             </div>
@@ -111,12 +108,12 @@ const Services = () => {
       <section className='body-font bg-light text-gray-600'>
         <div className='container mx-auto flex flex-col items-center px-5 py-24 md:flex-row'>
           <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
-            <h1 className='title-font mb-4 text-3xl font-medium text-gray-900 sm:text-4xl'>
+            <h1 className='text-title mb-4 font-medium text-gray-900'>
               Before they sold out
               <br className='hidden lg:inline-block' />
               readymade gluten
             </h1>
-            <p className='mb-8 leading-relaxed'>
+            <p className='text-paragraph mb-8 leading-relaxed'>
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
@@ -137,10 +134,10 @@ const Services = () => {
       <section className='body-font  text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 flex w-full flex-col text-center'>
-            <h1 className='title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl'>
+            <h1 className='text-title mb-4 font-medium text-gray-900 sm:text-3xl'>
               Why choosing us
             </h1>
-            <p className='mx-auto text-base leading-relaxed lg:w-2/3'>
+            <p className='text-paragraph mx-auto leading-relaxed lg:w-2/3'>
               Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
               gentrify, subway tile poke farm-to-table. Franzen you probably
               {"haven't"} heard of them man bun deep jianbing selfies heirloom
@@ -149,37 +146,37 @@ const Services = () => {
           </div>
           <div className='flex flex-wrap'>
             <div className='border-l-2 border-gray-200 border-opacity-60 px-8 py-6 md:w-full lg:w-1/2 xl:w-1/4'>
-              <h2 className='title-font mb-2 text-lg font-medium text-gray-900 sm:text-xl'>
+              <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                 Shooting Stars
               </h2>
-              <p className='mb-4 text-base leading-relaxed'>
+              <p className='text-paragraph mb-4 leading-relaxed'>
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
             </div>
             <div className='border-l-2 border-gray-200 border-opacity-60 px-8 py-6 md:w-full lg:w-1/2 xl:w-1/4'>
-              <h2 className='title-font mb-2 text-lg font-medium text-gray-900 sm:text-xl'>
+              <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                 The Catalyzer
               </h2>
-              <p className='mb-4 text-base leading-relaxed'>
+              <p className='text-paragraph mb-4 leading-relaxed'>
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
             </div>
             <div className='border-l-2 border-gray-200 border-opacity-60 px-8 py-6 md:w-full lg:w-1/2 xl:w-1/4'>
-              <h2 className='title-font mb-2 text-lg font-medium text-gray-900 sm:text-xl'>
+              <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                 Neptune
               </h2>
-              <p className='mb-4 text-base leading-relaxed'>
+              <p className='text-paragraph mb-4 leading-relaxed'>
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>
             </div>
             <div className='border-l-2 border-gray-200 border-opacity-60 px-8 py-6 md:w-full lg:w-1/2 xl:w-1/4'>
-              <h2 className='title-font mb-2 text-lg font-medium text-gray-900 sm:text-xl'>
+              <h2 className='text-subtitle mb-2 font-medium text-gray-900'>
                 Melanchole
               </h2>
-              <p className='mb-4 text-base leading-relaxed'>
+              <p className='text-paragraph mb-4 leading-relaxed'>
                 Fingerstache flexitarian street art 8-bit waistcoat. Distillery
                 hexagon disrupt edison bulbche.
               </p>

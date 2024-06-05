@@ -1,8 +1,8 @@
 import {
-  Component1,
-  Component2,
-  Component3,
-  Component4,
+  Services,
+  Gallery,
+  Testimonials,
+  ContactWithMap,
   Hero
 } from '../components'
 
@@ -10,10 +10,10 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <Component1 />
-      <Component2 />
-      <Component3 />
-      <Component4 />
+      <Services />
+      <Gallery />
+      <Testimonials />
+      <ContactWithMap />
     </>
   )
 }

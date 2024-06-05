@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom'
 
-const tesComponent1 = () => {
+const Services = () => {
   return (
     <>
       <section className='body-font bg-light text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 text-center'>
-            <h1 className='title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl'>
+            <h1 className='title-font text-title mb-4 font-medium text-gray-900'>
               Services
             </h1>
-            <p className='text-gray-500s mx-auto text-base leading-relaxed lg:w-3/4 xl:w-2/4'>
+            <p className='text-gray-500s text-paragraph mx-auto  leading-relaxed lg:w-3/4 xl:w-2/4'>
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
               taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
               mi pug.
@@ -34,10 +34,10 @@ const tesComponent1 = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='title-font mb-3 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
                   Shooting Stars
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph  leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
@@ -61,10 +61,10 @@ const tesComponent1 = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='title-font mb-3 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
                   The Catalyzer
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph  leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
@@ -87,10 +87,10 @@ const tesComponent1 = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='title-font mb-3 text-lg font-medium text-gray-900'>
+                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
                   Neptune
                 </h2>
-                <p className='text-base leading-relaxed'>
+                <p className='text-paragraph  leading-relaxed'>
                   Blue bottle crucifix vinyl post-ironic four dollar toast vegan
                   taxidermy. Gastropub indxgo juice poutine, ramps microdosing
                   banh mi pug VHS try-hard.
@@ -98,15 +98,15 @@ const tesComponent1 = () => {
               </div>
             </div>
           </div>
-          <Link to={'/services'}>
+          {/* <Link to={'/services'}>
             <button className='mx-auto mt-16 flex rounded border-0 bg-primary px-8 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
               Learn more
             </button>
-          </Link>
+          </Link> */}
         </div>
       </section>
     </>
   )
 }
 
-export default tesComponent1
+export default Services

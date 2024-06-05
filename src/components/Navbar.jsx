@@ -1,7 +1,6 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
 
-import logo from '../assets/logo.svg'
-import LogoNegro from '../assets/LogoNegro.jpg'
+import logo from '../assets/LogoFIDgate.svg'
 import { NavLink } from 'react-router-dom'
 import { contactInfo, navLinks } from '../constants'
 import { useContext, useEffect } from 'react'
@@ -28,7 +27,7 @@ const Navbar = () => {
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
               <div className='flex items-center'>
-                <img src={LogoNegro} alt='' className='my-2 h-[50px]' />
+                <img src={logo} alt='' className='my-2 h-[40px]' />
               </div>
             </NavLink>
 
@@ -40,8 +39,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'text-lg font-bold text-primary'
-                      : 'text-lg text-lightGray'
+                      ? 'text-paragraph text-lg font-bold text-primary'
+                      : 'text-paragraph text-lg text-lightGray '
                   }
                 >
                   {link.label}
@@ -50,13 +49,15 @@ const Navbar = () => {
             </div>
 
             {/* Mobil */}
-            <GiHamburgerMenu
-              className='text-2xl md:hidden'
+            <div
+              className='cursor-pointer p-4 md:hidden'
               onClick={() => toggleState(SetIsNavbarToggled)}
-            />
+            >
+              <GiHamburgerMenu className='text-2xl text-primary  ' />
+            </div>
           </div>
           {isNavbarToggled ? (
-            <div className='flex flex-col items-center gap-4 pb-4'>
+            <div className='flex flex-col items-center pb-4'>
               {navLinks.map((link) => (
                 <NavLink
                   onClick={() => toggleState(SetIsNavbarToggled)}
@@ -64,8 +65,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'text-lg font-bold text-primary'
-                      : 'text-lg text-lightGray'
+                      ? 'text-paragraph w-full py-2 text-center text-lg font-bold text-primary '
+                      : 'text-paragraph w-full py-2 text-center text-lg text-lightGray '
                   }
                 >
                   {link.label}

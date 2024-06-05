@@ -12,6 +12,11 @@ export default {
         primary: '#05445E',
         light: '#f3f4f6',
         lightGray: '#94a3b8'
+      },
+      fontSize: {
+        paragraph: '1.3rem',
+        subtitle: '1.7rem',
+        title: '2.25rem'
       }
     }
   },

@@ -1,6 +1,6 @@
 import { googleMapAddress } from '../constants'
 
-const testComponent4 = () => {
+const ContactWithMap = () => {
   return (
     <>
       <section className='body-font relative text-gray-600'>
@@ -12,7 +12,6 @@ const testComponent4 = () => {
               className='absolute inset-0'
               title='map'
               src={googleMapAddress}
-              // style='filter: grayscale(1) contrast(1.2) opacity(0.4);'
             ></iframe>
             <div className='relative hidden flex-wrap rounded bg-white py-6 shadow-md sm:flex'>
               <div className='px-6 lg:w-1/2'>
@@ -39,14 +38,17 @@ const testComponent4 = () => {
             </div>
           </div>
           <div className='mt-8 flex w-full flex-col bg-white md:ml-auto md:mt-0 md:w-1/2 md:py-8 lg:w-1/3'>
-            <h2 className='title-font mb-1 text-lg font-medium text-primary'>
+            <h2 className='text-subtitle mb-1 font-medium text-primary'>
               {"Let's talk!"}
             </h2>
-            <p className='mb-5 leading-relaxed text-gray-600'>
+            <p className='text-paragraph mb-5 leading-relaxed text-gray-600'>
               Post-ironic portland shabby chic echo park, banjo fashion axe
             </p>
             <div className='relative mb-4'>
-              <label htmlFor='name' className='text-sm leading-7 text-gray-600'>
+              <label
+                htmlFor='name'
+                className='text-paragraph leading-7 text-gray-600'
+              >
                 Name
               </label>
               <input
@@ -59,7 +61,7 @@ const testComponent4 = () => {
             <div className='relative mb-4'>
               <label
                 htmlFor='email'
-                className='text-sm leading-7 text-gray-600'
+                className='text-paragraph leading-7 text-gray-600'
               >
                 Email
               </label>
@@ -73,7 +75,7 @@ const testComponent4 = () => {
             <div className='relative mb-4'>
               <label
                 htmlFor='email'
-                className='text-sm leading-7 text-gray-600'
+                className='text-paragraph leading-7 text-gray-600'
               >
                 Phone
               </label>
@@ -87,7 +89,7 @@ const testComponent4 = () => {
             <div className='relative mb-4'>
               <label
                 htmlFor='email'
-                className='text-sm leading-7 text-gray-600'
+                className='text-paragraph leading-7 text-gray-600'
               >
                 Subject
               </label>
@@ -101,7 +103,7 @@ const testComponent4 = () => {
             <div className='relative mb-4'>
               <label
                 htmlFor='message'
-                className='text-sm leading-7 text-gray-600'
+                className='text-paragraph leading-7 text-gray-600'
               >
                 Message
               </label>
@@ -114,10 +116,6 @@ const testComponent4 = () => {
             <button className='rounded border-0 bg-primary px-6 py-2 text-lg text-white hover:opacity-80 focus:outline-none'>
               Send
             </button>
-            <p className='mt-3 text-xs text-gray-500'>
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
-            </p>
           </div>
         </div>
       </section>
@@ -125,4 +123,4 @@ const testComponent4 = () => {
   )
 }
 
-export default testComponent4
+export default ContactWithMap

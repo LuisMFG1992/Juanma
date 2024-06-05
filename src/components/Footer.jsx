@@ -1,5 +1,4 @@
-import logo from '../assets/LogoNegro.jpg'
-import logoAndName from '../assets/logoAndName.png'
+import logo from '../assets/LogoFIDgate.svg'
 
 const Footer = () => {
   return (
