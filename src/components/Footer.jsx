@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logo from '../assets/LogoFIDgate.svg'
 
 const Footer = () => {
@@ -6,16 +7,19 @@ const Footer = () => {
       <footer className='body-font border border-t-2 bg-light text-gray-600'>
         <div className='container mx-auto flex flex-col flex-wrap px-5 py-8 md:flex-row md:flex-nowrap md:items-center lg:items-start'>
           <div className='mx-auto mt-10 w-64 flex-shrink-0 text-center md:mx-0 md:mt-0 md:text-left'>
-            <a className='title-font flex items-center justify-center font-medium text-gray-900 md:justify-start'>
+            <Link
+              to={'/'}
+              className='title-font flex items-center justify-center font-medium text-gray-900 md:justify-start'
+            >
               <img src={logo} alt='' className='w-[150px]' />
-            </a>
-            <p className='text-paragraph mt-2 text-gray-500'>
+            </Link>
+            <p className='mt-2 text-paragraph text-gray-500'>
               Air plant banjo lyft occupy retro adaptogen indego
             </p>
           </div>
           <div className='order-first -mb-10 flex flex-grow flex-wrap text-center md:pr-20 md:text-left'>
             <div className='w-full px-4 md:w-1/2 lg:w-1/4'>
-              <h2 className='title-font text-subtitle mb-3 text-sm font-medium tracking-widest text-gray-900'>
+              <h2 className='title-font mb-3 text-sm text-subtitle font-medium tracking-widest text-gray-900'>
                 CATEGORIES
               </h2>
               <nav className='mb-10 list-none'>
@@ -128,7 +132,7 @@ const Footer = () => {
 
         <div className='bg-gray-100'>
           <div className='container mx-auto flex flex-col flex-wrap px-5 py-4 sm:flex-row'>
-            <p className='text-paragraph text-center text-gray-500 sm:text-left'>
+            <p className='text-center text-paragraph text-gray-500 sm:text-left'>
               © 2024 Company name —
               <a
                 href='#'
