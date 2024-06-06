@@ -10,6 +10,7 @@ import Banner from './Banner.jsx'
 import Map from './Map.jsx'
 import Mission from './Mission.jsx'
 import Quote from './sections/Quote.jsx'
+import ScrollToTop from './ScrollToTop.jsx'
 
 export {
   Hero,
@@ -23,5 +24,6 @@ export {
   Banner,
   Map,
   Mission,
-  Quote
+  Quote,
+  ScrollToTop
 }

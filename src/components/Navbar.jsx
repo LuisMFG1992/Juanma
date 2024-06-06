@@ -1,4 +1,6 @@
 import { GiHamburgerMenu } from 'react-icons/gi'
+import { IoMail } from 'react-icons/io5'
+import { RiSmartphoneFill } from 'react-icons/ri'
 
 import logo from '../assets/LogoFIDgate.svg'
 import { NavLink } from 'react-router-dom'
@@ -19,8 +21,15 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-10 w-full shadow-md'>
-      <div className='bg-primary px-6 text-center text-sm text-light sm:text-end'>
-        {contactInfo.phone} | {contactInfo.mail} | {contactInfo.address}
+      <div className='flex justify-center gap-2 bg-primary px-6 py-3 text-sm text-light sm:justify-end sm:text-end'>
+        <div className='flex items-center gap-1'>
+          <RiSmartphoneFill />
+          {contactInfo.phone}
+        </div>
+        <div className='flex items-center gap-1'>
+          <IoMail />
+          {contactInfo.mail}
+        </div>
       </div>
       <nav className='border-b-1 border border-lightGray bg-white px-6'>
         <div className='flex flex-col'>
@@ -39,8 +48,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'text-paragraph text-lg font-bold text-primary'
-                      : 'text-paragraph text-lg text-lightGray '
+                      ? 'text-lg text-paragraph font-bold text-primary'
+                      : 'text-lg text-paragraph text-lightGray '
                   }
                 >
                   {link.label}
@@ -65,8 +74,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'text-paragraph w-full py-2 text-center text-lg font-bold text-primary '
-                      : 'text-paragraph w-full py-2 text-center text-lg text-lightGray '
+                      ? 'w-full py-2 text-center text-lg text-paragraph font-bold text-primary '
+                      : 'w-full py-2 text-center text-lg text-paragraph text-lightGray '
                   }
                 >
                   {link.label}

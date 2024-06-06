@@ -1,12 +1,13 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import { Footer, Navbar } from './components'
+import { Footer, Navbar, ScrollToTop } from './components'
 import { About, Contact, Home, Pricing, Services } from './pages'
 
 function App() {
   return (
     <>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
