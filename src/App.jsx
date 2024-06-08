@@ -11,9 +11,12 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/services' element={<Services />} />
-        <Route path='/pricing' element={<Pricing />} />
+        {/* <Route path='/pricing' element={<Pricing />} /> */}
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/copyright' element={<h1>To be defined</h1>} />
+        <Route path='/privacyPolicy' element={<h1>To be defined</h1>} />
+        <Route path='/cookiePolicy' element={<h1>To be defined</h1>} />
       </Routes>
       <Footer />
     </>

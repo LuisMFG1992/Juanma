@@ -31,12 +31,12 @@ const Navbar = () => {
           {contactInfo.mail}
         </div>
       </div>
-      <nav className='border-b-1 border border-lightGray bg-white px-6'>
+      <nav className='border-b-1 border border-lightGray bg-white px-6 py-5'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
               <div className='flex items-center'>
-                <img src={logo} alt='' className='my-2 h-[40px]' />
+                <img src={logo} alt='' className='my-2 h-[55px] sm:h-[60px]' />
               </div>
             </NavLink>
 
