@@ -21,22 +21,31 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-10 w-full shadow-md'>
-      <div className='flex justify-center gap-2 bg-primary px-6 py-3 text-sm text-light sm:justify-end sm:text-end'>
-        <div className='flex items-center gap-1'>
+      <div className='flex flex-col items-center justify-center gap-2 bg-primary px-6 py-3 text-sm text-light sm:flex-row sm:justify-end sm:text-end'>
+        <a
+          href={`tel:${contactInfo.phone}`}
+          className='flex items-center gap-1 text-lg'
+        >
           <RiSmartphoneFill />
           {contactInfo.phone}
-        </div>
-        <div className='flex items-center gap-1'>
+        </a>
+        <a
+          href={`mailto:${contactInfo.mail}`}
+          className='flex items-center gap-1 text-lg'
+        >
           <IoMail />
           {contactInfo.mail}
-        </div>
+        </a>
       </div>
-      <nav className='border-b-1 border border-lightGray bg-white px-6 py-5'>
+      <nav className='border-b-1 border border-lightGray bg-white px-6 py-3'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
-              <div className='flex items-center'>
+              <div className='flex flex-col items-center'>
                 <img src={logo} alt='' className='my-2 h-[55px] sm:h-[60px]' />
+                <p className='font-roboto font-medium text-primary'>
+                  Unlocking Full Potential
+                </p>
               </div>
             </NavLink>
 

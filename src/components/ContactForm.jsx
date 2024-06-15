@@ -7,9 +7,9 @@ const ContactForm = () => {
   return (
     <section className='body-font relative text-gray-600'>
       <section className='body-font text-gray-600'>
-        <div className='container mx-auto px-5 py-24'>
+        <div className='container mx-auto px-5 py-8'>
           <div className='-m-4 flex flex-wrap justify-center'>
-            <div className='w-full p-4 md:w-1/3'>
+            {/* <div className='w-full p-4 md:w-1/3'>
               <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
                 <div className='mb-3 flex items-center'>
                   <div className='mr-3 inline-flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
@@ -25,7 +25,7 @@ const ContactForm = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className='w-full p-4 md:w-1/3'>
               <div className='flex h-full flex-col rounded-lg bg-gray-100 p-8'>
                 <div className='mb-3 flex items-center'>
@@ -37,7 +37,7 @@ const ContactForm = () => {
                   </h2>
                 </div>
                 <div className='flex-grow'>
-                  <p className='text-paragraph text-base leading-relaxed'>
+                  <p className='text-base text-paragraph leading-relaxed'>
                     {contactInfo.phone}
                   </p>
                 </div>
@@ -54,7 +54,7 @@ const ContactForm = () => {
                   </h2>
                 </div>
                 <div className='flex-grow'>
-                  <p className='text-paragraph text-base leading-relaxed'>
+                  <p className='text-base text-paragraph leading-relaxed'>
                     {contactInfo.mail}
                   </p>
                 </div>
@@ -65,8 +65,8 @@ const ContactForm = () => {
       </section>
 
       {/*  */}
-      <div className='container mx-auto px-5 py-10'>
-        <h1 className='text-paragraph pb-8 text-center'>
+      <div className='container mx-auto px-5 pb-8'>
+        <h1 className='pb-8 text-center text-paragraph'>
           If you have any question, please {"don't"} hesitate to send us a
           message
         </h1>
@@ -161,9 +161,9 @@ const ContactForm = () => {
                 Send
               </button>
             </div>
-            <div className='mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center'>
+            {/* <div className='mt-8 w-full border-t border-gray-200 p-2 pt-8 text-center'>
               <a className='text-paragraph text-primary'>example@email.com</a>
-              <p className='text-paragraph my-5 leading-normal'>
+              <p className='my-5 text-paragraph leading-normal'>
                 49 Smith St. Saint Cloud, MN 56301
               </p>
               <span className='inline-flex'>
@@ -213,7 +213,7 @@ const ContactForm = () => {
                   </svg>
                 </a>
               </span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

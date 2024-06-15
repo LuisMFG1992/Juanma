@@ -38,11 +38,13 @@ const ContactWithMap = () => {
             </div>
           </div>
           <div className='mt-8 flex w-full flex-col bg-white md:ml-auto md:mt-0 md:w-1/2 md:py-8 lg:w-1/3'>
-            <h2 className='text-subtitle mb-1 font-medium text-primary'>
-              {"Let's talk!"}
+            <h2 className='mb-1 text-subtitle font-medium text-primary'>
+              {"Let's chat!"}
             </h2>
-            <p className='text-paragraph mb-5 leading-relaxed text-gray-600'>
-              Post-ironic portland shabby chic echo park, banjo fashion axe
+            <p className='mb-5 text-paragraph leading-relaxed text-gray-600'>
+              For general inquiries or to start the conversation, please fill
+              out this contact form and we{"'"}ll get back to you as soon as
+              possible.
             </p>
             <div className='relative mb-4'>
               <label

@@ -6,13 +6,20 @@ const Services = () => {
       <section className='body-font bg-light text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 text-center'>
-            <h1 className='title-font text-title mb-4 font-medium text-gray-900'>
-              Services
+            <h1 className='title-font mb-4 text-title font-medium text-gray-900'>
+              WHAT DO WE DO
             </h1>
-            <p className='text-gray-500s text-paragraph mx-auto  leading-relaxed lg:w-3/4 xl:w-2/4'>
-              Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-              taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh
-              mi pug.
+            <p className='text-gray-500s mx-auto mb-4 text-paragraph  leading-relaxed lg:w-3/4 xl:w-2/4'>
+              Solutions Born from Collaboration
+            </p>
+            <p className='text-gray-500s mx-auto text-paragraph leading-relaxed lg:w-3/4 '>
+              We harness a close collaboration between industry knowledge, data
+              analytics, sophisticated modeling, and cutting-edge technology.
+              Our services facilitate complex decision-making, boosting the
+              profitability and operational efficiency of businesses through our
+              Optimization as a Service (OaaS). By aligning our expertise with
+              your business goals, we transform solar energy projects into
+              optimized, high-performing assets.
             </p>
             <div className='mt-6 flex justify-center'>
               <div className='inline-flex h-1 w-16 rounded-full bg-primary'></div>
@@ -34,13 +41,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
-                  Shooting Stars
+                <h2 className='mb-6 text-lg text-subtitle font-medium text-gray-900'>
+                  Streamlined Decision-Making & Cost Efficiency
                 </h2>
                 <p className='text-paragraph  leading-relaxed'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard.
+                  By leveraging advanced PV design tools, we cut operational
+                  costs and minimize data risks, ensuring secure and
+                  cost-effective project management.
                 </p>
               </div>
             </div>
@@ -61,13 +68,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
-                  The Catalyzer
+                <h2 className='mb-6 text-lg text-subtitle font-medium text-gray-900'>
+                  Enhanced ROI & Pipeline Performance
                 </h2>
                 <p className='text-paragraph  leading-relaxed'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard.
+                  Our optimal designs can boost your project{"'"}s return on
+                  investment by up to 15%, maximizing financial outcomes
+                  efficiently.
                 </p>
               </div>
             </div>
@@ -87,13 +94,13 @@ const Services = () => {
                 </svg>
               </div>
               <div className='flex-grow'>
-                <h2 className='text-subtitle mb-6 text-lg font-medium text-gray-900'>
-                  Neptune
+                <h2 className='mb-6 text-lg text-subtitle font-medium text-gray-900'>
+                  Tailored Market Solutions
                 </h2>
                 <p className='text-paragraph  leading-relaxed'>
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan
-                  taxidermy. Gastropub indxgo juice poutine, ramps microdosing
-                  banh mi pug VHS try-hard.
+                  We deliver customized solutions that are specifically designed
+                  to meet the diverse demands of different markets and the
+                  unique needs of our clients.
                 </p>
               </div>
             </div>

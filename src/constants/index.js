@@ -9,9 +9,9 @@ const navLinks = [
 const footerLinks = ['Copyright', 'Privacy policy', 'Cookie policy']
 
 const contactInfo = {
-  mail: 'info@email.com',
-  phone: '(+214) 2594 246 246',
-  address: 'Kurfürstendamm 224, 10719 Berlin, Germany'
+  mail: 'jmr@fidgate.com',
+  phone: '(+49) 15566 401840'
+  // address: 'Kurfürstendamm 224, 10719 Berlin, Germany'
 }
 
 const googleMapAddress =

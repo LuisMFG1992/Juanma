@@ -11,6 +11,8 @@ import Map from './Map.jsx'
 import Mission from './Mission.jsx'
 import Quote from './sections/Quote.jsx'
 import ScrollToTop from './ScrollToTop.jsx'
+import Member from './Member.jsx'
+import Accordion from './Accordion.jsx'
 
 export {
   Hero,
@@ -25,5 +27,7 @@ export {
   Map,
   Mission,
   Quote,
-  ScrollToTop
+  ScrollToTop,
+  Member,
+  Accordion
 }

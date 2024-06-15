@@ -17,6 +17,9 @@ export default {
         paragraph: '1.3rem',
         subtitle: '1.7rem',
         title: '2.25rem'
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'sans-serif']
       }
     }
   },
