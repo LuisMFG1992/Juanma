@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-10 w-full shadow-md'>
-      <div className='flex flex-col items-center justify-center gap-2 bg-primary px-6 py-3 text-sm text-light sm:flex-row sm:justify-end sm:text-end'>
+      <div className='flex flex-col items-center justify-center gap-2 bg-primary px-6 py-1 text-sm text-light sm:flex-row sm:justify-end sm:text-end'>
         <a
           href={`tel:${contactInfo.phone}`}
           className='flex items-center gap-1 text-lg'
@@ -37,7 +37,7 @@ const Navbar = () => {
           {contactInfo.mail}
         </a>
       </div>
-      <nav className='border-b-1 border border-lightGray bg-white px-6 py-3'>
+      <nav className='border-b-1 border border-lightGray bg-white px-6'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
