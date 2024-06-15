@@ -5,17 +5,13 @@ const About = () => {
   return (
     <div>
       <section className='body-font bg-light text-gray-600'>
-        <div className='container mx-auto flex flex-col items-center p-8 px-5 md:flex-row'>
-          <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
-            <p className='mb-8 text-center text-paragraph leading-relaxed'>
-              At FIDgate, we are dedicated to maximizing the potential of
-              renewable energy projects through cutting-edge solutions and
-              advanced optimization techniques. Our mission is to drive the
-              renewable energy sector forward, enabling companies and countries
-              to achieve their sustainability goals.
-            </p>
-          </div>
-        </div>
+        <p className='py-16 text-center text-paragraph leading-relaxed'>
+          At FIDgate, we are dedicated to maximizing the potential of renewable
+          energy projects through cutting-edge solutions and advanced
+          optimization techniques. Our mission is to drive the renewable energy
+          sector forward, enabling companies and countries to achieve their
+          sustainability goals.
+        </p>
       </section>
 
       <section className='body-font text-gray-600'>

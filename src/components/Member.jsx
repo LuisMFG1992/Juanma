@@ -24,7 +24,7 @@ const Member = ({ member }) => {
           </span>
         ))}
       </p>
-      <Accordion options={member.projects} />
+      {member?.projects && <Accordion options={member.projects} />}
     </div>
   )
 }
