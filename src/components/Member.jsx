@@ -3,7 +3,7 @@ import Accordion from './Accordion'
 const Member = ({ member }) => {
   return (
     <div className='flex flex-col items-center gap-4' key={member.name}>
-      <div className='flex flex-col items-center gap-2 text-center'>
+      <div className='flex flex-col items-center gap-2 text-center lg:min-h-[360px]'>
         <img
           alt='team'
           className='size-40 rounded-full border-2 border-primary object-cover'
@@ -16,15 +16,9 @@ const Member = ({ member }) => {
         <h3 className='text-paragraph text-gray-500'>{member.education}</h3>
       </div>
 
-      <p className='text-paragraph'>
-        {member.experience.split('\n').map((line, index) => (
-          <span key={index}>
-            {line}
-            <br key={index} />
-          </span>
-        ))}
-      </p>
-      {member?.projects && <Accordion options={member.projects} />}
+      {member?.projects && (
+        <Accordion text={member.experience} options={member.projects} />
+      )}
     </div>
   )
 }

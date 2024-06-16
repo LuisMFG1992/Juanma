@@ -43,9 +43,6 @@ const Navbar = () => {
             <NavLink to={'/'}>
               <div className='flex flex-col items-center'>
                 <img src={logo} alt='' className='my-2 h-[55px] sm:h-[60px]' />
-                <p className='font-roboto font-medium text-primary'>
-                  Unlocking Full Potential
-                </p>
               </div>
             </NavLink>
 

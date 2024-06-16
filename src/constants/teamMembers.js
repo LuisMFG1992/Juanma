@@ -26,27 +26,30 @@ const teamMembers = [
     ]
   },
   {
-    image: Nicholaj,
-    name: 'NICHOLAJ HANSEN',
-    roll: 'Strategic Advisor',
-    education: 'MSc. Copenhagen Business School',
+    image: Manuel,
+    name: 'MANUEL GIMENEZ',
+    roll: 'Senior Software Developer',
+    education: 'PhD. Mechanical Eng. & AI Scientist.',
     experience:
-      'All-round business and innovation expert with over 20 years of experience as an international executive and entrepreneur in Sustainable businesses.\n\n He has co-founded and led several ventures that create real value and positive impact on the environment and society.\n\n Passionate about developing state-of-the-art solutions that address the global challenges of climate change and energy security.'
+      'Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.\n\n As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.\n\n He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.',
+    projects: []
   },
   {
     image: Nicolas,
     name: 'NICOLAS BIOCCA',
     roll: 'Software Developer Advisor',
     education: 'PhD. Mechanical Engineering (UNMDP) & Computational Scientist',
-    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n  As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`
+    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n  As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`,
+    projects: []
   },
   {
-    image: Manuel,
-    name: 'MANUEL GIMENEZ',
-    roll: 'Senior Software Developer',
-    education: 'PhD. Mechanical Eng. & AI Scientist.',
+    image: Nicholaj,
+    name: 'NICHOLAJ HANSEN',
+    roll: 'Strategic Advisor',
+    education: 'MSc. Copenhagen Business School',
     experience:
-      'Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.\n\n As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.\n\n He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.'
+      'All-round business and innovation expert with over 20 years of experience as an international executive and entrepreneur in Sustainable businesses.\n\n He has co-founded and led several ventures that create real value and positive impact on the environment and society.\n\n Passionate about developing state-of-the-art solutions that address the global challenges of climate change and energy security.',
+    projects: []
   }
 ]
 
