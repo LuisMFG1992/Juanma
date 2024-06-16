@@ -9,11 +9,15 @@ const Member = ({ member }) => {
           className='size-40 rounded-full border-2 border-primary object-cover'
           src={member.image}
         />
-        <h2 className='text-subtitle font-medium text-primary'>
+        <h2 className=' text-subtitle font-medium text-primary xl:w-52'>
           {member.name}
         </h2>
-        <h3 className='text-paragraph text-gray-500'>{member.roll}</h3>
-        <h3 className='text-paragraph text-gray-500'>{member.education}</h3>
+        <h3 className='text-paragraph text-gray-500 xl:min-h-[60px] xl:w-60'>
+          {member.roll}
+        </h3>
+        <h3 className='text-paragraph text-gray-500 md:min-h-[70px] xl:min-h-[120px] xl:w-[270px]'>
+          {member.education}
+        </h3>
       </div>
 
       {member?.projects && (
