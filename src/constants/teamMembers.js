@@ -28,7 +28,7 @@ const teamMembers = [
   },
   {
     image: Manuel,
-    name: 'MANUEL GIMENEZ',
+    name: 'JUAN MANUEL GIMENEZ',
     roll: 'Software Developer & Partner',
     education: 'PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)',
     experience:
@@ -45,7 +45,7 @@ const teamMembers = [
   },
   {
     image: Nicholaj,
-    name: 'NICHOLAJ HANSEN',
+    name: 'NICHOLAJ ASGER HANSEN',
     roll: 'Strategic Advisor',
     education: 'MSc. Copenhagen Business School',
     experience:
