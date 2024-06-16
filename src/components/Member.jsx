@@ -3,7 +3,7 @@ import Accordion from './Accordion'
 const Member = ({ member }) => {
   return (
     <div className='flex flex-col items-center gap-4' key={member.name}>
-      <div className='flex flex-col items-center gap-2 text-center lg:min-h-[360px]'>
+      <div className='flex flex-col items-center gap-2 text-center xl:min-h-[430px]'>
         <img
           alt='team'
           className='size-40 rounded-full border-2 border-primary object-cover'

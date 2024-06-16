@@ -7,10 +7,11 @@ const teamMembers = [
   {
     image: Juan,
     name: 'JUAN MANUEL ROLDAN',
-    roll: 'PV Optimization Expert & Founder',
-    education: 'MSc. Mechanical Eng.',
+    roll: 'Chief Executive Officer & Founder',
+    education:
+      'MSc. Mechanical Engineering (UNMDP) & Certified Energy Expert (RENAC)',
     experience:
-      'Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector’s largest investors, including Copenhagen Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.',
+      'Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector’ Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.s largest investors, including Copenhagen',
     projects: [
       '50 MW Mokoan (pre-construction, Australia)',
       '1.1 GW Upper Calliope (permitting, Australia)',
@@ -28,8 +29,8 @@ const teamMembers = [
   {
     image: Manuel,
     name: 'MANUEL GIMENEZ',
-    roll: 'Senior Software Developer',
-    education: 'PhD. Mechanical Eng. & AI Scientist.',
+    roll: 'Software Developer & Partner',
+    education: 'PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)',
     experience:
       'Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.\n\n As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.\n\n He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.',
     projects: []
@@ -39,7 +40,7 @@ const teamMembers = [
     name: 'NICOLAS BIOCCA',
     roll: 'Software Developer Advisor',
     education: 'PhD. Mechanical Engineering (UNMDP) & Computational Scientist',
-    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n  As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`,
+    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions`,
     projects: []
   },
   {
