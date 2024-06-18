@@ -7,7 +7,7 @@ const teamMembers = [
   {
     image: Juan,
     name: 'JUAN MANUEL ROLDAN',
-    roll: 'Chief Executive Officer & Founder',
+    roll: 'Chief Executive Officer \n& Founder',
     education:
       'MSc. Mechanical Engineering (UNMDP) & Certified Energy Expert (RENAC)',
     experience:
@@ -29,7 +29,7 @@ const teamMembers = [
   {
     image: Manuel,
     name: 'JUAN MANUEL GIMENEZ',
-    roll: 'Software Developer & Partner',
+    roll: 'Software Developer \n& Partner',
     education: 'PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)',
     experience:
       'Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.\n\n As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.\n\n He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.',
@@ -46,7 +46,7 @@ const teamMembers = [
   {
     image: Nicholaj,
     name: 'NICHOLAJ ASGER HANSEN',
-    roll: 'Strategic Advisor',
+    roll: 'Strategic \nAdvisor',
     education: 'MSc. Copenhagen Business School',
     experience:
       'All-round business and innovation expert with over 20 years of experience as an international executive and entrepreneur in Sustainable businesses.\n\n He has co-founded and led several ventures that create real value and positive impact on the environment and society.\n\n Passionate about developing state-of-the-art solutions that address the global challenges of climate change and energy security.',

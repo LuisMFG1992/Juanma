@@ -1,11 +1,10 @@
-import { Services, Gallery, ContactWithMap, Hero, Quote } from '../components'
+import { Services, ContactWithMap, Hero, Quote } from '../components'
 
 const Home = () => {
   return (
     <>
       <Hero />
       <Services />
-      <Gallery />
       <Quote />
       <ContactWithMap />
     </>

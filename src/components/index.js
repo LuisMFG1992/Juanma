@@ -13,6 +13,9 @@ import Quote from './sections/Quote.jsx'
 import ScrollToTop from './ScrollToTop.jsx'
 import Member from './Member.jsx'
 import Accordion from './Accordion.jsx'
+import AppInput from './AppInput.jsx'
+import IconTitleText from './IconTitleText.jsx'
+import IconTitle from './IconTitle.jsx'
 
 export {
   Hero,
@@ -29,5 +32,8 @@ export {
   Quote,
   ScrollToTop,
   Member,
-  Accordion
+  Accordion,
+  AppInput,
+  IconTitleText,
+  IconTitle
 }

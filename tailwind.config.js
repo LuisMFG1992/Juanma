@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        contact: 'https://dummyimage.com/720x600'
+        contact: 'https://dummyimage.com/720x600',
+        hero: ''
       },
       colors: {
         primary: '#05445E',
@@ -15,11 +16,14 @@ export default {
       },
       fontSize: {
         paragraph: '1.3rem',
-        subtitle: '1.7rem',
+        subtitle: '1.65rem',
         title: '2.25rem'
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
+      },
+      padding: {
+        app: '24px'
       }
     }
   },

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { MdExpandMore, MdExpandLess } from 'react-icons/md'
 import { TbPointFilled } from 'react-icons/tb'
 
-const Accordion = ({ text = '', options = [] }) => {
+const Accordion = ({ education, experience = '', options = [] }) => {
   const [collapsed, setCollapsed] = useState(true)
 
   const toggleState = () => {
@@ -22,7 +22,16 @@ const Accordion = ({ text = '', options = [] }) => {
         className={`overflow-hidden transition-all duration-300 ease-in-out ${collapsed ? 'max-h-0 opacity-0' : 'max-h-[1000px] opacity-100'}`}
       >
         <p>
-          {text.split('\n').map((line, index) => (
+          {education.split('\n').map((line, index) => (
+            <span key={index} className='mb-4 block'>
+              {line}
+            </span>
+          ))}
+        </p>
+
+        <br />
+        <p>
+          {experience.split('\n').map((line, index) => (
             <span key={index} className='mb-4 block'>
               {line}
             </span>

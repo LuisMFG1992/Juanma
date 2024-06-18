@@ -21,17 +21,17 @@ const Navbar = () => {
 
   return (
     <div className='sticky top-0 z-10 w-full shadow-md'>
-      <div className='flex items-center justify-center gap-2 bg-primary py-1 text-sm text-light sm:flex-row sm:justify-end sm:px-6 sm:text-end'>
+      <div className='flex items-center justify-center gap-2 bg-primary py-1 text-sm text-light sm:flex-row sm:justify-end sm:gap-6 sm:px-6 sm:py-3 sm:text-end '>
         <a
           href={`tel:${contactInfo.phone}`}
-          className='text-md flex items-center gap-1'
+          className='text-md flex items-center gap-1 sm:text-paragraph'
         >
           <RiSmartphoneFill />
           {contactInfo.phone}
         </a>
         <a
           href={`mailto:${contactInfo.mail}`}
-          className='text-md flex items-center gap-1'
+          className='text-md flex items-center gap-1 sm:text-paragraph'
         >
           <IoMail />
           {contactInfo.mail}

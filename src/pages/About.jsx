@@ -4,8 +4,11 @@ import { teamMembers } from '../constants/teamMembers'
 const About = () => {
   return (
     <div>
-      <section className='body-font bg-light text-gray-600'>
-        <p className='py-16 text-center text-paragraph leading-relaxed'>
+      <section className='body-font flex flex-col items-center bg-light py-20 text-gray-600'>
+        <h1 className='pb-6 text-center text-title font-medium text-primary'>
+          MISSION
+        </h1>
+        <p className='mx-auto w-2/3 text-center text-paragraph leading-relaxed'>
           At FIDgate, we are dedicated to maximizing the potential of renewable
           energy projects through cutting-edge solutions and advanced
           optimization techniques. Our mission is to drive the renewable energy
@@ -17,7 +20,7 @@ const About = () => {
       <section className='body-font text-gray-600'>
         <div className='mx-auto px-6 py-8'>
           <div className='mb-20 flex w-full flex-col text-center'>
-            <h1 className='mb-4 text-title font-medium text-gray-900'>
+            <h1 className='mb-4 text-title font-medium text-primary'>
               Our Key Team Members
             </h1>
             <p className='mx-auto w-2/3 text-paragraph leading-relaxed'>
@@ -28,7 +31,7 @@ const About = () => {
               undertake.
             </p>
           </div>
-          <div className='grid grid-cols-1 gap-16 lg:grid-cols-2 xl:grid-cols-4'>
+          <div className='grid grid-cols-1 gap-10 lg:grid-cols-2 xl:grid-cols-4'>
             {teamMembers.map((member) => {
               return <Member key={member.name} member={member} />
             })}
