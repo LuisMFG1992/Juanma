@@ -4,7 +4,7 @@ import AppInput from './AppInput'
 
 const inputs = [
   { id: 'name', name: 'Name', inputType: 'text', require: true },
-  { id: 'company', name: 'Company Name', inputType: 'text', require: true },
+  { id: 'company', name: 'Company', inputType: 'text', require: true },
   { id: 'email', name: 'Email', inputType: 'email', require: true },
   { id: 'phone', name: 'Phone', inputType: 'tel', require: true }
   // { id: 'subject', name: 'Subject', inputType: 'text', require: true }
@@ -33,7 +33,7 @@ const ContactForm = () => {
         </h1> */}
         <div className='flex justify-center'>
           <form action='' onSubmit={handleSubmit} className='max-w-[800px]'>
-            <div className='grid grid-cols-2 gap-4'>
+            <div className='grid gap-4 md:grid-cols-2'>
               {inputs.map((input) => (
                 <AppInput
                   key={input.id}

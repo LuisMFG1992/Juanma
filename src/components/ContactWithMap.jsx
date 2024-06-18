@@ -4,7 +4,7 @@ import AppInput from './AppInput'
 
 const inputs = [
   { id: 'name', name: 'Name', inputType: 'text', require: true },
-  { id: 'company', name: 'Company Name', inputType: 'text', require: true },
+  { id: 'company', name: 'Company', inputType: 'text', require: true },
   { id: 'email', name: 'Email', inputType: 'email', require: true },
   { id: 'phone', name: 'Phone', inputType: 'tel', require: true },
   { id: 'subject', name: 'Subject', inputType: 'text', require: true }
