@@ -5,6 +5,9 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}', flowbite.content()],
   theme: {
     extend: {
+      screens: {
+        xs: '360px'
+      },
       backgroundImage: {
         contact: 'https://dummyimage.com/720x600'
       },
