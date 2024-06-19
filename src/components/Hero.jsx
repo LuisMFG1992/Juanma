@@ -2,9 +2,8 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section className='bgHero h-screen'>
-      <div className='absolute h-full w-full bg-black opacity-60 '></div>
-      <div className='absolute flex h-full flex-col items-center justify-center text-center sm:px-20 md:px-28 lg:px-52'>
+    <section className='bgHero py-28'>
+      <div className='flex h-full flex-col items-center justify-center px-6 text-center sm:px-20 md:px-28 lg:px-52'>
         <h1 className='text-[3rem] font-medium text-white md:text-[4rem]'>
           Unlocking Full Potential
         </h1>
