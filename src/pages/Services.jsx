@@ -12,7 +12,7 @@ const Services = () => {
       {/* Why choosing us */}
       <section className='body-font  text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
-          <div className='mb-20 flex w-full flex-col text-center'>
+          <div className='mb-8 flex w-full flex-col text-center'>
             <h1 className='mb-4 text-title font-medium text-primary sm:text-3xl'>
               WHAT WE DO BEST
             </h1>
@@ -20,7 +20,7 @@ const Services = () => {
               Continuously seeking innovation to provide the best solutions.
             </p>
           </div>
-          <div className='flex flex-wrap'>
+          <div className='grid grid-cols-1 place-items-center md:grid-cols-2 xl:grid-cols-4'>
             {whatWeDoBest.map((option) => (
               <IconTitle
                 key={option.title}

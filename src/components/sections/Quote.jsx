@@ -36,21 +36,11 @@ const Quote = () => {
               </p>
               <div className='flex items-center gap-1'>
                 <IoMail />
-                <p className='text-lg text-gray-500'>
-                  Contact:{' '}
-                  <span className='font-medium text-primary'>
-                    jmr@fidgate.com
-                  </span>
-                </p>
+                <p className='font-medium text-primary'>jmr@fidgate.com</p>
               </div>
               <div className='flex items-center gap-1'>
                 <RiSmartphoneFill />
-                <p className='text-lg text-gray-500'>
-                  Number:{' '}
-                  <span className='font-medium text-primary'>
-                    (+49) 15566 401840
-                  </span>
-                </p>
+                <p className='font-medium text-primary'>(+49) 15566 401840</p>
               </div>
             </div>
           </div>

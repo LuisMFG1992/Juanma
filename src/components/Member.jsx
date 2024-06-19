@@ -13,13 +13,13 @@ const Member = ({ member }) => {
           {member.name}
         </h2>
 
-        {/* <h3 className='text-paragraph text-gray-500 md:min-h-[70px] xl:min-h-[120px] xl:w-[270px]'>
-          {member.education.split('\n').map((line, index) => (
+        <h3 className='text-paragraph text-gray-500 '>
+          {member.roll.split('\n').map((line, index) => (
             <span key={index} className='mb-4 block'>
               {line}
             </span>
           ))}
-        </h3> */}
+        </h3>
       </div>
 
       {member?.projects && (

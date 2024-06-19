@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bgHero {
+  background: url('./assets/bgHero.jpg') no-repeat center center/cover;
+}

@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { MdExpandMore, MdExpandLess } from 'react-icons/md'
 import { TbPointFilled } from 'react-icons/tb'
 
-const Accordion = ({ education, experience = '', options = [] }) => {
+const Accordion = ({ education = '', experience = '', options = [] }) => {
   const [collapsed, setCollapsed] = useState(true)
 
   const toggleState = () => {
@@ -29,7 +29,6 @@ const Accordion = ({ education, experience = '', options = [] }) => {
           ))}
         </p>
 
-        <br />
         <p>
           {experience.split('\n').map((line, index) => (
             <span key={index} className='mb-4 block'>

@@ -6,8 +6,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        contact: 'https://dummyimage.com/720x600',
-        hero: ''
+        contact: 'https://dummyimage.com/720x600'
       },
       colors: {
         primary: '#05445E',

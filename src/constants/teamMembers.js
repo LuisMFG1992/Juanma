@@ -13,17 +13,17 @@ const teamMembers = [
     experience:
       'Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector’ Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.s largest investors, including Copenhagen',
     projects: [
-      '50 MW Mokoan (pre-construction, Australia)',
-      '1.1 GW Upper Calliope (permitting, Australia)',
-      '50 MW Milbakken (pre-construction, Denmark)',
-      '180 MW Lidsø (FID/construction, Denmark)',
-      '50 MW Great House (FID, UK)',
-      '50 MW Maisemore (FID, UK)',
-      '330 MW Jonava  (pre-FID, Lithuania)',
-      '450 MW Aira  (permitting to construction, Canada)',
-      '300 MW Fighting Jays (as-built, US)',
-      '300 MW Janauba (procurement, Brazil)',
-      '+2 GW projects- portfolio development support in Emerging Markets'
+      '50 MW Mokoan (Australia)',
+      '1.1 GW Upper Calliope (Australia)',
+      '50 MW Milbakken (Denmark)',
+      '180 MW Lidsø (Denmark)',
+      '50 MW Great House (The UK)',
+      '50 MW Maisemore (The UK)',
+      '330 MW Jonava (Lithuania)',
+      '450 MW Aira (Canada)',
+      '300 MW Fighting Jays (The US)',
+      '300 MW Janauba (Brazil)',
+      '+2 GW portfolio (Emerging Markets)'
     ]
   },
   {
@@ -38,9 +38,9 @@ const teamMembers = [
   {
     image: Nicolas,
     name: 'NICOLAS BIOCCA',
-    roll: 'Software Developer Advisor',
+    roll: 'Software Developer \nAdvisor',
     education: 'PhD. Mechanical Engineering (UNMDP) & Computational Scientist',
-    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions`,
+    experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`,
     projects: []
   },
   {
