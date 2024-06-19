@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
-    <section className='bgHero xs:h-[85vh] relative h-[100vh] sm:h-[70vh] lg:h-[80vh]'>
+    <section className='bgHero h-screen'>
       <div className='absolute h-full w-full bg-black opacity-60 '></div>
-      <div className='absolute flex flex-col items-center p-2 py-40 text-center lg:px-52'>
+      <div className='absolute flex h-full flex-col items-center justify-center text-center sm:px-20 md:px-28 lg:px-52'>
         <h1 className='text-[3rem] font-medium text-white md:text-[4rem]'>
           Unlocking Full Potential
         </h1>
