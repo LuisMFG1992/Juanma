@@ -37,8 +37,7 @@ const Accordion = ({ education = '', experience = '', options = [] }) => {
           ))}
         </p>
 
-        <br />
-        {options.length !== 0 ? <p>Projects:</p> : ''}
+        {options.length !== 0 ? <p>Solar & BESS Projects:</p> : ''}
         {options.map((option, idx) => (
           <li key={idx} className='flex items-center gap-2'>
             <TbPointFilled />

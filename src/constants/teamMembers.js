@@ -11,7 +11,7 @@ const teamMembers = [
     education:
       'MSc. Mechanical Engineering (UNMDP) & Certified Energy Expert (RENAC)',
     experience:
-      'Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector’ Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.s largest investors, including Copenhagen',
+      "Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector's largest investors, including Copenhagen Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.",
     projects: [
       '50 MW Mokoan (Australia)',
       '1.1 GW Upper Calliope (Australia)',

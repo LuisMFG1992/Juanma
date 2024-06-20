@@ -26,13 +26,13 @@ const ContactForm = () => {
 
   return (
     <section className='body-font relative text-gray-600'>
-      <div className='container mx-auto px-5 pb-8'>
-        {/* <h1 className='pb-8 text-center text-paragraph'>
-          If you have any question, please {"don't"} hesitate to send us a
-          message
-        </h1> */}
+      <div className='pb-8'>
         <div className='flex justify-center'>
-          <form action='' onSubmit={handleSubmit} className='max-w-[800px]'>
+          <form
+            action=''
+            onSubmit={handleSubmit}
+            className='w-[80%] max-w-[800px]'
+          >
             <div className='grid gap-4 md:grid-cols-2'>
               {inputs.map((input) => (
                 <AppInput
