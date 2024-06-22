@@ -61,7 +61,7 @@ const ContactForm = () => {
       })
       .catch((error) => {
         console.error('Error:', error)
-        toast.error('Error al enviar el mensaje...', {
+        toast.error('Sorry, there was an error sending your message.', {
           style: {
             background: '#F44336',
             color: '#fff'
