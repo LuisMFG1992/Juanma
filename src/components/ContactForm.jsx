@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Toaster, toast } from 'react-hot-toast'
 import AppInput from './AppInput'
 
 const inputs = [
@@ -35,7 +36,12 @@ const ContactForm = () => {
     })
       .then((response) => {
         if (response.ok) {
-          alert('Mensaje enviado!')
+          toast.success('Message sent!', {
+            style: {
+              background: '#4CAF50',
+              color: '#fff'
+            }
+          })
           setFormData({
             name: '',
             company: '',
@@ -45,17 +51,28 @@ const ContactForm = () => {
             message: ''
           })
         } else {
-          alert('Error al enviar el mensaje...')
+          toast.error('Sorry, there was an error sending your message.', {
+            style: {
+              background: '#F44336',
+              color: '#fff'
+            }
+          })
         }
       })
       .catch((error) => {
         console.error('Error:', error)
-        alert('Error al enviar el mensaje...')
+        toast.error('Error al enviar el mensaje...', {
+          style: {
+            background: '#F44336',
+            color: '#fff'
+          }
+        })
       })
   }
 
   return (
     <section className='body-font relative text-gray-600'>
+      <Toaster />
       <div className='pb-8'>
         <div className='flex justify-center'>
           <form onSubmit={handleSubmit} className='w-[80%] max-w-[800px]'>
@@ -76,7 +93,7 @@ const ContactForm = () => {
             <div className='py-2'>
               <AppInput
                 id='subject'
-                name='Subject'
+                name='subject'
                 inputType='text'
                 require={true}
                 handleInputChange={handleInputChange}
@@ -85,7 +102,7 @@ const ContactForm = () => {
             </div>
             <AppInput
               id='message'
-              name='Message'
+              name='message'
               inputType='textArea'
               require={true}
               handleInputChange={handleInputChange}

@@ -26,9 +26,12 @@ const Contact = () => {
                   </h2>
                 </div>
                 <div className='flex-grow'>
-                  <p className='text-base text-paragraph leading-relaxed'>
+                  <a
+                    href={`tel:${contactInfo.phone}`}
+                    className='text-base text-paragraph leading-relaxed'
+                  >
                     {contactInfo.phone}
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -43,9 +46,12 @@ const Contact = () => {
                   </h2>
                 </div>
                 <div className='flex-grow'>
-                  <p className='text-base text-paragraph leading-relaxed'>
+                  <a
+                    href={`mailto:${contactInfo.mail}`}
+                    className='text-base text-paragraph leading-relaxed'
+                  >
                     {contactInfo.mail}
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
