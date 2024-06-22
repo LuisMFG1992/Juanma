@@ -1,4 +1,4 @@
-import Juan from '../../assets/Juan.png'
+import Juan from '../assets/Juan.png'
 import { FaQuoteRight } from 'react-icons/fa'
 import { IoMail } from 'react-icons/io5'
 import { RiSmartphoneFill } from 'react-icons/ri'
@@ -7,10 +7,10 @@ const Quote = () => {
   return (
     <section className='body-font bg-light text-gray-600'>
       <div className='container mx-auto px-5 py-24'>
-        <div className='mx-auto w-full text-center lg:w-3/4 '>
+        <div className='w-full text-center'>
           <FaQuoteRight
             size={30}
-            className='m-4 w-full text-center text-primary'
+            className='mb-4 w-full text-center text-primary'
           />
           <p className='text-paragraph leading-relaxed'>
             During my 7 years of experience working in some of the biggest

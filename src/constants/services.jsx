@@ -26,7 +26,7 @@ const howDoWeHelpYou = [
 const whatWeDoBest = [
   {
     icon: <MdAttachMoney size={50} />,
-    title: 'Increase of project values'
+    title: 'Increase of \nproject values'
   },
   {
     icon: <LuBrainCircuit size={50} />,
@@ -34,11 +34,11 @@ const whatWeDoBest = [
   },
   {
     icon: <BsDatabaseUp size={50} />,
-    title: 'Manage thousands of data points'
+    title: 'Manage thousands \nof data points'
   },
   {
     icon: <IoOptionsOutline size={50} />,
-    title: 'Adapt to industry shifts'
+    title: 'Adapt to \nindustry shifts'
   }
 ]
 

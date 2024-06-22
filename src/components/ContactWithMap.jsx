@@ -4,11 +4,42 @@ import { contactInfo, googleMapAddress } from '../constants'
 import AppInput from './AppInput'
 
 const inputs = [
-  { id: 'name', name: 'Name', inputType: 'text', require: true },
-  { id: 'company', name: 'Company', inputType: 'text', require: true },
-  { id: 'email', name: 'Email', inputType: 'email', require: true },
-  { id: 'phone', name: 'Phone', inputType: 'tel', require: true },
-  { id: 'subject', name: 'Subject', inputType: 'text', require: true }
+  {
+    id: 'name',
+    name: 'Name',
+    inputType: 'text',
+    require: true
+  },
+  {
+    id: 'company',
+    name: 'Company',
+    inputType: 'text',
+    require: true
+  },
+  {
+    id: 'email',
+    name: 'Email',
+    inputType: 'email',
+    require: true
+  },
+  {
+    id: 'phone',
+    name: 'Phone',
+    inputType: 'tel',
+    require: true
+  },
+  {
+    id: 'subject',
+    name: 'Subject',
+    inputType: 'text',
+    require: true
+  },
+  {
+    id: 'message',
+    name: 'Message',
+    inputType: 'textArea',
+    require: true
+  }
 ]
 
 const ContactWithMap = () => {
@@ -39,7 +70,7 @@ const ContactWithMap = () => {
       })
 
       if (response.ok) {
-        toast.success('Mensaje enviado!', {
+        toast.success('Message sent!', {
           style: {
             background: '#4CAF50',
             color: '#fff'
@@ -54,7 +85,7 @@ const ContactWithMap = () => {
           message: ''
         })
       } else {
-        toast.error('Error al enviar el mensaje...', {
+        toast.error('Sorry, there was an error sending your message.', {
           style: {
             background: '#F44336',
             color: '#fff'
@@ -63,7 +94,7 @@ const ContactWithMap = () => {
       }
     } catch (error) {
       console.error('Error:', error)
-      toast.error('Error al enviar el mensaje...', {
+      toast.error('Sorry, there was an error sending your message.', {
         style: {
           background: '#F44336',
           color: '#fff'
@@ -116,7 +147,6 @@ const ContactWithMap = () => {
             </div>
           </div>
           <form
-            action=''
             onSubmit={handleSubmit}
             className='max-w-[600px] md:max-w-[800px]'
           >
@@ -143,14 +173,6 @@ const ContactWithMap = () => {
                 ))}
               </div>
             </div>
-            <AppInput
-              id='message'
-              name='message' // Asegura que el nombre sea correcto para el textarea
-              inputType='textArea'
-              require={true}
-              handleInputChange={handleInputChange}
-              value={formData.message || ''}
-            />
             <div className='flex w-full justify-center pt-8'>
               <button
                 type='submit'

@@ -1,7 +1,6 @@
 const navLinks = [
   { url: '/', label: 'Home' },
   { url: '/services', label: 'Services' },
-  // { url: '/pricing', label: 'Pricing' },
   { url: '/about', label: 'About' },
   { url: '/contact', label: 'Contact' }
 ]

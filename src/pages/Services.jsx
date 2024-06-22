@@ -1,6 +1,7 @@
 import { IconTitle } from '../components'
 import ContentImage from '../components/ContentImage'
 import { whatWeDoBest } from '../constants/services'
+import { GoDotFill } from 'react-icons/go'
 
 import services1 from '../assets/services1.jpg'
 import services2 from '../assets/services2.jpg'
@@ -11,7 +12,7 @@ const Services = () => {
     <>
       {/* Why choosing us */}
       <section className='body-font  text-gray-600'>
-        <div className='container mx-auto px-5 py-24'>
+        <div className='container mx-auto max-w-[1300px] py-24'>
           <div className='mb-8 flex w-full flex-col text-center'>
             <h1 className='mb-4 text-title font-medium text-primary sm:text-3xl'>
               WHAT WE DO BEST
@@ -20,7 +21,7 @@ const Services = () => {
               Continuously seeking innovation to provide the best solutions.
             </p>
           </div>
-          <div className='grid grid-cols-1 place-items-center md:grid-cols-2 xl:grid-cols-4'>
+          <div className='grid grid-cols-1 place-items-center lg:grid-cols-2 xl:grid-cols-4'>
             {whatWeDoBest.map((option) => (
               <IconTitle
                 key={option.title}
@@ -39,19 +40,35 @@ const Services = () => {
       />
       <ContentImage
         title='PERSONALIZED PROCESS'
-        text={`We are equipped to handle diverse approaches based on your project${"'"}s needs, allowing us to adapt and align with different strategies for optimal collaboration.`}
+        text={`We are equipped to handle diverse approaches based on your project's needs, allowing us to adapt and align with different strategies for optimal collaboration.`}
         image={services2}
         direction='left'
       />
 
-      <section className='pb-12'>
-        <h2 className='pb-8 text-center text-subtitle font-semibold text-primary'>
-          Are ready to transform your business?
+      <section className='pb-16'>
+        <h2 className='title-font mb-4 list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>
+          The result for your company
         </h2>
+        <ul className='flex flex-col items-center justify-center'>
+          <li className='flex items-center gap-1 text-paragraph'>
+            <GoDotFill />
+            <p>Most valuable insights for project development and execution</p>
+          </li>
+          <li className='flex items-center gap-1 text-paragraph'>
+            <GoDotFill />
+            <p>
+              Extremely convenient business case and streamlined decision-making
+              process
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section className='pb-12'>
         <div className='flex justify-center'>
-          <Link to='/contact'>
+          <Link to='https://calendly.com/jmr-fidgate/'>
             <button className='inline-flex rounded border-0 bg-primary px-10 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
-              Contact us
+              SCHEDULE AN INITIAL CONSULTATION NOW
             </button>
           </Link>
         </div>

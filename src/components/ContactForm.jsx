@@ -3,10 +3,48 @@ import { Toaster, toast } from 'react-hot-toast'
 import AppInput from './AppInput'
 
 const inputs = [
-  { id: 'name', name: 'Name', inputType: 'text', require: true },
-  { id: 'company', name: 'Company', inputType: 'text', require: true },
-  { id: 'email', name: 'Email', inputType: 'email', require: true },
-  { id: 'phone', name: 'Phone', inputType: 'tel', require: true }
+  {
+    id: 'name',
+    name: 'Name',
+    inputType: 'text',
+    require: true,
+    colSpan: 'md:col-span-1'
+  },
+  {
+    id: 'company',
+    name: 'Company',
+    inputType: 'text',
+    require: true,
+    colSpan: 'md:col-span-1'
+  },
+  {
+    id: 'email',
+    name: 'Email',
+    inputType: 'email',
+    require: true,
+    colSpan: 'md:col-span-1'
+  },
+  {
+    id: 'phone',
+    name: 'Phone',
+    inputType: 'tel',
+    require: true,
+    colSpan: 'md:col-span-1'
+  },
+  {
+    id: 'subject',
+    name: 'Subject',
+    inputType: 'text',
+    require: true,
+    colSpan: 'md:col-span-2'
+  },
+  {
+    id: 'message',
+    name: 'Message',
+    inputType: 'textArea',
+    require: true,
+    colSpan: 'md:col-span-2'
+  }
 ]
 
 const ContactForm = () => {
@@ -78,36 +116,21 @@ const ContactForm = () => {
           <form onSubmit={handleSubmit} className='w-[80%] max-w-[800px]'>
             <div className='grid gap-4 md:grid-cols-2'>
               {inputs.map((input) => (
-                <AppInput
+                <div
                   key={input.id}
-                  id={input.id}
-                  name={input.name}
-                  inputType={input.inputType}
-                  require={input.require}
-                  handleInputChange={handleInputChange}
-                  value={formData[input.id]}
-                />
+                  className={`${input.colSpan} md:${input.colSpan}`}
+                >
+                  <AppInput
+                    id={input.id}
+                    name={input.name}
+                    inputType={input.inputType}
+                    require={input.require}
+                    handleInputChange={handleInputChange}
+                    value={formData[input.id]}
+                  />
+                </div>
               ))}
             </div>
-
-            <div className='py-2'>
-              <AppInput
-                id='subject'
-                name='subject'
-                inputType='text'
-                require={true}
-                handleInputChange={handleInputChange}
-                value={formData.subject}
-              />
-            </div>
-            <AppInput
-              id='message'
-              name='message'
-              inputType='textArea'
-              require={true}
-              handleInputChange={handleInputChange}
-              value={formData.message}
-            />
 
             <div className='flex w-full justify-center pt-8'>
               <button className='min-w-56 rounded-lg bg-primary p-2 text-white'>
