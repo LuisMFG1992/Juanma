@@ -2,8 +2,10 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import { CookiesBanner, Footer, Navbar, ScrollToTop } from './components'
 import { About, Contact, Home, Services } from './pages'
+import { useCookies } from 'react-cookie'
 
 function App() {
+  const [cookies] = useCookies(['cookieConsent'])
   return (
     <>
       <Navbar />
@@ -18,7 +20,7 @@ function App() {
         <Route path='/cookiePolicy' element={<h1>To be defined</h1>} />
       </Routes>
       <Footer />
-      <CookiesBanner />
+      {!cookies.cookieConsent && <CookiesBanner />}
     </>
   )
 }
