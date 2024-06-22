@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import AppInput from './AppInput'
 
 const inputs = [
@@ -7,11 +6,17 @@ const inputs = [
   { id: 'company', name: 'Company', inputType: 'text', require: true },
   { id: 'email', name: 'Email', inputType: 'email', require: true },
   { id: 'phone', name: 'Phone', inputType: 'tel', require: true }
-  // { id: 'subject', name: 'Subject', inputType: 'text', require: true }
 ]
 
 const ContactForm = () => {
-  const [formData, setFormData] = useState({})
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  })
 
   const handleInputChange = (e) => {
     const { name, value } = e.target
@@ -20,19 +25,40 @@ const ContactForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log(formData)
-    setFormData(formData)
+
+    fetch('https://formspree.io/f/mqazzpwa', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(formData)
+    })
+      .then((response) => {
+        if (response.ok) {
+          alert('Mensaje enviado!')
+          setFormData({
+            name: '',
+            company: '',
+            email: '',
+            phone: '',
+            subject: '',
+            message: ''
+          })
+        } else {
+          alert('Error al enviar el mensaje...')
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error)
+        alert('Error al enviar el mensaje...')
+      })
   }
 
   return (
     <section className='body-font relative text-gray-600'>
       <div className='pb-8'>
         <div className='flex justify-center'>
-          <form
-            action=''
-            onSubmit={handleSubmit}
-            className='w-[80%] max-w-[800px]'
-          >
+          <form onSubmit={handleSubmit} className='w-[80%] max-w-[800px]'>
             <div className='grid gap-4 md:grid-cols-2'>
               {inputs.map((input) => (
                 <AppInput
@@ -42,6 +68,7 @@ const ContactForm = () => {
                   inputType={input.inputType}
                   require={input.require}
                   handleInputChange={handleInputChange}
+                  value={formData[input.id]}
                 />
               ))}
             </div>
@@ -53,6 +80,7 @@ const ContactForm = () => {
                 inputType='text'
                 require={true}
                 handleInputChange={handleInputChange}
+                value={formData.subject}
               />
             </div>
             <AppInput
@@ -61,6 +89,7 @@ const ContactForm = () => {
               inputType='textArea'
               require={true}
               handleInputChange={handleInputChange}
+              value={formData.message}
             />
 
             <div className='flex w-full justify-center pt-8'>
