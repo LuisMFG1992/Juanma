@@ -58,7 +58,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <h1 className='w-full pt-8 text-center text-title font-semibold'>
+      <h1 className='w-full pt-8 text-center text-title font-semibold text-primary'>
         Let{"'"}s chat!
       </h1>
       <div className='flex justify-center'>

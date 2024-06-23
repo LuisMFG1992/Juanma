@@ -21,7 +21,7 @@ const About = () => {
         <div className='mx-auto px-6 py-8'>
           <div className='mb-20 flex w-full flex-col text-center'>
             <h1 className='mb-4 text-title font-medium text-primary'>
-              Our Key Team Members
+              OUR KEY TEAM MEMBERS
             </h1>
             <p className='mx-auto w-2/3 text-paragraph leading-relaxed'>
               Our team consists of PV solar and storage specialists,

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast'
 import { contactInfo, googleMapAddress } from '../constants'
 import AppInput from './AppInput'
+import AppButton from './AppButton'
 
 const inputs = [
   {
@@ -61,7 +62,7 @@ const ContactWithMap = () => {
     event.preventDefault()
 
     try {
-      const response = await fetch('https://formspree.io/f/mqazzpwa', {
+      const response = await fetch('https://formspree.io/f/manwwely', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -174,12 +175,7 @@ const ContactWithMap = () => {
               </div>
             </div>
             <div className='flex w-full justify-center pt-8'>
-              <button
-                type='submit'
-                className='min-w-56 rounded-lg bg-primary p-2 text-white'
-              >
-                Submit
-              </button>
+              <AppButton text={'Send'} type='submit' width='w-full' />
             </div>
           </form>
         </div>

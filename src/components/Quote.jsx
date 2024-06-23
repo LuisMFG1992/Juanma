@@ -25,7 +25,7 @@ const Quote = () => {
           <div className='flex flex-col items-center justify-center gap-6 sm:flex-row'>
             <img src={Juan} className='size-28' />
             <div className='flex flex-col  items-center justify-center pt-2 sm:items-start'>
-              <h2 className='title-font text-lg font-medium tracking-wider text-gray-900'>
+              <h2 className='title-font text-lg font-medium tracking-wider text-primary'>
                 JUAN MANUEL ROLDAN
               </h2>
               <p className='text-lg text-gray-500'>
@@ -35,11 +35,11 @@ const Quote = () => {
                 +5 GW Renewable Experience in +15 countries
               </p>
               <div className='flex items-center gap-1'>
-                <IoMail />
+                <IoMail color='#05445E' />
                 <p className='font-medium text-primary'>jmr@fidgate.com</p>
               </div>
               <div className='flex items-center gap-1'>
-                <RiSmartphoneFill />
+                <RiSmartphoneFill color='#05445E' />
                 <p className='font-medium text-primary'>(+49) 15566 401840</p>
               </div>
             </div>

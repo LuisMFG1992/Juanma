@@ -49,17 +49,12 @@ const Services = () => {
         <h2 className='title-font mb-4 list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>
           The result for your company
         </h2>
-        <ul className='flex flex-col items-center justify-center'>
-          <li className='flex items-center gap-1 text-paragraph'>
-            <GoDotFill />
-            <p>Most valuable insights for project development and execution</p>
-          </li>
-          <li className='flex items-center gap-1 text-paragraph'>
-            <GoDotFill />
-            <p>
-              Extremely convenient business case and streamlined decision-making
-              process
-            </p>
+
+        <ul className='grid list-inside list-disc justify-center px-6 text-paragraph'>
+          <li>Most valuable insights for project development and execution</li>
+          <li>
+            Extremely convenient business case and streamlined decision-making
+            process
           </li>
         </ul>
       </section>

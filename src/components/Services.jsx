@@ -7,7 +7,7 @@ const Services = () => {
       <section className='body-font text-gray-600'>
         <div className='px-6 py-24'>
           <div className='mb-10 text-center'>
-            <h1 className='title-font mb-4 text-title font-medium text-gray-900'>
+            <h1 className='title-font mb-4 text-title font-medium text-primary'>
               HOW DO WE HELP YOU
             </h1>
             <p className='text-gray-500s text-paragraph  xl:w-full '>
