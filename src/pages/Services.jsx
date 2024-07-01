@@ -1,4 +1,4 @@
-import { AppButton, IconTitle } from '../components'
+import { AppButton, ComplementaryServices, IconTitle } from '../components'
 import ContentImage from '../components/ContentImage'
 import { whatWeDoBest } from '../constants/services'
 
@@ -33,10 +33,12 @@ const Services = () => {
       </section>
 
       <ContentImage
-        title='OUR SERVICES'
+        title='OUR MAIN SERVICE'
         text='At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.'
         image={services1}
       />
+      {/* <ComplementaryServices /> */}
+
       <ContentImage
         title='PERSONALIZED PROCESS'
         text={`We are equipped to handle diverse approaches based on your project's needs, allowing us to adapt and align with different strategies for optimal collaboration.`}

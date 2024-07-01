@@ -20,6 +20,7 @@ import Quote from './Quote.jsx'
 import CookiesBanner from './CookiesBanner.jsx'
 import AppButton from './AppButton.jsx'
 import ConsentCheckbox from './ConsentCheckbox.jsx'
+import ComplementaryServices from './ComplementaryServices.jsx'
 
 export {
   Hero,
@@ -43,5 +44,6 @@ export {
   Quote,
   CookiesBanner,
   AppButton,
-  ConsentCheckbox
+  ConsentCheckbox,
+  ComplementaryServices
 }

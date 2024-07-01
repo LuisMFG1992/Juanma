@@ -45,23 +45,28 @@ const whatWeDoBest = [
 const complementary = [
   {
     title: 'Procurement 2.0',
-    text: 'Enhance Your Procurement Process: Compare hundreds of supplier and equipment permutations to identify the optimal combination for boosting the performance and cost-efficiency of your PV systems.'
+    text: 'Enhance Your Procurement Process: Compare hundreds of supplier and equipment permutations to identify the optimal combination for boosting the performance and cost-efficiency of your PV systems.',
+    colSpan: ''
   },
   {
     title: 'PV Yield Report',
-    text: 'We ensure our reports are based on a solid foundation, combining years of experience with PVsyst and our own optimized calculation tools, e.g. for inverter overload losses.'
+    text: 'We ensure our reports are based on a solid foundation, combining years of experience with PVsyst and our own optimized calculation tools, e.g. for inverter overload losses.',
+    colSpan: ''
   },
   {
     title: 'Solar Resource Assessment',
-    text: 'Accurate solar resource assessments, including Typical Meteorological Year (TMY) and multi-year time series data, to provide reliable information for project planning and development.'
+    text: 'Accurate solar resource assessments, including Typical Meteorological Year (TMY) and multi-year time series data, to provide reliable information for project planning and development.',
+    colSpan: ''
   },
   {
     title: 'PXX and Uncertainties',
-    text: 'Evaluate the statistical significance and uncertainties in solar data to provide a clear understanding of potential performance and risks.'
+    text: 'Evaluate the statistical significance and uncertainties in solar data to provide a clear understanding of potential performance and risks.',
+    colSpan: ''
   },
   {
     title: 'Soiling & Cleaning Strategy ',
-    text: 'Analyze soiling losses and develop optimal cleaning strategies to maximize the efficiency and yield of your solar installations.'
+    text: 'Analyze soiling losses and develop optimal cleaning strategies to maximize the efficiency and yield of your solar installations.',
+    colSpan: 'md:col-span-2 md:px-[25%] xl:col-span-1 xl:px-0'
   }
 ]
 

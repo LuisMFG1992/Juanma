@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import useResize from '../Hooks/useResize'
 
-const IconTitle = ({ icon, title }) => {
+const IconTitle = ({ icon = '', title = '' }) => {
   const [xlScreen, setXlScreen] = useState(false)
   const size = useResize()
 
