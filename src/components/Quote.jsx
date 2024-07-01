@@ -14,12 +14,13 @@ const Quote = () => {
           />
           <p className='text-paragraph leading-relaxed'>
             During my 7 years of experience working in some of the biggest
-            energy companies, I realized how much potential is regularly lost
-            due to time constraints and the absence of better methodologies. I
-            was convinced that there must be a better way and I was determined
-            to find it. This is when I decided to start FIDgate, addressing key
-            areas often missing in traditional approaches. Moreover, I am eager
-            to assist countries in meeting their Global Sustainability Goals.
+            energy companies, I realized how much potential is often lost due to
+            time constraints and the absence of better methodologies. I was
+            convinced that there must be a better way and I was determined to
+            find it. After extensive research and involvement in several
+            projects , the solution became clear to me. This is when I decided
+            to start FIDgate. FIDgate assist companies and countries in meeting
+            their Global Sustainability Goals in a cost-efficient manner.
           </p>
           <span className='mb-6 mt-8 inline-block h-1 w-10 rounded bg-primary'></span>
           <div className='flex flex-col items-center justify-center gap-6 sm:flex-row'>

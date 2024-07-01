@@ -11,8 +11,8 @@ const Services = () => {
               HOW DO WE HELP YOU
             </h1>
             <p className='text-gray-500s text-paragraph  xl:w-full '>
-              Over 60% of projects do not pass the FID gate, and the 40% that do
-              get built often lose 5-15% of their IRR.
+              Over 60% of projects do not pass the FID gate, and of the 40% that
+              do get built they often lose 5-15% of IRR
             </p>
             <br />
             <p className='text-gray-500s mx-auto text-paragraph leading-relaxed lg:w-3/4 '>

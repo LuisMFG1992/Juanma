@@ -12,7 +12,7 @@ export default {
         contact: 'https://dummyimage.com/720x600'
       },
       colors: {
-        primary: '#05445E',
+        primary: '#005B81',
         light: '#f3f4f6',
         lightGray: '#94a3b8'
       },

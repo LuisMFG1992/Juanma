@@ -1,51 +1,9 @@
 import { useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast'
 import AppInput from './AppInput'
-
-const inputs = [
-  {
-    id: 'name',
-    name: 'Name',
-    inputType: 'text',
-    require: true,
-    colSpan: 'md:col-span-1'
-  },
-  {
-    id: 'company',
-    name: 'Company',
-    inputType: 'text',
-    require: true,
-    colSpan: 'md:col-span-1'
-  },
-  {
-    id: 'email',
-    name: 'Email',
-    inputType: 'email',
-    require: true,
-    colSpan: 'md:col-span-1'
-  },
-  {
-    id: 'phone',
-    name: 'Phone',
-    inputType: 'tel',
-    require: true,
-    colSpan: 'md:col-span-1'
-  },
-  {
-    id: 'subject',
-    name: 'Subject',
-    inputType: 'text',
-    require: true,
-    colSpan: 'md:col-span-2'
-  },
-  {
-    id: 'message',
-    name: 'Message',
-    inputType: 'textArea',
-    require: true,
-    colSpan: 'md:col-span-2'
-  }
-]
+import AppButton from './AppButton'
+import ConsentCheckbox from './ConsentCheckbox'
+import { contactFormSchema } from '../constants/inputSchemas'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -114,8 +72,8 @@ const ContactForm = () => {
       <div className='pb-8'>
         <div className='flex justify-center'>
           <form onSubmit={handleSubmit} className='w-[80%] max-w-[800px]'>
-            <div className='grid gap-4 md:grid-cols-2'>
-              {inputs.map((input) => (
+            <div className='grid gap-4 pb-4 md:grid-cols-2'>
+              {contactFormSchema.map((input) => (
                 <div
                   key={input.id}
                   className={`${input.colSpan} md:${input.colSpan}`}
@@ -131,11 +89,9 @@ const ContactForm = () => {
                 </div>
               ))}
             </div>
-
-            <div className='flex w-full justify-center pt-8'>
-              <button className='min-w-56 rounded-lg bg-primary p-2 text-white'>
-                Submit
-              </button>
+            <ConsentCheckbox />
+            <div className='flex w-full justify-center pt-4'>
+              <AppButton text={'Send'} type='submit' width='w-1/2' />
             </div>
           </form>
         </div>

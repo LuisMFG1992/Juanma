@@ -22,11 +22,6 @@ const borderColorVariant = {
   red: 'box-border border-2 border-red-600'
 }
 
-const hoverVariant = {
-  lighter: 'brightness-125',
-  darker: 'brightness-75'
-}
-
 const paddingVariant = {
   1: 'p-1',
   2: 'p-2',
@@ -40,10 +35,4 @@ const paddingVariant = {
   10: 'p-10'
 }
 
-export {
-  bgColorVariant,
-  textColorVariant,
-  paddingVariant,
-  borderColorVariant,
-  hoverVariant
-}
+export { bgColorVariant, textColorVariant, paddingVariant, borderColorVariant }

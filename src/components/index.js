@@ -19,6 +19,7 @@ import AppModal from './AppModal.jsx'
 import Quote from './Quote.jsx'
 import CookiesBanner from './CookiesBanner.jsx'
 import AppButton from './AppButton.jsx'
+import ConsentCheckbox from './ConsentCheckbox.jsx'
 
 export {
   Hero,
@@ -41,5 +42,6 @@ export {
   AppModal,
   Quote,
   CookiesBanner,
-  AppButton
+  AppButton,
+  ConsentCheckbox
 }

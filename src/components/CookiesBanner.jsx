@@ -6,8 +6,8 @@ const CookiesBanner = () => {
   const [cookies, setCookie] = useCookies(['cookieConsent'])
   const giveCookieConsent = () => {
     setCookie('cookieConsent', true, { path: '/' })
-    // console.log('first')
   }
+
   return (
     <section className='fixed bottom-0'>
       <div className='flex w-screen flex-col items-center justify-center gap-4 border-t border-primary bg-white px-6 py-4 md:flex-row md:gap-10'>
@@ -16,7 +16,7 @@ const CookiesBanner = () => {
           you agree to our use of cookies.{' '}
           <Link
             className='font-semibold text-primary underline '
-            to={'/cookiePolicy'}
+            to={'/cookiesPolicy'}
           >
             Learn more.
           </Link>

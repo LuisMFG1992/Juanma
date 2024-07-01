@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import AppButton from './AppButton'
 
 const Hero = () => {
   return (
@@ -9,17 +10,13 @@ const Hero = () => {
         </h1>
         <p className='mb-8 text-paragraph leading-relaxed text-white'>
           Traditional solar project optimizations are slow and ineffective. At
-          FIDgate, we offer smart solutions to change this. Discover how our
-          innovative services can boost your project{"'"}s profitability and
+          FIDgate, we offer intelligent solutions to change this. Discover how
+          our innovative service boost your project{"'"}s profitability and
           enhance the decision-making process.
         </p>
-        <div className='flex justify-center'>
-          <Link to='/services'>
-            <button className='inline-flex rounded border-0 bg-primary px-16 py-2 text-lg text-white brightness-125 hover:bg-opacity-80 focus:outline-none'>
-              Our Services
-            </button>
-          </Link>
-        </div>
+        <Link to={'/services'} className='flex justify-center'>
+          <AppButton text={'Our Services'} hover={'lighter'} />
+        </Link>
       </div>
     </section>
   )

@@ -1,8 +1,7 @@
 import {
   bgColorVariant,
   textColorVariant,
-  borderColorVariant,
-  hoverVariant
+  borderColorVariant
 } from '../utils/classes'
 
 const AppButton = ({
@@ -10,7 +9,6 @@ const AppButton = ({
   bgColor = 'primary',
   textColor = 'white',
   border = '',
-  hover,
   type = 'button',
   width = '',
   callBack
@@ -18,7 +16,7 @@ const AppButton = ({
   return (
     <button
       type={type}
-      className={`${bgColorVariant[bgColor]} ${textColorVariant[textColor]} ${borderColorVariant[border]} min-w-32 ${width} rounded-lg px-4 py-2 text-paragraph hover:${hoverVariant[hover]}`}
+      className={`${bgColorVariant[bgColor]} ${textColorVariant[textColor]} ${borderColorVariant[border]} ${width} rounded-lg px-4 py-2 text-paragraph hover:brightness-125`}
       onClick={callBack}
     >
       {text}

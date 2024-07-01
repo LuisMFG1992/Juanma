@@ -1,7 +1,6 @@
-import { IconTitle } from '../components'
+import { AppButton, IconTitle } from '../components'
 import ContentImage from '../components/ContentImage'
 import { whatWeDoBest } from '../constants/services'
-import { GoDotFill } from 'react-icons/go'
 
 import services1 from '../assets/services1.jpg'
 import services2 from '../assets/services2.jpg'
@@ -35,7 +34,7 @@ const Services = () => {
 
       <ContentImage
         title='OUR SERVICES'
-        text='At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage close collaboration between industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.'
+        text='At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.'
         image={services1}
       />
       <ContentImage
@@ -45,8 +44,8 @@ const Services = () => {
         direction='left'
       />
 
-      <section className='pb-16'>
-        <h2 className='title-font mb-4 list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>
+      <section className='flex flex-col gap-6'>
+        <h2 className='title-font list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>
           The result for your company
         </h2>
 
@@ -57,14 +56,9 @@ const Services = () => {
             process
           </li>
         </ul>
-      </section>
-
-      <section className='pb-12'>
-        <div className='flex justify-center'>
-          <Link to='https://calendly.com/jmr-fidgate/'>
-            <button className='inline-flex rounded border-0 bg-primary px-10 py-2 text-lg text-white hover:bg-opacity-80 focus:outline-none'>
-              SCHEDULE AN INITIAL CONSULTATION NOW
-            </button>
+        <div className='flex justify-center pb-12'>
+          <Link to={'https://calendly.com/jmr-fidgate/'}>
+            <AppButton text={'SCHEDULE AN INITIAL CONSULTATION NOW'} />
           </Link>
         </div>
       </section>

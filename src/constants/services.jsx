@@ -13,12 +13,12 @@ const howDoWeHelpYou = [
   },
   {
     icon: <GrOptimize size={35} />,
-    title: `Improve Efficiency and \nReduce Risk`,
-    text: 'Streamline your project workflows by leveraging our expert consulting services. We reduce manual efforts, ensuring a smoother, more efficient operation, and mitigate the risks associated with inaccurate data inputs.'
+    title: `Improve Efficiency & \nReduce Risk`,
+    text: 'Streamline your project workflows by leveraging our expert consulting services. We reduce manual effort, ensuring smoother more efficient operation and mitigating risks associated with inaccurate data inputs.'
   },
   {
     icon: <HiOutlineLightBulb size={35} />,
-    title: 'Gain a Fresh \nPerspective',
+    title: 'Get a Fresh \nPerspective',
     text: 'Receive unbiased, expert evaluations of your project designs. Our tailored solutions are crafted to meet the diverse needs of different markets and specific client requirements, ensuring your projects are both innovative and effective.'
   }
 ]

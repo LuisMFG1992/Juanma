@@ -3,45 +3,8 @@ import { Toaster, toast } from 'react-hot-toast'
 import { contactInfo, googleMapAddress } from '../constants'
 import AppInput from './AppInput'
 import AppButton from './AppButton'
-
-const inputs = [
-  {
-    id: 'name',
-    name: 'Name',
-    inputType: 'text',
-    require: true
-  },
-  {
-    id: 'company',
-    name: 'Company',
-    inputType: 'text',
-    require: true
-  },
-  {
-    id: 'email',
-    name: 'Email',
-    inputType: 'email',
-    require: true
-  },
-  {
-    id: 'phone',
-    name: 'Phone',
-    inputType: 'tel',
-    require: true
-  },
-  {
-    id: 'subject',
-    name: 'Subject',
-    inputType: 'text',
-    require: true
-  },
-  {
-    id: 'message',
-    name: 'Message',
-    inputType: 'textArea',
-    require: true
-  }
-]
+import ConsentCheckbox from './ConsentCheckbox'
+import { homeFormSchema } from '../constants/inputSchemas'
 
 const ContactWithMap = () => {
   const [formData, setFormData] = useState({
@@ -62,7 +25,7 @@ const ContactWithMap = () => {
     event.preventDefault()
 
     try {
-      const response = await fetch('https://formspree.io/f/manwwely', {
+      const response = await fetch('https://formspree.io/f/mqazzpwa', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -109,7 +72,6 @@ const ContactWithMap = () => {
       <section className='body-font flex justify-center text-gray-600'>
         <Toaster />
         <div className='flex flex-col justify-center gap-8 px-5 py-24 sm:flex-nowrap sm:gap-6 md:flex-row'>
-          {/* iframe */}
           <div className='relative flex h-96 w-full items-end justify-center overflow-hidden rounded-lg bg-gray-300 p-10 md:h-auto'>
             <iframe
               width='100%'
@@ -120,7 +82,7 @@ const ContactWithMap = () => {
             ></iframe>
             <div className='relative hidden w-[95%] flex-wrap rounded bg-white py-6 shadow-md md:flex'>
               <div className='px-6 lg:w-1/2'>
-                <h2 className='title-font text-xs font-semibold tracking-widest text-gray-900'>
+                <h2 className='title-font text-xs font-semibold tracking-widest text-primary'>
                   ADDRESS
                 </h2>
                 <p className='mt-1'>{contactInfo.address}</p>
@@ -131,7 +93,7 @@ const ContactWithMap = () => {
                 </h2>
                 <a
                   href={`mailto:${contactInfo.mail}`}
-                  className='leading-relaxed text-primary'
+                  className='leading-relaxed'
                 >
                   {contactInfo.mail}
                 </a>
@@ -147,10 +109,7 @@ const ContactWithMap = () => {
               </div>
             </div>
           </div>
-          <form
-            onSubmit={handleSubmit}
-            className='max-w-[600px] md:max-w-[800px]'
-          >
+          <div className='max-w-[600px] md:max-w-[800px]'>
             <h2 className='mb-1 text-subtitle font-medium text-primary'>
               {"Let's chat!"}
             </h2>
@@ -159,25 +118,31 @@ const ContactWithMap = () => {
               out this contact form and we{"'"}ll get back to you as soon as
               possible.
             </p>
-            <div className='grid max-w-[800px] content-center gap-4 pb-4'>
-              <div>
-                {inputs.map((input) => (
-                  <AppInput
-                    key={input.id}
-                    id={input.id}
-                    name={input.name}
-                    inputType={input.inputType}
-                    require={input.require}
-                    handleInputChange={handleInputChange}
-                    value={formData[input.id] || ''}
-                  />
-                ))}
+            <form
+              onSubmit={handleSubmit}
+              className='flex max-w-[800px] flex-col justify-center gap-6'
+            >
+              <div className>
+                <div className='flex flex-col gap-2'>
+                  {homeFormSchema.map((input) => (
+                    <AppInput
+                      key={input.id}
+                      id={input.id}
+                      name={input.name}
+                      inputType={input.inputType}
+                      require={input.require}
+                      handleInputChange={handleInputChange}
+                      value={formData[input.id] || ''}
+                    />
+                  ))}
+                </div>
               </div>
-            </div>
-            <div className='flex w-full justify-center pt-8'>
-              <AppButton text={'Send'} type='submit' width='w-full' />
-            </div>
-          </form>
+              <ConsentCheckbox />
+              <div className='flex w-full justify-center'>
+                <AppButton text={'Send'} type='submit' width='w-full' />
+              </div>
+            </form>
+          </div>
         </div>
       </section>
     </>

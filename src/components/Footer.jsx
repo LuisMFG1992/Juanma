@@ -13,9 +13,6 @@ const Footer = () => {
             className='title-font flex flex-col items-center justify-center font-medium text-gray-900 md:justify-start'
           >
             <img src={logo} alt='' className='h-[55px] sm:h-[60px]' />
-            <p className='font-roboto font-semibold text-primary '>
-              Unlocking Full Potential
-            </p>
           </Link>
         </div>
         <div className='flex flex-col items-center gap-4 pt-4 text-paragraph sm:flex-row sm:text-center md:gap-6'>
