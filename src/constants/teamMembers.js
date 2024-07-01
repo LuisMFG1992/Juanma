@@ -29,7 +29,7 @@ const teamMembers = [
   {
     image: Manuel,
     name: 'JUAN MANUEL GIMENEZ',
-    roll: 'Software Developer \n& Partner',
+    roll: 'Software Developer \n& Co-Founder',
     education: 'PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)',
     experience:
       'Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.\n\n As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.\n\n He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.',
@@ -38,7 +38,7 @@ const teamMembers = [
   {
     image: Nicolas,
     name: 'NICOLAS BIOCCA',
-    roll: 'Software Developer \nAdvisor',
+    roll: 'Software Developer \nCo-Founder',
     education: 'PhD. Mechanical Engineering (UNMDP) & Computational Scientist',
     experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`,
     projects: []
