@@ -16,7 +16,7 @@ const CookiesBanner = () => {
           you agree to our use of cookies.{' '}
           <Link
             className='font-semibold text-primary underline '
-            to={'/cookiesPolicy'}
+            to={'/privacyPolicy'}
           >
             Learn more.
           </Link>

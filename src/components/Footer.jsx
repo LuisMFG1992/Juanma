@@ -16,9 +16,8 @@ const Footer = () => {
           </Link>
         </div>
         <div className='flex flex-col items-center gap-4 pt-4 text-paragraph sm:flex-row sm:text-center md:gap-6'>
-          <Link to={'/copyright'}>©2024 Copyright</Link>
+          <p>©2024 Copyright</p>
           <Link to={'/privacyPolicy'}>Privacy policy</Link>
-          <Link to={'cookiePolicy'}>Cookie policy</Link>
           <Link to={'https://www.linkedin.com/company/fidgate'}>
             <FaLinkedin size={40} className='text-primary' />
           </Link>
