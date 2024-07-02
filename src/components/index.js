@@ -21,6 +21,8 @@ import CookiesBanner from './CookiesBanner.jsx'
 import AppButton from './AppButton.jsx'
 import ConsentCheckbox from './ConsentCheckbox.jsx'
 import ComplementaryServices from './ComplementaryServices.jsx'
+import HowWeWork from './HowWeWork.jsx'
+import ProcessFlow from './ProcessFlow.jsx'
 
 export {
   Hero,
@@ -45,5 +47,7 @@ export {
   CookiesBanner,
   AppButton,
   ConsentCheckbox,
-  ComplementaryServices
+  ComplementaryServices,
+  HowWeWork,
+  ProcessFlow
 }

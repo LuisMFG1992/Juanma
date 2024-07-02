@@ -1,4 +1,9 @@
-import { AppButton, ComplementaryServices, IconTitle } from '../components'
+import {
+  AppButton,
+  ComplementaryServices,
+  HowWeWork,
+  IconTitle
+} from '../components'
 import ContentImage from '../components/ContentImage'
 import { whatWeDoBest } from '../constants/services'
 
@@ -37,16 +42,20 @@ const Services = () => {
         text='At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.'
         image={services1}
       />
-      {/* <ComplementaryServices /> */}
 
-      <ContentImage
-        title='PERSONALIZED PROCESS'
-        text={`We are equipped to handle diverse approaches based on your project's needs, allowing us to adapt and align with different strategies for optimal collaboration.`}
-        image={services2}
-        direction='left'
-      />
+      {/* <HowWeWork /> */}
 
-      <section className='flex flex-col gap-6'>
+      <ComplementaryServices />
+      <div className='bg-light'>
+        <ContentImage
+          title='PERSONALIZED PROCESS'
+          text={`We are equipped to handle diverse approaches based on your project's needs, allowing us to adapt and align with different strategies for optimal collaboration.`}
+          image={services2}
+          direction='left'
+        />
+      </div>
+
+      <section className='flex flex-col gap-6 py-12'>
         <h2 className='title-font list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>
           The result for your company
         </h2>
@@ -58,7 +67,7 @@ const Services = () => {
             process
           </li>
         </ul>
-        <div className='flex justify-center pb-12'>
+        <div className='flex justify-center'>
           <Link to={'https://calendly.com/jmr-fidgate/'}>
             <AppButton text={'SCHEDULE AN INITIAL CONSULTATION NOW'} />
           </Link>

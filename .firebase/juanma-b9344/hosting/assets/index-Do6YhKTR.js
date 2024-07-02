@@ -275,12 +275,12 @@ to {
 & Founder`,education:"MSc. Mechanical Engineering (UNMDP) & Certified Energy Expert (RENAC)",experience:`Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector's largest investors, including Copenhagen Infrastructure Partners and European Energy.
 
  As a Project Manager & Consultant , he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.`,projects:["50 MW Mokoan (Australia)","1.1 GW Upper Calliope (Australia)","50 MW Milbakken (Denmark)","180 MW Lidsø (Denmark)","50 MW Great House (The UK)","50 MW Maisemore (The UK)","330 MW Jonava (Lithuania)","450 MW Aira (Canada)","300 MW Fighting Jays (The US)","300 MW Janauba (Brazil)","+2 GW portfolio (Emerging Markets)"]},{image:tC,name:"JUAN MANUEL GIMENEZ",roll:`Software Developer 
-& Partner`,education:"PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)",experience:`Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.
+& Co-Founder`,education:"PhD. Mechanical Engineering (UNMDP) & AI Scientist (ITBA)",experience:`Entrepreneur with over 7 years of experience in scientific modeling and the development of neural networks to assist reinforcement learning algorithms.
 
  As a key figure in building complex mathematical models, he excels in optimizing a diverse range of variables. During his PhD studies, he developed integrative mechanical computational models capable of handling the complex dynamics of bio-mechanical systems.
 
  He has also created and implemented multi-dimensional formulations that allow large systems to be analyzed with high precision in specific regions while maintaining a comprehensive view of global interactions.`,projects:[]},{image:eC,name:"NICOLAS BIOCCA",roll:`Software Developer 
-Advisor`,education:"PhD. Mechanical Engineering (UNMDP) & Computational Scientist",experience:`Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.
+Co-Founder`,education:"PhD. Mechanical Engineering (UNMDP) & Computational Scientist",experience:`Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.
 
  As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.
 
