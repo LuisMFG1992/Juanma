@@ -6,7 +6,6 @@ const Map = ({ url }) => {
       className='h-[400px]'
       title='map'
       src={url}
-      // style='filter: grayscale(1) contrast(1.2) opacity(0.4);'
     ></iframe>
   )
 }

@@ -5,10 +5,12 @@ const ComplementaryServices = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-8 px-6 py-12'>
       <div className='flex flex-col items-center gap-8'>
-        <img
-          src={complementaryServices}
-          className='w-1/2 lg:w-full lg:max-w-lg'
-        />
+        <div className='container mx-auto flex flex-col items-center justify-center px-5 md:flex-row'>
+          <img
+            src={complementaryServices}
+            className='w-5/6 md:w-1/2 lg:w-full lg:max-w-lg'
+          />
+        </div>
         <div className='flex flex-col items-center justify-center'>
           <h2 className='text-center text-title font-medium text-primary'>
             COMPLIMENTARY SERVICES
@@ -20,7 +22,7 @@ const ComplementaryServices = () => {
           </p>
         </div>
       </div>
-      <div className=' grid gap-8 px-6 md:grid-cols-2 xl:grid-cols-5'>
+      <div className='grid gap-8  md:grid-cols-2 xl:grid-cols-5'>
         {complementary.map((element) => (
           <div
             key={element.title}

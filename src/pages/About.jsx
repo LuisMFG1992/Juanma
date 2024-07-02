@@ -4,11 +4,11 @@ import { teamMembers } from '../constants/teamMembers'
 const About = () => {
   return (
     <div>
-      <section className='body-font flex flex-col items-center bg-light py-20 text-gray-600'>
+      <section className='body-font flex flex-col items-center bg-light px-6 py-20 text-gray-600'>
         <h1 className='pb-6 text-center text-title font-medium text-primary'>
           MISSION
         </h1>
-        <p className='mx-auto w-2/3 text-center text-paragraph leading-relaxed'>
+        <p className='text-center text-paragraph leading-relaxed md:w-2/3'>
           At FIDgate, we are dedicated to maximizing the potential of renewable
           energy projects through cutting-edge solutions and advanced
           optimization techniques. Our mission is to drive the renewable energy
@@ -19,11 +19,11 @@ const About = () => {
 
       <section className='body-font text-gray-600'>
         <div className='mx-auto px-6 py-8'>
-          <div className='mb-20 flex w-full flex-col text-center'>
+          <div className='mb-20 flex w-full flex-col items-center text-center'>
             <h1 className='mb-4 text-title font-medium text-primary'>
               OUR KEY TEAM MEMBERS
             </h1>
-            <p className='mx-auto w-2/3 text-paragraph leading-relaxed'>
+            <p className='text-center text-paragraph leading-relaxed md:w-2/3'>
               Our team consists of PV solar and storage specialists,
               entrepreneurs, and software engineers with more than six decades
               of combined track record. Together, we bring a wealth of

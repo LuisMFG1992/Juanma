@@ -6,7 +6,7 @@ import { RiSmartphoneFill } from 'react-icons/ri'
 const Quote = () => {
   return (
     <section className='body-font bg-light text-gray-600'>
-      <div className='container mx-auto px-5 py-24'>
+      <div className='container mx-auto px-6 py-24'>
         <div className='w-full text-center'>
           <FaQuoteRight
             size={30}
@@ -18,14 +18,14 @@ const Quote = () => {
             time constraints and the absence of better methodologies. I was
             convinced that there must be a better way and I was determined to
             find it. After extensive research and involvement in several
-            projects , the solution became clear to me. This is when I decided
-            to start FIDgate. FIDgate assist companies and countries in meeting
+            projects, the solution became clear to me. This is when I decided to
+            start FIDgate. FIDgate assists companies and countries in meeting
             their Global Sustainability Goals in a cost-efficient manner.
           </p>
           <span className='mb-6 mt-8 inline-block h-1 w-10 rounded bg-primary'></span>
           <div className='flex flex-col items-center justify-center gap-6 sm:flex-row'>
-            <img src={Juan} className='size-28' />
-            <div className='flex flex-col  items-center justify-center pt-2 sm:items-start'>
+            <img src={Juan} className='size-28' alt='Juan Manuel Roldan' />
+            <div className='flex flex-col items-center justify-center pt-2 sm:items-start'>
               <h2 className='title-font text-lg font-medium tracking-wider text-primary'>
                 JUAN MANUEL ROLDAN
               </h2>

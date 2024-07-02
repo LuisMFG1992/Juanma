@@ -13,7 +13,7 @@ const ContentImage = ({
               <h1 className='mb-4 text-title font-medium text-primary'>
                 {title}
               </h1>
-              <p className='mb-8 text-paragraph leading-relaxed'>
+              <p className='text-paragraph leading-relaxed'>
                 {text.split('\n').map((line, index) => (
                   <span key={index} className='mb-4 block'>
                     {line}
@@ -32,7 +32,7 @@ const ContentImage = ({
         </section>
       ) : (
         <section className='body-font text-gray-600'>
-          <div className='container mx-auto flex flex-col items-center px-5 py-24 md:flex-row'>
+          <div className='container mx-auto flex flex-col items-center px-5 py-12 md:flex-row'>
             <div className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
               <img
                 className='rounded object-cover object-center'
@@ -44,7 +44,7 @@ const ContentImage = ({
               <h1 className='title-font mb-4 text-3xl font-medium text-primary sm:text-4xl'>
                 {title}
               </h1>
-              <p className='mb-8 text-paragraph leading-relaxed'>
+              <p className='text-paragraph leading-relaxed'>
                 {text.split('\n').map((line, index) => (
                   <span key={index} className='mb-3 block'>
                     {line}
