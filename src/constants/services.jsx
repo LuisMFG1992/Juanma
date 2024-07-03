@@ -66,7 +66,8 @@ const complementary = [
   {
     title: 'Soiling & Cleaning \nStrategy ',
     text: 'Analyze soiling losses and develop optimal cleaning strategies to maximize the efficiency and yield of your solar installations.',
-    colSpan: 'md:col-span-2 md:px-[25%] xl:col-span-1 xl:px-0'
+    colSpan: 'md:col-span-2 md:px-[25%]'
+    // colSpan: 'md:col-span-2 md:px-[25%] xl:col-span-1 xl:px-0'
   }
 ]
 
