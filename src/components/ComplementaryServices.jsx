@@ -5,10 +5,10 @@ const ComplementaryServices = () => {
   return (
     <div className='flex flex-col items-center justify-center gap-8 px-6 py-12'>
       <div className='flex flex-col items-center gap-8'>
-        <div className='container mx-auto flex flex-col items-center justify-center px-5 md:flex-row'>
+        <div className='container mx-auto flex flex-col items-center justify-center md:flex-row'>
           <img
             src={complementaryServices}
-            className='w-5/6 md:w-1/2 lg:w-full lg:max-w-lg'
+            className='w-[250px] sm:mb-0 sm:w-[500px] md:w-[350px] lg:w-[550px]'
           />
         </div>
         <div className='flex flex-col items-center justify-center'>
