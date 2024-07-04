@@ -18,7 +18,8 @@ const Services = () => {
       <section className='body-font px-6 text-gray-600 md:px-0'>
         <div className='container mx-auto max-w-[1300px] py-24'>
           <div className='mb-8 flex w-full flex-col text-center'>
-            <h1 className='mb-4 text-title font-medium text-primary sm:text-3xl'>
+            {/* <h1 className='mb-4 text-title font-medium text-primary sm:text-3xl'> */}
+            <h1 className='mb-4 text-title font-medium text-primary'>
               WHAT WE DO BEST
             </h1>
             <p className='mx-auto text-paragraph leading-relaxed lg:w-2/3'>

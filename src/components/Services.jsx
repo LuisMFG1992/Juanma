@@ -26,7 +26,7 @@ const Services = () => {
               <div className='inline-flex h-1 w-16 rounded-full bg-primary'></div>
             </div>
           </div>
-          <div className='flex flex-col gap-4 lg:flex-row lg:gap-8 '>
+          <div className='flex flex-col justify-center gap-4 lg:flex-row lg:gap-8 '>
             {howDoWeHelpYou.map((option) => (
               <IconTitleText
                 icon={option.icon}
