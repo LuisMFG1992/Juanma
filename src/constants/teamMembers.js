@@ -38,7 +38,7 @@ const teamMembers = [
   {
     image: Nicolas,
     name: 'NICOLAS BIOCCA',
-    roll: 'Software Developer & \nCo-Founder',
+    roll: 'Software Developer \n& Co-Founder',
     education: 'PhD. Mechanical Engineering (UNMDP) & Computational Scientist',
     experience: `Expert in computational modeling and software engineering with over 7 years of experience. He specializes in automating tasks and managing computational workflows on HPC platforms.\n\n As a PhD in Mechanical Engineering turned software developer, he has dedicated his career to the intersection of computational modeling and software engineering. He has tackled complex Multiphysics problems involving fluid dynamics and structural mechanics.\n\n As a postdoctoral researcher, he develops ocean circulation models and optimizes numerical codes, demonstrating his ability to bridge theoretical research and practical, impactful software solutions.`,
     projects: []
