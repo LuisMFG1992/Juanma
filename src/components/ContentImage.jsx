@@ -21,7 +21,6 @@ const ContentImage = ({
                 ))}
               </p>
             </div>
-            {/* <div className='w-5/6 md:w-1/2 lg:w-full lg:max-w-lg'> */}
             <div className='w-[250px] sm:w-[500px] md:w-[350px] lg:w-[550px]'>
               <img
                 className='rounded object-cover object-center'
@@ -34,7 +33,6 @@ const ContentImage = ({
       ) : (
         <section className='body-font text-gray-600'>
           <div className='container mx-auto flex flex-col items-center px-5 py-12 md:flex-row'>
-            {/* <div className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'> */}
             <div className='mb-6 w-[250px] sm:mb-0 sm:w-[500px] md:w-[350px] lg:w-[550px]'>
               <img
                 className='rounded object-cover object-center'

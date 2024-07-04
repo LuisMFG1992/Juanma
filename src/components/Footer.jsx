@@ -6,7 +6,6 @@ const Footer = () => {
   return (
     <>
       <footer className='body-font flex flex-col justify-between border border-t-2 bg-light p-6 text-gray-600 sm:flex-row sm:gap-6'>
-        {/* Logo */}
         <div className='flex justify-center sm:justify-start'>
           <Link
             to={'/'}

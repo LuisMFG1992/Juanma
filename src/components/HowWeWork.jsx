@@ -21,10 +21,6 @@ const HowWeWork = () => {
           our process:
         </p>
       </div>
-      {/* <div className='flex flex-col justify-center'>
-        <ProcessFlow />
-        <PiSolarPanel size={30} />
-      </div> */}
 
       <section className='body-font text-gray-600'>
         <div className='container mx-auto flex flex-wrap px-5 py-24'>

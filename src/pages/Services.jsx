@@ -14,11 +14,9 @@ import { Link } from 'react-router-dom'
 const Services = () => {
   return (
     <>
-      {/* Why choosing us */}
       <section className='body-font px-6 text-gray-600 md:px-0'>
         <div className='container mx-auto max-w-[1300px] py-24'>
           <div className='mb-8 flex w-full flex-col text-center'>
-            {/* <h1 className='mb-4 text-title font-medium text-primary sm:text-3xl'> */}
             <h1 className='mb-4 text-title font-medium text-primary'>
               WHAT WE DO BEST
             </h1>
@@ -43,8 +41,6 @@ const Services = () => {
         text='At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.'
         image={services1}
       />
-
-      {/* <HowWeWork /> */}
 
       <ComplementaryServices />
 

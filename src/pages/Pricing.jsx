@@ -1,7 +1,6 @@
 const Pricing = () => {
   return (
     <>
-      {/* InfoSection */}
       <section className='body-font text-gray-600'>
         <div className='container mx-auto flex flex-col items-center px-5 py-14 md:flex-row'>
           <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
@@ -27,7 +26,6 @@ const Pricing = () => {
         </div>
       </section>
 
-      {/* InfoSection 2 */}
       <section className='body-font bg-light text-gray-600'>
         <div className='container mx-auto flex flex-col items-center px-5 py-14 md:flex-row'>
           <div className='mb-10 w-5/6 md:mb-0 md:w-1/2 lg:w-full lg:max-w-lg'>
@@ -53,7 +51,6 @@ const Pricing = () => {
         </div>
       </section>
 
-      {/* Benefits */}
       <section className='body-font  text-gray-600'>
         <div className='container mx-auto px-5 py-24'>
           <div className='mb-20 flex w-full flex-col flex-wrap items-center text-center'>

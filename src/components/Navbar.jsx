@@ -46,7 +46,6 @@ const Navbar = () => {
               </div>
             </NavLink>
 
-            {/* Desktop */}
             <div className='hidden gap-8 md:flex'>
               {navLinks.map((link) => (
                 <NavLink
@@ -63,7 +62,6 @@ const Navbar = () => {
               ))}
             </div>
 
-            {/* Mobil */}
             <div
               className='cursor-pointer p-4 md:hidden'
               onClick={() => toggleState(SetIsNavbarToggled)}
