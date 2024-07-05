@@ -1,9 +1,10 @@
+// AppInput.jsx
 const AppInput = ({
   id,
   name,
   inputType,
   handleInputChange,
-  require = false,
+  required = false,
   value
 }) => {
   const handleChange = (e) => {
@@ -18,7 +19,7 @@ const AppInput = ({
         </label>
         {inputType !== 'textArea' ? (
           <input
-            required={require}
+            required={required}
             type={inputType}
             id={id}
             name={id}
@@ -28,7 +29,7 @@ const AppInput = ({
           />
         ) : (
           <textarea
-            required={require}
+            required={required}
             id={id}
             name={id}
             value={value}

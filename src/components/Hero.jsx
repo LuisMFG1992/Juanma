@@ -3,7 +3,7 @@ import AppButton from './AppButton'
 import { useTranslation } from 'react-i18next'
 
 const Hero = () => {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <section className='bgHero py-28'>

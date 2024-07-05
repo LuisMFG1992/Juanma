@@ -1,3 +1,4 @@
+// ContactWithMap.jsx
 import { useState } from 'react'
 import { Toaster, toast } from 'react-hot-toast'
 import { contactInfo, googleMapAddress } from '../constants'
@@ -122,7 +123,7 @@ const ContactWithMap = () => {
               onSubmit={handleSubmit}
               className='flex max-w-[800px] flex-col justify-center gap-6'
             >
-              <div className>
+              <div>
                 <div className='flex flex-col gap-2'>
                   {homeFormSchema.map((input) => (
                     <AppInput
@@ -130,7 +131,7 @@ const ContactWithMap = () => {
                       id={input.id}
                       name={input.name}
                       inputType={input.inputType}
-                      require={input.require}
+                      required={input.required}
                       handleInputChange={handleInputChange}
                       value={formData[input.id] || ''}
                     />

@@ -38,7 +38,7 @@ const contactFormSchema = [
     id: 'message',
     name: 'Message',
     inputType: 'textArea',
-    require: true,
+    required: true,
     colSpan: 'md:col-span-2'
   }
 ]
@@ -48,37 +48,37 @@ const homeFormSchema = [
     id: 'name',
     name: 'Name',
     inputType: 'text',
-    require: true
+    required: true
   },
   {
     id: 'company',
     name: 'Company',
     inputType: 'text',
-    require: true
+    required: true
   },
   {
     id: 'email',
     name: 'Email',
     inputType: 'email',
-    require: true
+    required: true
   },
   {
     id: 'phone',
     name: 'Phone',
     inputType: 'tel',
-    require: true
+    required: true
   },
   {
     id: 'subject',
     name: 'Subject',
     inputType: 'text',
-    require: true
+    required: true
   },
   {
     id: 'message',
     name: 'Message',
     inputType: 'textArea',
-    require: true
+    required: true
   }
 ]
 
