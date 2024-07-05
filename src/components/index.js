@@ -22,8 +22,10 @@ import ComplementaryServices from './ComplementaryServices.jsx'
 import HowWeWork from './HowWeWork.jsx'
 import ProcessFlow from './ProcessFlow.jsx'
 import Map from './Map.jsx'
+import AppDropdownMenu from './AppDropdownMenu.jsx'
 
 export {
+  AppDropdownMenu,
   Map,
   Hero,
   Navbar,

@@ -8,8 +8,16 @@ import { contactInfo, navLinks } from '../constants'
 import { useContext, useEffect } from 'react'
 import { ThemeContext } from '../context/index'
 import useResize from '../Hooks/useResize'
+import AppDropdownMenu from './AppDropdownMenu'
+import { useTranslation } from 'react-i18next'
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation()
+
+  const changeLanguage = (language) => {
+    i18n.changeLanguage(language)
+  }
+
   const size = useResize()
 
   const { isNavbarToggled, toggleState, SetIsNavbarToggled } =
@@ -60,6 +68,10 @@ const Navbar = () => {
                   {link.label}
                 </NavLink>
               ))}
+              <AppDropdownMenu
+                callbackEnglish={() => changeLanguage('en')}
+                callbackGerman={() => changeLanguage('de')}
+              />
             </div>
 
             <div
@@ -85,6 +97,7 @@ const Navbar = () => {
                   {link.label}
                 </NavLink>
               ))}
+              <AppDropdownMenu />
             </div>
           ) : (
             ''
