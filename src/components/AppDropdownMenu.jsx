@@ -11,7 +11,7 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
         onClick={toggleState}
       >
         <p className='text-lg text-paragraph text-lightGray'>Languages</p>
-        <IoMdArrowDropdown size={'2rem'} className='text-lightGray' />
+        <IoMdArrowDropdown size={'1.3rem'} className='text-lightGray' />
       </button>
       {showMenu && (
         <div className='border-2-primary absolute left-0 flex w-full flex-col items-center border bg-white py-2 shadow-xl'>

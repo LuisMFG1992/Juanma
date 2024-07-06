@@ -9,13 +9,13 @@ const Hero = () => {
     <section className='bgHero py-28'>
       <div className='flex h-full flex-col items-center justify-center px-6 text-center sm:px-20 md:px-28 lg:px-52'>
         <h1 className='text-[3rem] font-medium text-white md:text-[4rem]'>
-          {t('heroTitle')}
+          {t('home_1_title')}
         </h1>
         <p className='mb-8 text-paragraph leading-relaxed text-white'>
-          {t('heroParagraph')}
+          {t('home_1_paragraph')}
         </p>
         <Link to={'/services'} className='flex justify-center'>
-          <AppButton text={t('heroButton')} hover={'lighter'} />
+          <AppButton text={t('home_1_button')} hover={'lighter'} />
         </Link>
       </div>
     </section>
