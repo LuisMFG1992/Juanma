@@ -4,8 +4,13 @@ import AppInput from './AppInput'
 import AppButton from './AppButton'
 import ConsentCheckbox from './ConsentCheckbox'
 import { contactFormSchema } from '../constants/inputSchemas'
+import { useTranslation } from 'react-i18next'
 
 const ContactForm = () => {
+  const { t } = useTranslation()
+
+  const inputLabels = t('contact_form_inputLabels', { returnObjects: true })
+
   const [formData, setFormData] = useState({
     name: '',
     company: '',
@@ -80,7 +85,7 @@ const ContactForm = () => {
                 >
                   <AppInput
                     id={input.id}
-                    name={input.name}
+                    name={inputLabels[input.id]}
                     inputType={input.inputType}
                     require={input.require}
                     handleInputChange={handleInputChange}
@@ -91,7 +96,11 @@ const ContactForm = () => {
             </div>
             <ConsentCheckbox />
             <div className='flex w-full justify-center pt-4'>
-              <AppButton text={'Send'} type='submit' width='w-1/2' />
+              <AppButton
+                text={t('contact_form_button')}
+                type='submit'
+                width='w-1/2'
+              />
             </div>
           </form>
         </div>

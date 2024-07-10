@@ -1,8 +1,11 @@
 import { IoMdArrowDropdown } from 'react-icons/io'
 import useToggle from '../Hooks/useToggle'
+import { useTranslation } from 'react-i18next'
 
 const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
   const { state: showMenu, toggleState } = useToggle()
+
+  const { t } = useTranslation()
 
   return (
     <div className='relative'>
@@ -10,7 +13,9 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
         className='flex cursor-pointer items-center'
         onClick={toggleState}
       >
-        <p className='text-lg text-paragraph text-lightGray'>Language</p>
+        <p className='text-lg text-paragraph text-lightGray'>
+          {t('navbar_language')}
+        </p>
         <IoMdArrowDropdown size={'1.3rem'} className='text-lightGray' />
       </button>
       {showMenu && (
@@ -21,7 +26,7 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
                 onClick={callbackEnglish}
                 className='text-paragraph text-lightGray'
               >
-                English
+                {t('navbar_english')}
               </button>
             </li>
             <li>
@@ -29,7 +34,7 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
                 onClick={callbackGerman}
                 className='text-paragraph text-lightGray'
               >
-                German
+                {t('navbar_german')}
               </button>
             </li>
           </ul>

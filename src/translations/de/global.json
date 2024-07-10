@@ -1,4 +1,17 @@
 {
+  "navbar_links": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über",
+    "contact": "Kontakt"
+  },
+  "navbar_language": "Sprache",
+  "navbar_english": "Englisch",
+  "navbar_german": "Deutsch",
+
+  "footer_copyright": "©2024 Urheberrecht",
+  "footer_privacyPolicy": "Datenschutzbestimmungen",
+
   "home_hero_title": "Entfalten Sie Ihr volles Potenzial",
   "home_hero_paragraph": "Die herkömmliche Optimierung von Solarprojekten ist langsam und ineffektiv. Wir von FIDgate bieten intelligente Lösungen, um dies zu ändern. Entdecken Sie, wie unser innovativer Service die Rentabilität Ihres Projekts steigert und den Entscheidungsprozess verbessert.",
   "home_hero_button": "Unsere Dienstleistungen",
@@ -37,5 +50,143 @@
     "phone": "Telefon",
     "subject": "Thema",
     "message": "Nachricht"
-  }
+  },
+  "home_contact_checkBox": "Ich akzeptiere die <1>Datenschutzerklärung</1> und stimme der Verwendung meiner persönlichen Daten zu, um kontaktiert zu werden und eine Antwort auf meine Anfragen zu erhalten.",
+  "home_contact_button": "Senden",
+  "home_contact_MapAddress": "ADRESSE",
+  "home_contact_MapEmail": "EMAIL",
+  "home_contact_MapPhone": "TELEFON",
+
+  "services_whatWeDoBest_title": "WAS WIR AM BESTEN KÖNNEN",
+  "services_whatWeDoBest_paragraph": "Ständig auf der Suche nach Innovationen, um die besten Lösungen anzubieten.",
+  "services_whatWeDoBest_children": [
+    {
+      "id": "1",
+      "icon": "dollar",
+      "title": "Erhöhung der \nProjektwerte"
+    },
+    {
+      "id": "2",
+      "icon": "brain",
+      "title": "Ermittlung der besten Projektmöglichkeiten"
+    },
+    {
+      "id": "3",
+      "icon": "database",
+      "title": "Verwalten Sie Tausende von Datenpunkten"
+    },
+    {
+      "id": "4",
+      "icon": "setting",
+      "title": "Anpassung an \nVeränderungen in der Industrie"
+    }
+  ],
+  "services_ourMainService_title": "UNSERE HAUPTLEISTUNG",
+  "services_ourMainService_paragraph": "FIDgate hat sich auf die Bereitstellung von Finanzoptimierungs- und Beratungsdienstleistungen für Solar- und Speicheranlagen spezialisiert, die auf die unterschiedlichen Bedürfnisse unserer Kunden zugeschnitten sind. Wir nutzen eine Kombination aus Branchenkenntnis, Datenanalyse, anspruchsvoller Modellierung und modernster Technologie, um innovative Lösungen anzubieten.",
+  "services_complementaryServices_title": "KOSTENLOSE DIENSTLEISTUNGEN",
+  "services_complementaryServices_paragraph": "Unabhängig davon, ob sich die Anlage in Europa oder in anderen Märkten befindet, bieten wir eine Reihe zusätzlicher Dienstleistungen an, um den Erfolg Ihrer PV-Projekte sicherzustellen:",
+  "services_complementaryServices_children": [
+    {
+      "id": "1",
+      "title": "Beschaffung \n2.0",
+      "paragraph": "Verbessern Sie Ihren Beschaffungsprozess: Vergleichen Sie Hunderte von Anbietern und Ausrüstungsvarianten, um die optimale Kombination zur Steigerung der Leistung und Kosteneffizienz Ihrer PV-Anlagen zu ermitteln.",
+      "colSpan": ""
+    },
+    {
+      "id": "2",
+      "title": "PV-Ertrag \nBericht",
+      "paragraph": "Wir stellen sicher, dass unsere Berichte auf einer soliden Grundlage beruhen, indem wir jahrelange Erfahrung mit PVsyst und unseren eigenen optimierten Berechnungswerkzeugen, z. B. für Wechselrichter-Überlastverluste, kombinieren.",
+      "colSpan": ""
+    },
+    {
+      "id": "3",
+      "title": "Bewertung der solaren \nRessourcen",
+      "paragraph": "Genaue Bewertungen der Solarressourcen, einschließlich der Daten des typischen meteorologischen Jahres (TMY) und mehrjähriger Zeitreihen, um zuverlässige Informationen für die Projektplanung und -entwicklung zu erhalten.",
+      "colSpan": ""
+    },
+    {
+      "id": "4",
+      "title": "PXX und \nUnwägbarkeiten",
+      "paragraph": "Bewerten Sie die statistische Signifikanz und die Unsicherheiten in den Solardaten, um ein klares Verständnis der potenziellen Leistung und der Risiken zu erhalten.",
+      "colSpan": ""
+    },
+    {
+      "id": "5",
+      "title": "Verschmutzung & Reinigung \nStrategie",
+      "paragraph": "Analysieren Sie Verschmutzungsverluste und entwickeln Sie optimale Reinigungsstrategien, um die Effizienz und den Ertrag Ihrer Solaranlagen zu maximieren.",
+      "colSpan": "md:col-span-2 md:px-[25%]"
+    }
+  ],
+  "services_personalizedProcess_title": "PERSONALISIERTER PROZESS",
+  "services_personalizedProcess_paragraph": "Wir sind in der Lage, je nach den Erfordernissen Ihres Projekts unterschiedliche Ansätze zu verfolgen, so dass wir uns an verschiedene Strategien für eine optimale Zusammenarbeit anpassen und diese aufeinander abstimmen können.",
+  "services_result_title": "Das Ergebnis für Ihr Unternehmen",
+  "services_result_secondElement": "Die wertvollsten Erkenntnisse für die Projektentwicklung und -durchführung.",
+  "services_result_firstElement": "Äußerst bequemer Geschäftsfall und gestraffter Entscheidungsprozess.",
+  "services_result_button": "JETZT EINEN TERMIN FÜR EINE ERSTBERATUNG VEREINBAREN",
+
+  "about_mission_title": "MISSION",
+  "about_mission_paragraph": "Bei FIDgate widmen wir uns der Maximierung des Potenzials von Projekten für erneuerbare Energien durch innovative Lösungen und fortschrittliche Optimierungstechniken. Unsere Mission ist es, den Sektor für erneuerbare Energien voranzutreiben und Unternehmen sowie Länder dabei zu unterstützen, ihre Nachhaltigkeitsziele zu erreichen.",
+  "about_ourKeyTeamMembers_title": "UNSERE SCHLÜSSELTEAMMITGLIEDER",
+  "about_ourKeyTeamMembers_paragraph": "Unser Team besteht aus PV-Solar- und Spezialisten für Speicherlösungen, Unternehmern und Softwareingenieuren mit mehr als sechs Jahrzehnten kombinierter Erfahrung. Zusammen bringen wir eine Fülle von Erfahrung und eine Leidenschaft für Nachhaltigkeit in jedes Projekt ein, das wir übernehmen.",
+  "about_ourKeyTeamMembers_children": [
+    {
+      "image": "juan",
+      "name": "JUAN MANUEL ROLDAN",
+      "roll": "Geschäftsführer \n& Gründer",
+      "education": "MSc. Maschinenbau (UNMDP) & Zertifizierter Energieexperte (RENAC)",
+      "experience": "Optimierungsexperte mit über 7 Jahren Erfahrung in der erneuerbaren Energiewirtschaft. Er hat dazu beigetragen, die Lücke zwischen Finanzierung und Ingenieurwesen für einige der größten Investoren des Sektors zu überbrücken, darunter Copenhagen Infrastructure Partners und European Energy.\n\n Als Projektmanager & Berater hat er technische und kommerzielle Unterstützung während der Entwicklung und Optimierung von integrierten Solar-PV-, Speicher- und P-t-X-Projekten in mehr als 15 Ländern bereitgestellt, darunter Nordamerika, LATAM, Europa, Australien und der Nahost.",
+      "projects": [
+        "50 MW Mokoan (Australien)",
+        "1,1 GW Upper Calliope (Australien)",
+        "50 MW Milbakken (Dänemark)",
+        "180 MW Lidsø (Dänemark)",
+        "50 MW Great House (Großbritannien)",
+        "50 MW Maisemore (Großbritannien)",
+        "330 MW Jonava (Litauen)",
+        "450 MW Aira (Kanada)",
+        "300 MW Fighting Jays (USA)",
+        "300 MW Janauba (Brasilien)",
+        "+2 GW Portfolio (Schwellenländer)"
+      ]
+    },
+    {
+      "image": "manuel",
+      "name": "JUAN MANUEL GIMENEZ",
+      "roll": "Softwareentwickler \n& Mitbegründer",
+      "education": "PhD. Maschinenbau (UNMDP) & KI-Wissenschaftler (ITBA)",
+      "experience": "Unternehmer mit über 7 Jahren Erfahrung in wissenschaftlicher Modellierung und der Entwicklung neuronaler Netze zur Unterstützung von Verstärkungslernalgorithmen.\n\n Als Schlüsselfigur beim Aufbau komplexer mathematischer Modelle ist er besonders gut darin, eine Vielzahl von Variablen zu optimieren. Während seines Promotionsstudiums entwickelte er integrierende mechanische Rechenmodelle, die die komplexen Dynamiken biomechanischer Systeme bewältigen können.\n\n Er hat auch mehrdimensionale Formulierungen entwickelt und implementiert, die es ermöglichen, große Systeme in spezifischen Regionen mit hoher Präzision zu analysieren, während gleichzeitig ein umfassender Überblick über globale Interaktionen gewahrt bleibt.",
+      "projects": []
+    },
+    {
+      "image": "nicolas",
+      "name": "NICOLAS BIOCCA",
+      "roll": "Softwareentwickler \n& Mitbegründer",
+      "education": "PhD. Maschinenbau (UNMDP) & Computational Scientist",
+      "experience": "Experte für computergestützte Modellierung und Softwareentwicklung mit über 7 Jahren Erfahrung. Er ist spezialisiert auf die Automatisierung von Aufgaben und das Management von Rechenarbeitsabläufen auf HPC-Plattformen.\n\n Als PhD in Maschinenbau, der zum Softwareentwickler wurde, hat er seine Karriere der Schnittstelle zwischen computergestützter Modellierung und Softwareentwicklung gewidmet. Er hat komplexe Multiphysik-Probleme in den Bereichen Fluiddynamik und Strukturmechanik angegangen.\n\n Als Postdoktorand entwickelt er Ozeanzirkulationsmodelle und optimiert numerische Codes, was seine Fähigkeit demonstriert, theoretische Forschung mit praktischen, wirkungsvollen Softwarelösungen zu verbinden.",
+      "projects": []
+    },
+    {
+      "image": "nicholaj",
+      "name": "NICHOLAJ ASGER HANSEN",
+      "roll": "Strategischer \nBerater",
+      "education": "MSc. Copenhagen Business School",
+      "experience": "Allround-Business- und Innovationsexperte mit über 20 Jahren Erfahrung als internationaler Executive und Unternehmer in nachhaltigen Unternehmen.\n\n Er hat mehrere Unternehmen mitgegründet und geleitet, die einen realen Wert und positive Auswirkungen auf Umwelt und Gesellschaft schaffen.\n\n Er ist leidenschaftlich daran interessiert, state-of-the-art-Lösungen zu entwickeln, die die globalen Herausforderungen des Klimawandels und der Energiesicherheit angehen.",
+      "projects": []
+    }
+  ],
+
+  "contact_paragraph": "Entdecken Sie aus erster Hand, wie FIDgate Ihr Unternehmen verbessern kann",
+  "contact_card_phone": "Telefon",
+  "contact_card_mail": "Email",
+  "contact_form_title": "Lassen Sie uns sprechen!",
+  "contact_form_paragraph": "Für allgemeine Anfragen oder um das Gespräch zu beginnen, füllen Sie bitte dieses Kontaktformular aus, und wir werden uns so schnell wie möglich bei Ihnen melden.",
+  "contact_form_inputLabels": {
+    "name": "Name",
+    "company": "Unternehmen",
+    "email": "Email",
+    "phone": "Telefon",
+    "subject": "Thema",
+    "message": "Nachricht"
+  },
+  "contact_form_button": "Senden"
 }

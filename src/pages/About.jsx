@@ -1,19 +1,22 @@
+import { useTranslation } from 'react-i18next'
 import { Member } from '../components'
-import { teamMembers } from '../constants/teamMembers'
+// import { teamMembers } from '../constants/teamMembers'
 
 const About = () => {
+  const { t } = useTranslation()
+
+  const teamMembers = t('about_ourKeyTeamMembers_children', {
+    returnObjects: true
+  })
+
   return (
     <div>
       <section className='body-font flex flex-col items-center bg-light px-6 py-20 text-gray-600'>
         <h1 className='pb-6 text-center text-title font-medium text-primary'>
-          MISSION
+          {t('about_mission_title')}
         </h1>
         <p className='text-center text-paragraph leading-relaxed md:w-2/3'>
-          At FIDgate, we are dedicated to maximizing the potential of renewable
-          energy projects through cutting-edge solutions and advanced
-          optimization techniques. Our mission is to drive the renewable energy
-          sector forward, enabling companies and countries to achieve their
-          sustainability goals.
+          {t('about_mission_paragraph')}
         </p>
       </section>
 
@@ -21,14 +24,10 @@ const About = () => {
         <div className='mx-auto px-6 py-8'>
           <div className='mb-20 flex w-full flex-col items-center text-center'>
             <h1 className='mb-4 text-title font-medium text-primary'>
-              OUR KEY TEAM MEMBERS
+              {t('about_ourKeyTeamMembers_title')}
             </h1>
             <p className='text-center text-paragraph leading-relaxed md:w-2/3'>
-              Our team consists of PV solar and storage specialists,
-              entrepreneurs, and software engineers with more than six decades
-              of combined track record. Together, we bring a wealth of
-              experience and a passion for sustainability to every project we
-              undertake.
+              {t('about_ourKeyTeamMembers_paragraph')}
             </p>
           </div>
           <div className='grid grid-cols-1 gap-10 lg:grid-cols-2 xl:grid-cols-4'>

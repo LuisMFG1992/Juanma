@@ -14,6 +14,8 @@ import { useTranslation } from 'react-i18next'
 const Navbar = () => {
   const { t, i18n } = useTranslation()
 
+  const translatedNavLinks = t('navbar_links', { returnObjects: true })
+
   const changeLanguage = (language) => {
     i18n.changeLanguage(language)
   }
@@ -66,7 +68,7 @@ const Navbar = () => {
                       : 'text-lg text-paragraph text-lightGray '
                   }
                 >
-                  {link.label}
+                  {translatedNavLinks[link.label]}
                 </NavLink>
               ))}
               <AppDropdownMenu
@@ -95,7 +97,7 @@ const Navbar = () => {
                       : 'w-full py-2 text-center text-lg text-paragraph text-lightGray '
                   }
                 >
-                  {link.label}
+                  {translatedNavLinks[link.label]}
                 </NavLink>
               ))}
               <AppDropdownMenu

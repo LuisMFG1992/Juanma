@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom'
 import logo from '../assets/LogoFIDgate.svg'
 import { FaLinkedin } from 'react-icons/fa'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
+
   return (
     <>
       <footer className='body-font flex flex-col justify-between border border-t-2 bg-light p-6 text-gray-600 sm:flex-row sm:gap-6'>
@@ -15,8 +18,8 @@ const Footer = () => {
           </Link>
         </div>
         <div className='flex flex-col items-center gap-4 pt-4 text-paragraph sm:flex-row sm:text-center md:gap-6'>
-          <p>©2024 Copyright</p>
-          <Link to={'/privacyPolicy'}>Privacy policy</Link>
+          <p>{t('footer_copyright')}</p>
+          <Link to={'/privacyPolicy'}>{t('footer_privacyPolicy')}</Link>
           <Link to={'https://www.linkedin.com/company/fidgate'}>
             <FaLinkedin size={40} className='text-primary' />
           </Link>

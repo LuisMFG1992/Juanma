@@ -1,3 +1,4 @@
+import { teamPictures } from '../constants'
 import Accordion from './Accordion'
 
 const Member = ({ member }) => {
@@ -7,7 +8,7 @@ const Member = ({ member }) => {
         <img
           alt='team'
           className='size-60 rounded-full border-2 border-primary object-cover'
-          src={member.image}
+          src={teamPictures[member.image]}
         />
         <h2 className='text-[1.4rem] font-medium text-primary xl:w-[278px]'>
           {member.name}

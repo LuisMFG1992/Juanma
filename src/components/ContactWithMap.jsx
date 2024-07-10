@@ -91,13 +91,13 @@ const ContactWithMap = () => {
             <div className='relative hidden w-[95%] flex-wrap rounded bg-white py-6 shadow-md md:flex'>
               <div className='px-6 lg:w-1/2'>
                 <h2 className='title-font text-xs font-semibold tracking-widest text-primary'>
-                  ADDRESS
+                  {t('home_contact_MapAddress')}
                 </h2>
                 <p className='mt-1'>{contactInfo.address}</p>
               </div>
               <div className='mt-4 px-6 lg:mt-0 lg:w-1/2'>
                 <h2 className='title-font text-xs font-semibold tracking-widest text-primary'>
-                  EMAIL
+                  {t('home_contact_MapEmail')}
                 </h2>
                 <a
                   href={`mailto:${contactInfo.mail}`}
@@ -106,7 +106,7 @@ const ContactWithMap = () => {
                   {contactInfo.mail}
                 </a>
                 <h2 className='title-font mt-4 text-xs font-semibold tracking-widest text-primary'>
-                  PHONE
+                  {t('home_contact_MapPhone')}
                 </h2>
                 <a
                   href={`tel:${contactInfo.phone}`}
@@ -119,12 +119,10 @@ const ContactWithMap = () => {
           </div>
           <div className='max-w-[600px] md:max-w-[800px]'>
             <h2 className='mb-1 text-subtitle font-medium text-primary'>
-              {"Let's chat!"}
+              {t('home_contact_title')}
             </h2>
             <p className='mb-5 text-paragraph leading-relaxed text-gray-600'>
-              For general inquiries or to start the conversation, please fill
-              out this contact form and we{"'"}ll get back to you as soon as
-              possible.
+              {t('home_contact_paragraph')}
             </p>
             <form
               onSubmit={handleSubmit}
@@ -136,7 +134,7 @@ const ContactWithMap = () => {
                     <AppInput
                       key={input.id}
                       id={input.id}
-                      name={input.name}
+                      name={translatedInputLabels[input.id]}
                       inputType={input.inputType}
                       required={input.required}
                       handleInputChange={handleInputChange}
@@ -147,7 +145,11 @@ const ContactWithMap = () => {
               </div>
               <ConsentCheckbox />
               <div className='flex w-full justify-center'>
-                <AppButton text={'Send'} type='submit' width='w-full' />
+                <AppButton
+                  text={t('home_contact_button')}
+                  type='submit'
+                  width='w-full'
+                />
               </div>
             </form>
           </div>

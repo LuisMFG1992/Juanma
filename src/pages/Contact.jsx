@@ -5,13 +5,16 @@ import { MdOutlineEmail } from 'react-icons/md'
 // import { GrLocation } from 'react-icons/gr'
 import { FiSmartphone } from 'react-icons/fi'
 import { contactInfo } from '../constants'
+import { useTranslation } from 'react-i18next'
 
 const Contact = () => {
+  const { t } = useTranslation()
+
   return (
     <>
       <section className='body-font text-gray-600'>
         <p className='w-full pt-10 text-center text-subtitle'>
-          Discover first-hand how FIDgate can improve your business
+          {t('contact_paragraph')}
         </p>
         <div className='container mx-auto px-5 py-8'>
           <div className='-m-4 flex flex-wrap justify-center'>
@@ -22,7 +25,7 @@ const Contact = () => {
                     <FiSmartphone />
                   </div>
                   <h2 className='text-subtitle font-medium text-gray-900'>
-                    Phone
+                    {t('contact_card_phone')}
                   </h2>
                 </div>
                 <div className='flex-grow'>
@@ -42,7 +45,7 @@ const Contact = () => {
                     <MdOutlineEmail />
                   </div>
                   <h2 className='text-subtitle font-medium text-gray-900'>
-                    Mail
+                    {t('contact_card_mail')}
                   </h2>
                 </div>
                 <div className='flex-grow'>
@@ -59,12 +62,11 @@ const Contact = () => {
         </div>
       </section>
       <h1 className='w-full pt-8 text-center text-title font-semibold text-primary'>
-        Let{"'"}s chat!
+        {t('contact_form_title')}
       </h1>
       <div className='flex justify-center'>
         <p className='max-w-[800px] px-6 pb-10 pt-4 text-center text-paragraph'>
-          For general inquiries or to start the conversation, please fill out
-          this contact form and we{"'"}ll get back to you as soon as possible.
+          {t('contact_form_paragraph')}
         </p>
       </div>
       <ContactForm />
