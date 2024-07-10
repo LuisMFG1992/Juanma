@@ -6,8 +6,15 @@ import AppInput from './AppInput'
 import AppButton from './AppButton'
 import ConsentCheckbox from './ConsentCheckbox'
 import { homeFormSchema } from '../constants/inputSchemas'
+import { useTranslation } from 'react-i18next'
 
 const ContactWithMap = () => {
+  const { t } = useTranslation()
+
+  const translatedInputLabels = t('home_contact_inputLabels', {
+    returnObjects: true
+  })
+
   const [formData, setFormData] = useState({
     name: '',
     company: '',

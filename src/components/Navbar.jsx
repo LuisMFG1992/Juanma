@@ -45,6 +45,7 @@ const Navbar = () => {
           {contactInfo.mail}
         </a>
       </div>
+
       <nav className='border-b-1 border border-lightGray bg-white px-6'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
@@ -81,7 +82,7 @@ const Navbar = () => {
               <GiHamburgerMenu className='text-2xl text-primary  ' />
             </div>
           </div>
-          {isNavbarToggled ? (
+          {isNavbarToggled && (
             <div className='flex flex-col items-center pb-4'>
               {navLinks.map((link) => (
                 <NavLink
@@ -97,10 +98,11 @@ const Navbar = () => {
                   {link.label}
                 </NavLink>
               ))}
-              <AppDropdownMenu />
+              <AppDropdownMenu
+                callbackEnglish={() => changeLanguage('en')}
+                callbackGerman={() => changeLanguage('de')}
+              />
             </div>
-          ) : (
-            ''
           )}
         </div>
       </nav>

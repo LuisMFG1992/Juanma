@@ -1,7 +1,41 @@
 {
-  "home_1_title": "Entfalten Sie Ihr volles Potenzial",
-  "home_1_paragraph": "Die herkömmliche Optimierung von Solarprojekten ist langsam und ineffektiv. Wir von FIDgate bieten intelligente Lösungen, um dies zu ändern. Entdecken Sie, wie unser innovativer Service die Rentabilität Ihres Projekts steigert und den Entscheidungsprozess verbessert.",
-  "home_1_button": "Unsere Dienstleistungen",
-  "howDoWeHelpYouTitle": "WIE KÖNNEN WIR IHNEN HELFEN?",
-  "howDoWeHelpYouParagraph1": ""
+  "home_hero_title": "Entfalten Sie Ihr volles Potenzial",
+  "home_hero_paragraph": "Die herkömmliche Optimierung von Solarprojekten ist langsam und ineffektiv. Wir von FIDgate bieten intelligente Lösungen, um dies zu ändern. Entdecken Sie, wie unser innovativer Service die Rentabilität Ihres Projekts steigert und den Entscheidungsprozess verbessert.",
+  "home_hero_button": "Unsere Dienstleistungen",
+  "home_howDoWeHelpYouTitle_title": "WIE KÖNNEN WIR IHNEN HELFEN?",
+  "home_howDoWeHelpYouTitle_firstParagraph": "Mehr als 60 % der Projekte passieren nicht das FID-Gate, und von den 40 %, die gebaut werden, verlieren sie oft 5-15 % des IRR",
+  "home_howDoWeHelpYouTitle_secondParagraph": "<1>Lösungen durch Zusammenarbeit:</1> Indem wir unser Fachwissen mit Ihren Geschäftszielen in Einklang bringen, verwandeln wir Energieprojekte in optimierte, leistungsstarke Anlagen.",
+  "home_howDoWeHelpYouTitle_children": [
+    {
+      "id": "1",
+      "icon": "dollar",
+      "title": "Optimieren Sie Ihr \nBusiness Case",
+      "paragraph": "Maximieren Sie die Kapitalrendite Ihres Projekts um bis zu 15 % durch unsere spezialisierten Optimierungsdienste. Unser Team bietet detaillierte Analysen und maßgeschneiderte Strategien, die sich an Ihren Finanzmodellen orientieren und Ihnen helfen, schnell fundierte Entscheidungen zu treffen."
+    },
+    {
+      "id": "2",
+      "icon": "arrow",
+      "title": "Verbesserung der Effizienz & \nReduzierung des Risikos",
+      "paragraph": "Optimieren Sie Ihre Projektabläufe, indem Sie unsere fachkundigen Beratungsdienste in Anspruch nehmen. Wir reduzieren den manuellen Aufwand, sorgen für einen reibungsloseren und effizienteren Betrieb und mindern die mit ungenauen Dateneingaben verbundenen Risiken."
+    },
+    {
+      "id": "3",
+      "icon": "lamp",
+      "title": "Eine neue Perspektive gewinnen",
+      "paragraph": "Erhalten Sie unvoreingenommene, fachkundige Beurteilungen Ihrer Projektentwürfe. Unsere maßgeschneiderten Lösungen sind auf die unterschiedlichen Bedürfnisse der verschiedenen Märkte und die spezifischen Anforderungen der Kunden zugeschnitten und gewährleisten, dass Ihre Projekte sowohl innovativ als auch effektiv sind."
+    }
+  ],
+  "home_quote_paragraph": "Während meiner siebenjährigen Tätigkeit in einigen der größten Energieunternehmen wurde mir klar, wie viel Potenzial oft durch Zeitmangel und das Fehlen besserer Methoden verschenkt wird. Ich war überzeugt, dass es einen besseren Weg geben musste, und ich war entschlossen, ihn zu finden. Nach umfangreichen Recherchen und der Beteiligung an mehreren Projekten wurde mir die Lösung klar. Zu diesem Zeitpunkt beschloss ich, FIDgate zu gründen. FIDgate unterstützt Unternehmen und Länder dabei, ihre globalen Nachhaltigkeitsziele auf kosteneffiziente Weise zu erreichen.",
+  "home_quote_AuthRol": "Optimierungsexperte & Gründer",
+  "home_quote_AuthExp": "+5 GW Erneuerbare Energien Erfahrung in +15 Ländern",
+  "home_contact_title": "Plaudern wir ein wenig",
+  "home_contact_paragraph": "Für allgemeine Anfragen oder um ein Gespräch zu beginnen, füllen Sie bitte dieses Kontaktformular aus und wir werden uns so schnell wie möglich mit Ihnen in Verbindung setzen.",
+  "home_contact_inputLabels": {
+    "name": "Name",
+    "company": "Unternehmen",
+    "email": "Email",
+    "phone": "Telefon",
+    "subject": "Thema",
+    "message": "Nachricht"
+  }
 }

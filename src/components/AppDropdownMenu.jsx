@@ -14,13 +14,23 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
         <IoMdArrowDropdown size={'1.3rem'} className='text-lightGray' />
       </button>
       {showMenu && (
-        <div className='border-2-primary absolute left-0 flex w-full flex-col items-center border bg-white py-2 shadow-xl'>
+        <div className='border-2-primary absolute left-0 top-8 flex w-full flex-col items-center border bg-white py-2 shadow-xl'>
           <ul>
             <li>
-              <button onClick={callbackEnglish}>English</button>
+              <button
+                onClick={callbackEnglish}
+                className='text-paragraph text-lightGray'
+              >
+                English
+              </button>
             </li>
             <li>
-              <button onClick={callbackGerman}>German</button>
+              <button
+                onClick={callbackGerman}
+                className='text-paragraph text-lightGray'
+              >
+                German
+              </button>
             </li>
           </ul>
         </div>

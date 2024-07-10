@@ -1,7 +1,41 @@
 {
-  "home_1_title": "Unlock Full Potential",
-  "home_1_paragraph": "Traditional solar project optimizations are slow and ineffective. At FIDgate, we offer intelligent solutions to change this. Discover how our innovative service boost your project's profitability and enhance the decision-making process.",
-  "home_1_button": "Our services",
-  "howDoWeHelpYouTitle": "HOW DO WE HELP YOU",
-  "howDoWeHelpYouParagraph1": ""
+  "home_hero_title": "Unlock Full Potential",
+  "home_hero_paragraph": "Traditional solar project optimizations are slow and ineffective. At FIDgate, we offer intelligent solutions to change this. Discover how our innovative service boost your project's profitability and enhance the decision-making process.",
+  "home_hero_button": "Our services",
+  "home_howDoWeHelpYouTitle_title": "HOW DO WE HELP YOU",
+  "home_howDoWeHelpYouTitle_firstParagraph": "Over 60% of projects do not pass the FID gate, and of the 40% that do get built they often lose 5-15% of IRR",
+  "home_howDoWeHelpYouTitle_secondParagraph": "<1>Solutions Born from Collaboration:</1> By aligning our expertise with your business goals, we transform energy projects into optimized, high-performing assets.",
+  "home_howDoWeHelpYouTitle_children": [
+    {
+      "id": "1",
+      "icon": "dollar",
+      "title": "Optimize Your \nBusiness Case",
+      "paragraph": "Maximize your project's return on investment by up to 15% through our specialized optimization services. Our team provides detailed analyses and custom-tailored strategies that align with your financial models, helping you make informed decisions quickly."
+    },
+    {
+      "id": "2",
+      "icon": "arrow",
+      "title": "Improve Efficiency & \nReduce Risk",
+      "paragraph": "Streamline your project workflows by leveraging our expert consulting services. We reduce manual effort, ensuring smoother more efficient operation and mitigating risks associated with inaccurate data inputs."
+    },
+    {
+      "id": "3",
+      "icon": "lamp",
+      "title": "Get a Fresh \nPerspective",
+      "paragraph": "Receive unbiased, expert evaluations of your project designs. Our tailored solutions are crafted to meet the diverse needs of different markets and specific client requirements, ensuring your projects are both innovative and effective."
+    }
+  ],
+  "home_quote_paragraph": "During my 7 years of experience working in some of the biggest energy companies, I realized how much potential is often lost due to time constraints and the absence of better methodologies. I was convinced that there must be a better way and I was determined to find it. After extensive research and involvement in several projects, the solution became clear to me. This is when I decided to start FIDgate. FIDgate assists companies and countries in meeting their Global Sustainability Goals in a cost-efficient manner.",
+  "home_quote_AuthRol": "Optimization Expert & Founder",
+  "home_quote_AuthExp": "+5 GW Renewable Experience in +15 countries",
+  "home_contact_title": "Let's chat",
+  "home_contact_paragraph": "For general inquiries or to start the conversation, please fill out this contact form and we'll get back to you as soon as possible.",
+  "home_contact_inputLabels": {
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message"
+  }
 }
