@@ -1,4 +1,7 @@
 {
+  "cookies_paragraph": "Wir verwenden Cookies, um Ihr Nutzererlebnis zu verbessern. Durch die Nutzung unserer Website stimmen Sie unserer Verwendung von Cookies zu, <1>Mehr erfahren.</1>",
+  "cookies_button": "Zustimmen",
+
   "navbar_links": {
     "home": "Startseite",
     "services": "Dienstleistungen",
@@ -22,13 +25,13 @@
     {
       "id": "1",
       "icon": "dollar",
-      "title": "Optimieren Sie Ihr \nBusiness Case",
+      "title": "Optimieren Sie Ihr Business Case",
       "paragraph": "Maximieren Sie die Kapitalrendite Ihres Projekts um bis zu 15 % durch unsere spezialisierten Optimierungsdienste. Unser Team bietet detaillierte Analysen und maßgeschneiderte Strategien, die sich an Ihren Finanzmodellen orientieren und Ihnen helfen, schnell fundierte Entscheidungen zu treffen."
     },
     {
       "id": "2",
       "icon": "arrow",
-      "title": "Verbesserung der Effizienz & \nReduzierung des Risikos",
+      "title": "Verbesserung der Effizienz & Reduzierung des Risikos",
       "paragraph": "Optimieren Sie Ihre Projektabläufe, indem Sie unsere fachkundigen Beratungsdienste in Anspruch nehmen. Wir reduzieren den manuellen Aufwand, sorgen für einen reibungsloseren und effizienteren Betrieb und mindern die mit ungenauen Dateneingaben verbundenen Risiken."
     },
     {
@@ -114,7 +117,13 @@
       "id": "5",
       "title": "Verschmutzung & Reinigung \nStrategie",
       "paragraph": "Analysieren Sie Verschmutzungsverluste und entwickeln Sie optimale Reinigungsstrategien, um die Effizienz und den Ertrag Ihrer Solaranlagen zu maximieren.",
-      "colSpan": "md:col-span-2 md:px-[25%]"
+      "colSpan": ""
+    },
+    {
+      "id": "6",
+      "title": "PV Design Support Nutzen",
+      "paragraph": "Profitieren Sie von unseren Erkenntnissen aus GWs Projekterfahrung. Sie erhalten Unterstützung durch erste Layoutentwürfe zur Planungsoptimierung und Machbarkeit",
+      "colSpan": ""
     }
   ],
   "services_personalizedProcess_title": "PERSONALISIERTER PROZESS",
@@ -188,5 +197,266 @@
     "subject": "Thema",
     "message": "Nachricht"
   },
-  "contact_form_button": "Senden"
+  "contact_form_button": "Senden",
+  "privacyPolicy": [
+    {
+      "type": "h2",
+      "content": "Datenschutzerklärung",
+      "className": "mb-4 pt-6 text-subtitle font-medium"
+    },
+    {
+      "type": "p",
+      "content": "Letzte Aktualisierung: 10. November 2023",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Diese Datenschutzerklärung beschreibt unsere Richtlinien und Verfahren zur Erfassung, Nutzung und Offenlegung Ihrer Informationen, wenn Sie den Service nutzen, und informiert Sie über Ihre Datenschutzrechte und wie das Gesetz Sie schützt. Wir legen großen Wert auf den Schutz Ihrer personenbezogenen Daten und deren Sicherheit gemäß der EU-Datenschutz-Grundverordnung (DSGVO).",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Wir verwenden Ihre personenbezogenen Daten, um den Service bereitzustellen und zu verbessern. Durch die Nutzung des Service stimmen Sie der Erfassung und Nutzung von Informationen gemäß dieser Datenschutzerklärung zu.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "h2",
+      "content": "Auslegung und Definitionen",
+      "className": "mb-4 pt-6 text-subtitle font-medium"
+    },
+    {
+      "type": "p",
+      "content": "Auslegung",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Die Wörter, deren Anfangsbuchstaben großgeschrieben sind, haben die unter den folgenden Bedingungen definierte Bedeutung. Die folgenden Definitionen haben unabhängig davon, ob sie im Singular oder im Plural erscheinen, dieselbe Bedeutung.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "h2",
+      "content": "Definitionen",
+      "className": "mb-4 pt-6 text-subtitle font-medium"
+    },
+    {
+      "type": "p",
+      "content": "Für die Zwecke dieser Datenschutzerklärung:",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Konto bedeutet ein einzigartiges Konto, das für Sie erstellt wurde, um auf unseren Service oder Teile unseres Service zuzugreifen.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Affiliate bedeutet ein Unternehmen, das eine Partei kontrolliert, von einer Partei kontrolliert wird oder unter gemeinsamer Kontrolle mit einer Partei steht, wobei Kontrolle den Besitz von 50% oder mehr der Anteile, des Eigenkapitals oder anderer Wertpapiere bedeutet, die zur Wahl von Direktoren oder anderen Verwaltungsgremien berechtigt sind.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Unternehmen (in dieser Vereinbarung entweder als das Unternehmen, Wir, Uns oder Unser bezeichnet) bezieht sich auf FIDgate, Berlin-Mitte, Deutschland.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Cookies sind kleine Dateien, die auf Ihrem Computer, Mobilgerät oder einem anderen Gerät von einer Website platziert werden und unter anderem die Details Ihres Browserverlaufs auf dieser Website enthalten.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Land bezieht sich auf: Berlin-Mitte, Deutschland",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Gerät bedeutet jedes Gerät, das auf den Service zugreifen kann, wie z. B. ein Computer, ein Mobiltelefon oder ein digitales Tablet.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare Person beziehen.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Service bezieht sich auf die Website.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Dienstanbieter bedeutet jede natürliche oder juristische Person, die die Daten im Auftrag des Unternehmens verarbeitet. Es bezieht sich auf Drittfirmen oder Einzelpersonen, die vom Unternehmen beauftragt wurden, den Service zu erleichtern, den Service im Namen des Unternehmens bereitzustellen, Dienstleistungen im Zusammenhang mit dem Service zu erbringen oder dem Unternehmen bei der Analyse der Nutzung des Service zu helfen.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Nutzungsdaten beziehen sich auf automatisch gesammelte Daten, entweder durch die Nutzung des Service oder aus der Service-Infrastruktur selbst (zum Beispiel die Dauer eines Seitenbesuchs).",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Website bezieht sich auf FIDgate, zugänglich unter https://fidgate.com/",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Sie bedeutet die Person, die auf den Service zugreift oder ihn nutzt, oder das Unternehmen oder eine andere juristische Person, in deren Namen eine solche Person auf den Service zugreift oder ihn nutzt, soweit zutreffend.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "h2",
+      "content": "Erfassung und Verwendung Ihrer personenbezogenen Daten",
+      "className": "mb-4 pt-6 text-subtitle font-medium"
+    },
+    {
+      "type": "p",
+      "content": "Arten der gesammelten Daten",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Personenbezogene Daten",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Während der Nutzung unseres Service können wir Sie bitten, uns bestimmte persönlich identifizierbare Informationen zur Verfügung zu stellen, die verwendet werden können, um Sie zu kontaktieren oder zu identifizieren. Persönlich identifizierbare Informationen können unter anderem umfassen:",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "ul",
+      "content": [
+        "E-Mail-Adresse",
+        "Vorname und Nachname",
+        "Telefonnummer",
+        "Nutzungsdaten"
+      ],
+      "className": "mb-4 ml-6 list-inside list-disc text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Nutzungsdaten",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Nutzungsdaten werden automatisch beim Nutzen des Service gesammelt.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Nutzungsdaten können Informationen wie die Internetprotokolladresse (z. B. IP-Adresse) Ihres Geräts, Browsertyp, Browserversion, die Seiten unseres Service, die Sie besuchen, die Uhrzeit und das Datum Ihres Besuchs, die auf diesen Seiten verbrachte Zeit, eindeutige Gerätekennungen und andere Diagnosedaten umfassen.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Wenn Sie über ein Mobilgerät auf den Service zugreifen, können wir bestimmte Informationen automatisch erfassen, einschließlich, aber nicht beschränkt auf, die Art des von Ihnen verwendeten Mobilgeräts, Ihre eindeutige Mobilgerät-ID, die IP-Adresse Ihres Mobilgeräts, Ihr mobiles Betriebssystem, den von Ihnen verwendeten mobilen Internetbrowser, eindeutige Gerätekennungen und andere Diagnosedaten.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Wir können auch Informationen sammeln, die Ihr Browser sendet, wann immer Sie unseren Service besuchen oder wenn Sie über ein Mobilgerät auf den Service zugreifen.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "h2",
+      "content": "Tracking-Technologien und Cookies",
+      "className": "mb-4 pt-6 text-subtitle font-medium"
+    },
+    {
+      "type": "p",
+      "content": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um die Aktivität auf unserem Service zu verfolgen und bestimmte Informationen zu speichern. Zu den verwendeten Tracking-Technologien gehören Beacons, Tags und Skripte, um Informationen zu sammeln und zu verfolgen und unseren Service zu verbessern und zu analysieren. Die von uns verwendeten Technologien können umfassen:",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "ul",
+      "content": [
+        "Cookies oder Browser-Cookies. Ein Cookie ist eine kleine Datei, die auf Ihrem Gerät platziert wird. Sie können Ihren Browser anweisen, alle Cookies abzulehnen oder anzuzeigen, wenn ein Cookie gesendet wird. Wenn Sie jedoch keine Cookies akzeptieren, können Sie möglicherweise einige Teile unseres Service nicht nutzen. Sofern Sie Ihre Browsereinstellungen nicht so angepasst haben, dass Cookies abgelehnt werden, kann unser Service Cookies verwenden.",
+        "Web-Beacons. Bestimmte Abschnitte unseres Service und unsere E-Mails können kleine elektronische Dateien enthalten, die als Web-Beacons bezeichnet werden (auch als Clear Gifs, Pixel Tags und Single-Pixel Gifs bezeichnet), die es dem Unternehmen ermöglichen, beispielsweise Benutzer zu zählen, die diese Seiten besucht oder eine E-Mail geöffnet haben, und für andere verwandte Website-Statistiken (zum Beispiel Aufzeichnung der Beliebtheit eines bestimmten Abschnitts und Überprüfung der System- und Serverintegrität)."
+      ],
+      "className": "mb-4 ml-6 list-inside list-disc text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Cookies können persistente oder Sitzungscookies sein. Persistente Cookies verbleiben auf Ihrem persönlichen Computer oder Mobilgerät, wenn Sie offline gehen, während Sitzungscookies gelöscht werden, sobald Sie Ihren Webbrowser schließen. Sie können mehr über Cookies hier erfahren: Alles über Cookies von TermsFeed.",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Wir verwenden sowohl Sitzungs- als auch persistente Cookies für die unten aufgeführten Zwecke:",
+      "className": "mb-4 text-paragraph"
+    },
+    {
+      "type": "ul",
+      "content": [
+        {
+          "type": "p",
+          "content": "**Notwendige / wesentliche Cookies**",
+          "className": "mb-4 text-paragraph font-medium"
+        },
+        {
+          "type": "p",
+          "content": "Typ: Sitzungscookies",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Verwaltet von: Uns",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Zweck: Diese Cookies sind unerlässlich, um Ihnen Dienste bereitzustellen, die über die Website verfügbar sind, und um Ihnen die Nutzung einiger ihrer Funktionen zu ermöglichen. Sie helfen, Benutzer zu authentifizieren und betrügerische Verwendung von Benutzerkonten zu verhindern. Ohne diese Cookies können die von Ihnen angeforderten Dienste nicht bereitgestellt werden, und wir verwenden diese Cookies nur, um Ihnen diese Dienste bereitzustellen.",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "**Cookies-Richtlinie / Hinweis Akzeptanz-Cookies**",
+          "className": "mb-4 text-paragraph font-medium"
+        },
+        {
+          "type": "p",
+          "content": "Typ: Persistente Cookies",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Verwaltet von: Uns",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Zweck: Diese Cookies identifizieren, ob Benutzer die Verwendung von Cookies auf der Website akzeptiert haben.",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "**Funktionalitäts-Cookies**",
+          "className": "mb-4 text-paragraph font-medium"
+        },
+        {
+          "type": "p",
+          "content": "Typ: Persistente Cookies",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Verwaltet von: Uns",
+          "className": "mb-4 text-paragraph"
+        },
+        {
+          "type": "p",
+          "content": "Zweck: Diese Cookies ermöglichen es uns, die Entscheidungen zu speichern, die Sie treffen, wenn Sie die Website nutzen, wie zum Beispiel das Speichern Ihrer Anmeldedaten oder Spracheinstellungen. Der Zweck dieser Cookies besteht darin, Ihnen eine persönlichere Erfahrung zu bieten und zu vermeiden, dass Sie Ihre Einstellungen jedes Mal neu eingeben müssen, wenn Sie die Website nutzen.",
+          "className": "mb-4 text-paragraph"
+        }
+      ],
+      "className": "mb-4 ml-6 list-inside list-disc text-paragraph"
+    },
+    {
+      "type": "p",
+      "content": "Für weitere Informationen über die von uns verwendeten Cookies und Ihre Wahlmöglichkeiten bezüglich Cookies besuchen Sie bitte unsere Cookies-Richtlinie.",
+      "className": "mb-4 text-paragraph"
+    }
+  ]
 }
