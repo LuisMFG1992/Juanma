@@ -7,7 +7,7 @@ const Hero = () => {
 
   return (
     <section className='bgHero py-28'>
-      <div className='flex h-full flex-col items-center justify-center px-6 text-center sm:px-20 md:px-28 lg:px-52'>
+      <div className='flex h-full flex-col items-center justify-center px-2 text-center sm:px-6 md:px-28 lg:px-52'>
         <h1 className='text-[3rem] font-medium text-white md:text-[4rem]'>
           {t('home_hero_title')}
         </h1>

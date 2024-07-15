@@ -79,7 +79,7 @@ const ContactWithMap = () => {
     <>
       <section className='body-font flex justify-center text-gray-600'>
         <Toaster />
-        <div className='flex flex-col justify-center gap-8 px-6 py-24 sm:flex-nowrap sm:gap-6 md:flex-row'>
+        <div className='flex flex-col justify-center gap-8 px-2 py-24 sm:flex-nowrap sm:gap-6 sm:px-6 md:flex-row'>
           <div className='relative flex h-96 w-full items-end justify-center overflow-hidden rounded-lg bg-gray-300 p-10 md:h-auto'>
             <iframe
               width='100%'

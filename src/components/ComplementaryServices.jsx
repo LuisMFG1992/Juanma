@@ -10,7 +10,7 @@ const ComplementaryServices = () => {
   })
 
   return (
-    <div className='flex flex-col items-center justify-center gap-8 px-6 py-12'>
+    <div className='flex flex-col items-center justify-center gap-8 px-2 py-12 sm:px-6'>
       <div className='flex flex-col items-center gap-8'>
         <div className='container mx-auto flex flex-col items-center justify-center md:flex-row'>
           <img
@@ -36,7 +36,7 @@ const ComplementaryServices = () => {
             <h2 className='text-center text-subtitle font-medium text-primary'>
               {element.title}
             </h2>
-            <p className='mx-[10%] text-center text-paragraph leading-relaxed'>
+            <p className='text-center text-paragraph leading-relaxed '>
               {element.paragraph}
             </p>
           </div>

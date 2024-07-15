@@ -1,4 +1,9 @@
-import { AppButton, ComplementaryServices, IconTitle } from '../components'
+import {
+  AppButton,
+  ComplementaryServices,
+  HowWeWork,
+  IconTitle
+} from '../components'
 import ContentImage from '../components/ContentImage'
 import { whatWeDoBest } from '../constants/services'
 
@@ -45,16 +50,18 @@ const Services = () => {
         image={services1}
       />
 
-      <ComplementaryServices />
+      <HowWeWork />
 
       <div className='bg-light'>
-        <ContentImage
-          title={t('services_personalizedProcess_title')}
-          text={t('services_personalizedProcess_paragraph')}
-          image={services2}
-          direction='left'
-        />
+        <ComplementaryServices />
       </div>
+
+      <ContentImage
+        title={t('services_personalizedProcess_title')}
+        text={t('services_personalizedProcess_paragraph')}
+        image={services2}
+        direction='left'
+      />
 
       <section className='flex flex-col gap-6 py-12'>
         <h2 className='title-font list-disc text-center text-3xl font-medium text-primary sm:text-4xl'>

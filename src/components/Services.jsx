@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <>
       <section className='body-font text-gray-600'>
-        <div className='px-6 py-24'>
+        <div className='px-2 py-24 sm:px-6'>
           <div className='mb-10 text-center'>
             <h1 className='title-font mb-4 text-title font-medium text-primary'>
               {t('home_howDoWeHelpYouTitle_title')}

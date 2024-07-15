@@ -65,7 +65,7 @@ const Contact = () => {
         {t('contact_form_title')}
       </h1>
       <div className='flex justify-center'>
-        <p className='max-w-[800px] px-6 pb-10 pt-4 text-center text-paragraph'>
+        <p className='max-w-[800px] px-2 pb-10 pt-4 text-center text-paragraph sm:px-6'>
           {t('contact_form_paragraph')}
         </p>
       </div>

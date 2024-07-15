@@ -8,7 +8,7 @@ const ContentImage = ({
     <div>
       {direction === 'right' ? (
         <section className='body-font bg-light text-gray-600'>
-          <div className='container mx-auto flex flex-col items-center px-5 py-12 md:flex-row'>
+          <div className='container mx-auto flex flex-col items-center px-2 py-12 sm:px-5 md:flex-row'>
             <div className='mb-16 flex flex-col items-center text-center md:mb-0 md:w-1/2 md:items-start md:pr-16 md:text-left lg:flex-grow lg:pr-24'>
               <h1 className='mb-4 text-title font-medium text-primary'>
                 {title}
@@ -32,7 +32,7 @@ const ContentImage = ({
         </section>
       ) : (
         <section className='body-font text-gray-600'>
-          <div className='container mx-auto flex flex-col items-center px-5 py-12 md:flex-row'>
+          <div className='container mx-auto flex flex-col items-center px-2 py-12 sm:px-5 md:flex-row'>
             <div className='mb-6 w-[250px] sm:mb-0 sm:w-[500px] md:w-[350px] lg:w-[550px]'>
               <img
                 className='rounded object-cover object-center'

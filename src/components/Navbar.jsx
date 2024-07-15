@@ -48,7 +48,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <nav className='border-b-1 border border-lightGray bg-white px-6'>
+      <nav className='border-b-1 border border-lightGray bg-white px-2 md:px-6'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
@@ -78,7 +78,7 @@ const Navbar = () => {
             </div>
 
             <div
-              className='cursor-pointer p-4 md:hidden'
+              className='cursor-pointer py-4 sm:px-6 md:hidden'
               onClick={() => toggleState(SetIsNavbarToggled)}
             >
               <GiHamburgerMenu className='text-2xl text-primary  ' />

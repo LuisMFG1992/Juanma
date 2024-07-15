@@ -11,7 +11,7 @@ const About = () => {
 
   return (
     <div>
-      <section className='body-font flex flex-col items-center bg-light px-6 py-20 text-gray-600'>
+      <section className='body-font flex flex-col items-center bg-light px-2 py-20 text-gray-600 sm:px-6'>
         <h1 className='pb-6 text-center text-title font-medium text-primary'>
           {t('about_mission_title')}
         </h1>
@@ -21,7 +21,7 @@ const About = () => {
       </section>
 
       <section className='body-font text-gray-600'>
-        <div className='mx-auto px-6 py-8'>
+        <div className='mx-auto px-2 py-8 sm:px-6'>
           <div className='mb-20 flex w-full flex-col items-center text-center'>
             <h1 className='mb-4 text-title font-medium text-primary'>
               {t('about_ourKeyTeamMembers_title')}
