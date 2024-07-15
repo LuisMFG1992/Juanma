@@ -1,17 +1,32 @@
 import { IoMdArrowDropdown } from 'react-icons/io'
 import useToggle from '../Hooks/useToggle'
 import { useTranslation } from 'react-i18next'
+import { useEffect, useState, useRef } from 'react'
 
 const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
+  const dropDownMenu = useRef(null)
   const { state: showMenu, toggleState } = useToggle()
+  useEffect(() => {
+    let handler = (e) => {
+      if (dropDownMenu.current && !dropDownMenu.current.contains(e.target)) {
+        toggleState(false)
+      }
+    }
+    document.addEventListener('mousedown', handler)
+    return () => {
+      document.removeEventListener('mousedown', handler)
+    }
+  }, [toggleState])
+
+  const [selectedLanguage, setSelectedLanguage] = useState('en')
 
   const { t } = useTranslation()
 
   return (
-    <div className='relative'>
+    <section className='relative'>
       <button
         className='flex cursor-pointer items-center'
-        onClick={toggleState}
+        onClick={() => toggleState()}
       >
         <p className='text-lg text-paragraph text-lightGray'>
           {t('navbar_language')}
@@ -19,28 +34,37 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
         <IoMdArrowDropdown size={'1.3rem'} className='text-lightGray' />
       </button>
       {showMenu && (
-        <div className='border-2-primary absolute left-0 top-8 flex w-full flex-col items-center border bg-white py-2 shadow-xl'>
+        <section
+          ref={dropDownMenu}
+          className='border-2-primary absolute left-0 top-8 flex w-full flex-col items-center border bg-white py-2 shadow-xl'
+        >
           <ul>
             <li>
               <button
-                onClick={callbackEnglish}
-                className='text-paragraph text-lightGray'
+                onClick={() => {
+                  callbackEnglish()
+                  setSelectedLanguage('en')
+                }}
+                className={`text-paragraph ${selectedLanguage === 'en' ? 'font-semibold text-primary' : 'text-lightGray'}`}
               >
                 {t('navbar_english')}
               </button>
             </li>
             <li>
               <button
-                onClick={callbackGerman}
-                className='text-paragraph text-lightGray'
+                onClick={() => {
+                  callbackGerman()
+                  setSelectedLanguage('de')
+                }}
+                className={`text-paragraph ${selectedLanguage !== 'en' ? 'font-semibold text-primary' : 'text-lightGray'}`}
               >
                 {t('navbar_german')}
               </button>
             </li>
           </ul>
-        </div>
+        </section>
       )}
-    </div>
+    </section>
   )
 }
 
