@@ -83,8 +83,21 @@
   ],
   "services_ourMainService_title": "OUR MAIN SERVICE",
   "services_ourMainService_paragraph": "At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.",
+
+  "services_howDoWeWork_title": "HOW WE WORK",
+  "services_howDoWeWork_paragraph": "We efficiently combine all required datasets into a complex problem and solve it mathematically in minutes. Here's a brief overview of our process:",
+  "services_howDoWeWork_sideSubtitle": "Once we generate the optimal design configuration we also provide",
+  "services_howDoWeWork_sideFirstParagraph": "<1>Review and Feedback:</1> Present the optimized solutions to the client, incorporating their feedback and making adjustments as needed to ensure alignment with their goals.",
+  "services_howDoWeWork_sideSecondParagraph": "<1>Implementation Support:</1> Offer comprehensive guidance and support during the implementation phase, ensuring seamless integration and maximizing project efficiency.",
+  "services_howDoWeWork_Icon1": "Input Parameters (project specifics)",
+  "services_howDoWeWork_Icon2": "Data Check by expert",
+  "services_howDoWeWork_Icon3": "Complex Modeling",
+  "services_howDoWeWork_Icon4": "Solution (client's requirements)",
+  "services_howDoWeWork_Icon5": "Financial Closure/FID",
+
   "services_complementaryServices_title": "COMPLIMENTARY SERVICES",
   "services_complementaryServices_paragraph": "No matter whether the plant is located in Europe or in other markets, we provide a range of additional services to ensure the success of your PV projects:",
+
   "services_complementaryServices_children": [
     {
       "id": "1",

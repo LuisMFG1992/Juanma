@@ -86,6 +86,18 @@
   ],
   "services_ourMainService_title": "UNSERE HAUPTLEISTUNG",
   "services_ourMainService_paragraph": "FIDgate hat sich auf die Bereitstellung von Finanzoptimierungs- und Beratungsdienstleistungen für Solar- und Speicheranlagen spezialisiert, die auf die unterschiedlichen Bedürfnisse unserer Kunden zugeschnitten sind. Wir nutzen eine Kombination aus Branchenkenntnis, Datenanalyse, anspruchsvoller Modellierung und modernster Technologie, um innovative Lösungen anzubieten.",
+
+  "services_howDoWeWork_title": "WIE WIR ARBEITEN",
+  "services_howDoWeWork_paragraph": "Wir kombinieren alle erforderlichen Datensätze effizient zu einem komplexen Problem und lösen es mathematisch in wenigen Minuten. Hier ist ein kurzer Überblick über unseren Prozess:",
+  "services_howDoWeWork_sideSubtitle": "Sobald wir die optimale Designkonfiguration erstellt haben, bieten wir auch",
+  "services_howDoWeWork_sideFirstParagraph": "<1>Überprüfung und Feedback:</1> Präsentieren Sie dem Kunden die optimierten Lösungen und berücksichtigen Sie dabei sein Feedback und nehmen Sie bei Bedarf Anpassungen vor, um die Übereinstimmung mit seinen Zielen sicherzustellen.",
+  "services_howDoWeWork_sideSecondParagraph": "<1>Unterstützung bei der Umsetzung:</1> Bieten Sie umfassende Beratung und Unterstützung während der Implementierungsphase, um eine nahtlose Integration zu gewährleisten und die Projekteffizienz zu maximieren.",
+  "services_howDoWeWork_Icon1": "Eingabeparameter (Projektspezifika)",
+  "services_howDoWeWork_Icon2": "Datenprüfung durch Experten",
+  "services_howDoWeWork_Icon3": "Komplexe Modellierung",
+  "services_howDoWeWork_Icon4": "Lösung (Anforderungen des Kunden)",
+  "services_howDoWeWork_Icon5": "Finanzieller Abschluss/FID",
+
   "services_complementaryServices_title": "KOSTENLOSE DIENSTLEISTUNGEN",
   "services_complementaryServices_paragraph": "Unabhängig davon, ob sich die Anlage in Europa oder in anderen Märkten befindet, bieten wir eine Reihe zusätzlicher Dienstleistungen an, um den Erfolg Ihrer PV-Projekte sicherzustellen:",
   "services_complementaryServices_children": [
