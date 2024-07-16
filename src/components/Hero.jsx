@@ -11,7 +11,7 @@ const Hero = () => {
         <h1 className='text-[3rem] font-medium text-white md:text-[4rem]'>
           {t('home_hero_title')}
         </h1>
-        <p className='mb-8 text-paragraph leading-relaxed text-white'>
+        <p className='mb-8 max-w-[700px] text-paragraph leading-relaxed text-white'>
           {t('home_hero_paragraph')}
         </p>
         <Link to={'/services'} className='flex justify-center'>

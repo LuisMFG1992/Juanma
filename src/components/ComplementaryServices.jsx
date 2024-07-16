@@ -27,7 +27,7 @@ const ComplementaryServices = () => {
           </p>
         </div>
       </div>
-      <div className='grid gap-8 md:grid-cols-2'>
+      <div className='grid max-w-[1500px] gap-8 md:grid-cols-2'>
         {translatedChildren.map((element) => (
           <div
             key={element.id}

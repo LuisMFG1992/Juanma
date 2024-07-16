@@ -29,7 +29,7 @@ const HowWeWork = () => {
             <h3 className='text-subtitle font-semibold text-primary'>
               {t('services_howDoWeWork_sideSubtitle')}
             </h3>
-            <ul className='flex list-inside list-disc flex-col gap-8'>
+            <ul className='flex  flex-col gap-8'>
               <li className='text-paragraph'>
                 <Trans
                   i18nKey={'services_howDoWeWork_sideFirstParagraph'}
@@ -59,7 +59,7 @@ const HowWeWork = () => {
                 <PiSolarPanel size={30} />
               </div>
               <div className='flex-grow pl-4'>
-                <h2 className='mb-1 text-paragraph text-gray-900'>
+                <h2 className='mb-1 text-subtitle font-semibold text-primary'>
                   {t('services_howDoWeWork_Icon1')}
                 </h2>
               </div>
@@ -72,20 +72,20 @@ const HowWeWork = () => {
                 <FaCheckDouble size={30} />
               </div>
               <div className='flex-grow pl-4'>
-                <h2 className='mb-1 text-paragraph text-gray-900'>
+                <h2 className='mb-1 text-subtitle font-semibold text-primary'>
                   {t('services_howDoWeWork_Icon2')}
                 </h2>
               </div>
             </div>
             <div className='relative flex pb-12'>
-              <div className='absolute inset-0  left-2 flex h-full w-10 items-center justify-center'>
+              <div className='absolute inset-0 left-2 flex h-full w-10 items-center justify-center'>
                 <div className='pointer-events-none h-full w-1 bg-gray-200' />
               </div>
               <div className='relative inline-flex size-14 flex-shrink-0 items-center justify-center rounded-full bg-primary text-white'>
                 <BsDatabaseGear size={30} />
               </div>
               <div className='flex-grow pl-4'>
-                <h2 className='mb-1 text-paragraph text-gray-900'>
+                <h2 className='mb-1 text-subtitle font-semibold text-primary'>
                   {t('services_howDoWeWork_Icon3')}
                 </h2>
               </div>
@@ -98,7 +98,7 @@ const HowWeWork = () => {
                 <LiaSearchSolid size={30} />
               </div>
               <div className='flex-grow pl-4'>
-                <h2 className='mb-1 text-paragraph text-gray-900'>
+                <h2 className='mb-1 text-subtitle font-semibold text-primary'>
                   {t('services_howDoWeWork_Icon4')}
                 </h2>
               </div>
@@ -108,7 +108,7 @@ const HowWeWork = () => {
                 <FaRegHandshake size={30} />
               </div>
               <div className='flex-grow pl-4'>
-                <h2 className='mb-1 text-paragraph text-gray-900'>
+                <h2 className='mb-1 text-subtitle font-semibold text-primary'>
                   {t('services_howDoWeWork_Icon5')}
                 </h2>
               </div>

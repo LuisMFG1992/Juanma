@@ -68,7 +68,7 @@ const Services = () => {
           {t('services_result_title')}
         </h2>
 
-        <ul className='grid list-inside list-disc justify-center px-6 text-paragraph'>
+        <ul className='grid justify-center px-6 text-center text-paragraph'>
           <li>{t('services_result_firstElement')}</li>
           <li>{t('services_result_secondElement')}</li>
         </ul>

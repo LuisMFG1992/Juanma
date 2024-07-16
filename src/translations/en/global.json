@@ -13,8 +13,9 @@
   "navbar_german": "DE",
   "footer_copyright": "©2024 Copyright",
   "footer_privacyPolicy": "Privacy policy",
+
   "home_hero_title": "Unlock Full Potential",
-  "home_hero_paragraph": "Traditional solar project optimizations are slow and ineffective. At FIDgate, we offer intelligent solutions to change this. Discover how our innovative service boost your project's profitability and enhance the decision-making process.",
+  "home_hero_paragraph": "FIDgate offers intelligent solutions to optimize solar plants quickly and efficiently without limits on simulations, area, or capacity.",
   "home_hero_button": "Our services",
   "home_howDoWeHelpYouTitle_title": "HOW DO WE HELP YOU",
   "home_howDoWeHelpYouTitle_firstParagraph": "Over 60% of projects do not pass the FID gate, and of the 40% that do get built they often lose 5-15% of IRR",
@@ -82,7 +83,7 @@
     }
   ],
   "services_ourMainService_title": "OUR MAIN SERVICE",
-  "services_ourMainService_paragraph": "At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services tailored to meet the diverse needs of our clients. We leverage a combination of industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions.",
+  "services_ourMainService_paragraph": "Many projects fail to pass FID due to poor economic projections, and many others lose potential value with inadequate designs. At FIDgate, we specialize in delivering standalone Solar & Storage financial optimization and consulting services to boost profitability and save time. We leverage industry knowledge, data analytics, sophisticated modeling, and cutting-edge technology to provide innovative solutions tailored for developers of all sizes.",
 
   "services_howDoWeWork_title": "HOW WE WORK",
   "services_howDoWeWork_paragraph": "We efficiently combine all required datasets into a complex problem and solve it mathematically in minutes. Here's a brief overview of our process:",
@@ -131,8 +132,8 @@
     },
     {
       "id": "6",
-      "title": "PV Design Support Benefit",
-      "paragraph": "From our learnings from GWs of project experience. Receive support through initial layout designs for planning optimization and feasibility",
+      "title": "PV Design Support",
+      "paragraph": "Benefit from our learnings from GWs of project experience. Receive support through initial layout designs for planning optimization and feasibility.",
       "colSpan": ""
     }
   ],
