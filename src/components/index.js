@@ -23,8 +23,12 @@ import HowWeWork from './HowWeWork.jsx'
 import ProcessFlow from './ProcessFlow.jsx'
 import Map from './Map.jsx'
 import AppDropdownMenu from './AppDropdownMenu.jsx'
+import News from './News.jsx'
+import Card from './Card.jsx'
 
 export {
+  Card,
+  News,
   AppDropdownMenu,
   Map,
   Hero,

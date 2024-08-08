@@ -17,11 +17,11 @@ const Services = () => {
             <h1 className='title-font mb-4 text-title font-medium text-primary'>
               {t('home_howDoWeHelpYouTitle_title')}
             </h1>
-            <p className='text-gray-500s text-paragraph  xl:w-full '>
+            <p className='text-gray-500s pb-4 text-paragraph xl:w-full '>
               {t('home_howDoWeHelpYouTitle_firstParagraph')}
             </p>
-            <br />
-            <p className='text-gray-500s mx-auto text-paragraph leading-relaxed lg:w-3/4 '>
+
+            <p className='text-gray-500s mx-auto text-paragraph leading-relaxed lg:w-[90%] '>
               <Trans
                 i18nKey={'home_howDoWeHelpYouTitle_secondParagraph'}
                 components={{ 1: <span className='font-bold' /> }}
