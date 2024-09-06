@@ -27,7 +27,7 @@ const News = () => {
       <p className='text-center text-subtitle font-semibold text-primary'>
         Read the latest news about FIDgate:
       </p>
-      <div className='flex gap-8'>
+      <div className='flex flex-col gap-8 md:flex-row'>
         {news.map((element) => (
           <Card
             key={element.id}
