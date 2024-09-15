@@ -14,8 +14,8 @@ const news = [
   {
     id: 2,
     image: new2,
-    title: 'Maximizing Solar Project Value.',
-    company: 'HVH',
+    title: 'The road to FIDgate.',
+    company: 'Hidrogeno Verde Hoy',
     link: 'https://hidrogenoverdehoy.com.ar/el-camino-a-fidgate-soluciones-innovadoras-para-maximizar-el-valor-de-los-proyectos-solares-fotovoltaicos/',
     date: '05/09/2024'
   }

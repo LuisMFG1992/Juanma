@@ -39,6 +39,7 @@ const Quote = () => {
           </div>
         </div>
       </div>
+      <a href="https://website-prototype.site/wp-content/uploads/2024/09/Privacy-policity.pdf">Privacy Policy</a>
     </section>
   )
 }
