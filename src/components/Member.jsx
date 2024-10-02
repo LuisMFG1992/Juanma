@@ -1,5 +1,7 @@
+import { Link } from 'react-router-dom'
 import { teamPictures } from '../constants'
 import Accordion from './Accordion'
+import { FaLinkedin } from 'react-icons/fa'
 
 const Member = ({ member }) => {
   return (
@@ -14,13 +16,18 @@ const Member = ({ member }) => {
           {member.name}
         </h2>
 
-        <h3 className='text-paragraph text-gray-500 '>
-          {member.roll.split('\n').map((line, index) => (
-            <span key={index} className='mb-4 block'>
-              {line}
-            </span>
-          ))}
-        </h3>
+        <div className='flex items-center gap-2'>
+          <h3 className='text-paragraph text-gray-500'>
+            {member.rol.split('\n').map((line, index) => (
+              <span key={index} className=' block'>
+                {line}
+              </span>
+            ))}
+          </h3>
+          <Link to={member.linkedInURL}>
+            <FaLinkedin className='h-full text-2xl text-primary' />
+          </Link>
+        </div>
       </div>
 
       {member?.projects && (
