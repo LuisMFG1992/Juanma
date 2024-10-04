@@ -28,7 +28,7 @@ const Member = ({ member }) => {
               <FaArrowRight className='ml-2' />
             </Button>
           </PopoverTrigger>
-          <PopoverContent className='z-10 w-[500px]'>
+          <PopoverContent className='z-10 w-[250px] sm:w-[500px]'>
             <span className='font-semibold'>Education:</span>
             {member.education.split('\n').map((line, index) => (
               <span key={index} className='mb-4 block'>
