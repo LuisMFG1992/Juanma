@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [size, SetIsNavbarToggled])
 
   return (
-    <div className='sticky top-0 z-10 w-full shadow-md'>
+    <div className='sticky top-0 z-20 w-full shadow-md'>
       <div className='flex items-center justify-center gap-2 bg-primary py-1 text-sm text-light sm:flex-row sm:justify-end sm:gap-6 sm:px-6 sm:py-3 sm:text-end '>
         <a
           href={`tel:${contactInfo.phone}`}

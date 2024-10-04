@@ -155,7 +155,7 @@
     {
       "image": "juan",
       "name": "JUAN MANUEL ROLDAN",
-      "rol": "Chief Executive Officer & Founder",
+      "rol": "CEO & Founder",
       "linkedInURL": "https://www.linkedin.com/in/ingjuanmr/",
       "education": "MSc. Mechanical Engineering (UNMDP) & Certified Energy Expert (RENAC)",
       "experience": "Optimization expert with over 7 years of experience in the renewable energy industry. He has helped bridge the gap between finance and engineering for some of the sector's largest investors, including Copenhagen Infrastructure Partners and European Energy.\n\n As a Project Manager & Consultant, he has provided technical and commercial support during the development and optimization of integrated solar PV, storage, and P-t-X projects across more than 15 countries, including North America, LATAM, Europe, Australia, and the Middle East.",
@@ -198,6 +198,15 @@
       "linkedInURL": "https://www.linkedin.com/in/nicholaj-asger-hansen-aa43291/",
       "education": "MSc. Copenhagen Business School",
       "experience": "All-round business and innovation expert with over 20 years of experience as an international executive and entrepreneur in Sustainable businesses.\n\n He has co-founded and led several ventures that create real value and positive impact on the environment and society.\n\n Passionate about developing state-of-the-art solutions that address the global challenges of climate change and energy security.",
+      "projects": []
+    },
+    {
+      "image": "nicholaj",
+      "name": "ROSARIO SORONDO",
+      "rol": "Business Advisor & Mentor",
+      "linkedInURL": "https://www.linkedin.com/in/nicholaj-asger-hansen-aa43291/",
+      "education": "MSc. Copenhagen Business School",
+      "experience": "A versatile consultant with over 22 years of experience in business, marketing, and design. She combines academic research with hands-on consulting to offer innovative, data-driven solutions to business challenges.",
       "projects": []
     }
   ],
