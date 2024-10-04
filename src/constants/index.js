@@ -2,6 +2,7 @@ import juan from '../assets/Juan.png'
 import manuel from '../assets/Manuel.png'
 import nicolas from '../assets/Nicolas.png'
 import nicholaj from '../assets/Nicholaj.png'
+import rosario from '../assets/Rosario.png'
 
 const navLinks = [
   { url: '/', label: 'home' },
@@ -22,7 +23,8 @@ const teamPictures = {
   juan: juan,
   manuel: manuel,
   nicolas: nicolas,
-  nicholaj: nicholaj
+  nicholaj: nicholaj,
+  rosario: rosario
 }
 
 const googleMapAddress =

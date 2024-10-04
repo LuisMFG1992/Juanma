@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { teamPictures } from '../constants'
-// import Accordion from './Accordion'
 import { FaArrowRight, FaLinkedin } from 'react-icons/fa'
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import { Button } from './ui/button'
