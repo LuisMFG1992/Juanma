@@ -14,7 +14,7 @@ const navLinks = [
 const footerLinks = ['Copyright', 'Privacy policy', 'Cookie policy']
 
 const contactInfo = {
-  mail: 'jmr@fidgate.com',
+  mail: 'contact@fidgate.com',
   phone: '(+49) 15566 401840',
   address: 'Berlin-Mitte, Germany'
 }

@@ -42,6 +42,18 @@ const Member = ({ member }) => {
                 {line}
               </span>
             ))}
+
+            {member.projects.length !== 0 && (
+              <span className='font-semibold'>Projects:</span>
+            )}
+
+            <ul className='list-inside list-disc'>
+              {member?.projects.map((project, idx) => (
+                <li key={idx} className=''>
+                  {project}
+                </li>
+              ))}
+            </ul>
           </PopoverContent>
         </Popover>
       </div>
