@@ -3,8 +3,12 @@ import { teamPictures } from '../constants'
 import { FaArrowRight, FaLinkedin } from 'react-icons/fa'
 import { Popover, PopoverContent, PopoverTrigger } from './ui/popover'
 import { Button } from './ui/button'
+import { useTranslation } from 'react-i18next'
 
 const Member = ({ member }) => {
+  const { t } = useTranslation()
+
+  console.log(member.Projects)
   return (
     <div className='flex flex-col items-center text-center'>
       <img
@@ -24,19 +28,23 @@ const Member = ({ member }) => {
         <Popover>
           <PopoverTrigger asChild>
             <Button variant='link' className='text-md h-auto p-0'>
-              Open Bio
+              {t('about_ourKeyTeamMembers_bio-button')}
               <FaArrowRight className='ml-2' />
             </Button>
           </PopoverTrigger>
           <PopoverContent className='z-10 w-[250px] sm:w-[500px]'>
-            <span className='font-semibold'>Education:</span>
+            <span className='font-semibold'>
+              {t('about_ourKeyTeamMembers_education')}
+            </span>
             {member.education.split('\n').map((line, index) => (
               <span key={index} className='mb-4 block'>
                 {line}
               </span>
             ))}
 
-            <span className='font-semibold'>Experience:</span>
+            <span className='font-semibold'>
+              {t('about_ourKeyTeamMembers_experience')}
+            </span>
             {member.experience.split('\n').map((line, index) => (
               <span key={index} className='mb-4 block'>
                 {line}
@@ -44,7 +52,9 @@ const Member = ({ member }) => {
             ))}
 
             {member.projects.length !== 0 && (
-              <span className='font-semibold'>Projects:</span>
+              <span className='font-semibold'>
+                {t('about_ourKeyTeamMembers_projects')}
+              </span>
             )}
 
             <ul className='list-inside list-disc'>

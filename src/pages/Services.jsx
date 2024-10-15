@@ -22,17 +22,15 @@ const Services = () => {
 
   return (
     <>
-      <section className='body-font px-6 text-gray-600 md:px-0'>
-        <div className='container mx-auto max-w-[1300px] py-24'>
-          <div className='mb-8 flex w-full flex-col text-center'>
-            <h1 className='mb-4 text-title font-medium text-primary'>
-              {t('services_whatWeDoBest_title')}
-            </h1>
-            <p className='mx-auto text-paragraph leading-relaxed lg:w-2/3'>
-              {t('services_whatWeDoBest_paragraph')}{' '}
-            </p>
-          </div>
-          <div className='grid grid-cols-1 place-items-center lg:grid-cols-2 xl:grid-cols-4'>
+      <section className='flex w-full flex-col items-center justify-center p-2 py-6'>
+        <div className='max-w-[1500px]'>
+          <h1 className='mb-4 text-center text-title font-medium text-primary'>
+            {t('services_whatWeDoBest_title')}
+          </h1>
+          <p className='mx-auto mb-4 text-center  text-paragraph leading-relaxed lg:w-2/3'>
+            {t('services_whatWeDoBest_paragraph')}{' '}
+          </p>
+          <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4'>
             {translatedChildren.map((option) => (
               <IconTitle
                 key={option.title}

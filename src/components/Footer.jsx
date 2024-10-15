@@ -18,7 +18,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className='flex flex-col items-center gap-4 pt-4 text-paragraph sm:flex-row sm:text-center md:gap-6'>
-          <p>{t('footer_copyright')}</p>
+          <p className='text-center'>{t('footer_copyright')}</p>
           <Link to={'/privacyPolicy'}>{t('footer_privacyPolicy')}</Link>
           <Link to={'https://www.linkedin.com/company/fidgate'}>
             <FaLinkedin size={40} className='text-primary' />

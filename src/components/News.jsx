@@ -1,37 +1,24 @@
 import Card from './Card'
-import new1 from '../assets/new.jpg'
-import new2 from '../assets/new2.jpg'
-
-const news = [
-  {
-    id: 1,
-    image: new1,
-    title: 'Technical and financial optimization.',
-    company: 'Energía Estratégica',
-    link: 'https://energiaestrategica.es/fidgate-ofrece-soluciones/',
-    date: '30/07/2024'
-  },
-  {
-    id: 2,
-    image: new2,
-    title: 'The road to FIDgate.',
-    company: 'Hidrogeno Verde Hoy',
-    link: 'https://hidrogenoverdehoy.com.ar/el-camino-a-fidgate-soluciones-innovadoras-para-maximizar-el-valor-de-los-proyectos-solares-fotovoltaicos/',
-    date: '05/09/2024'
-  }
-]
+import { useTranslation } from 'react-i18next'
+import { newsImages } from '@/constants'
 
 const News = () => {
+  const { t } = useTranslation()
+
+  const news = t('home_news_children', {
+    returnObjects: true
+  })
+
   return (
     <div className='flex flex-col items-center justify-center gap-4 pt-12'>
       <p className='text-center text-subtitle font-semibold text-primary'>
-        Read the latest news about FIDgate:
+        {t('home_news_title')}
       </p>
       <div className='flex flex-col gap-8 md:flex-row'>
         {news.map((element) => (
           <Card
             key={element.id}
-            image={element.image}
+            image={newsImages[element.image]}
             title={element.title}
             company={element.company}
             link={element.link}

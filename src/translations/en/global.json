@@ -43,9 +43,28 @@
   "home_quote_paragraph": "During my 7 years of experience working in some of the biggest energy companies, I realized how much potential is often lost due to time constraints and the absence of better methodologies. I was convinced that there must be a better way and I was determined to find it. After extensive research and involvement in several projects, the solution became clear to me. This is when I decided to start FIDgate. FIDgate assists companies and countries in meeting their Global Sustainability Goals in a cost-efficient manner.",
   "home_quote_AuthRol": "Optimization Expert & Founder",
   "home_quote_AuthExp": "+5 GW Renewable Experience in +15 countries",
-  "home_news_title": "Technical and financial optimization.",
-  "home_news_text": "Energía Estratégica",
+
+  "home_news_title": "Read the latest news about FIDgate:",
   "home_news_button": "Read more",
+  "home_news_children": [
+    {
+      "id": 1,
+      "image": "new1",
+      "title": "Technical and financial optimization.",
+      "company": "Energía Estratégica",
+      "link": "https://energiaestrategica.es/fidgate-ofrece-soluciones/",
+      "date": "30/07/2024"
+    },
+    {
+      "id": 2,
+      "image": "new2",
+      "title": "The road to FIDgate.",
+      "company": "Hidrogeno Verde Hoy",
+      "link": "https://hidrogenoverdehoy.com.ar/el-camino-a-fidgate-soluciones-innovadoras-para-maximizar-el-valor-de-los-proyectos-solares-fotovoltaicos/",
+      "date": "05/09/2024"
+    }
+  ],
+
   "home_contact_title": "Let's chat",
   "home_contact_paragraph": "For general inquiries or to start the conversation, please fill out this contact form and we'll get back to you as soon as possible.",
   "home_contact_inputLabels": {
@@ -151,6 +170,10 @@
   "about_mission_paragraph": "At FIDgate, we are dedicated to maximizing the potential of renewable energy projects through cutting-edge solutions and advanced optimization techniques. Our mission is to drive the renewable energy sector forward, enabling companies and countries to achieve their sustainability goals.",
   "about_ourKeyTeamMembers_title": "OUR KEY TEAM MEMBERS",
   "about_ourKeyTeamMembers_paragraph": "Our team of visionary leaders, experts in solar, storage, AI, software, and international business development, brings over 100 years of combined experience and a global perspective to shaping the future of decision-making.",
+  "about_ourKeyTeamMembers_education": "Education",
+  "about_ourKeyTeamMembers_experience": "Experience",
+  "about_ourKeyTeamMembers_projects": "Projects",
+  "about_ourKeyTeamMembers_bio-button": "Open Bio",
   "about_ourKeyTeamMembers_children": [
     {
       "image": "juan",

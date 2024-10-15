@@ -71,10 +71,10 @@ const Navbar = () => {
                   {translatedNavLinks[link.label]}
                 </NavLink>
               ))}
-              {/* <AppDropdownMenu
+              <AppDropdownMenu
                 callbackEnglish={() => changeLanguage('en')}
                 callbackGerman={() => changeLanguage('de')}
-              /> */}
+              />
             </div>
 
             <div
