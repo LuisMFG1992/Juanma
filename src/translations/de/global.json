@@ -45,7 +45,7 @@
   "home_quote_AuthRol": "Optimierungsexperte & Gründer",
   "home_quote_AuthExp": "+5 GW Erfahrung in der nachhaltigen Energiebranche in +15 Ländern",
 
-  "home_news_title": "Lies die neuesten Nachrichten über FIDgate:",
+  "home_news_title": "Lesen Sie die aktuellsten Nachrichten über FIDgate:",
   "home_news_button": "Mehr lesen",
   "home_news_children": [
     {
@@ -112,8 +112,8 @@
   "services_howDoWeWork_title": "WIE WIR ARBEITEN",
   "services_howDoWeWork_paragraph": "Wir kombinieren alle erforderlichen Datensätze effizient zu einem komplexen Problem und lösen es mathematisch in wenigen Minuten. Hier ist ein kurzer Überblick über unseren Prozess:",
   "services_howDoWeWork_sideSubtitle": "Sobald wir die optimale Designkonfiguration erstellt haben, bieten wir auch",
-  "services_howDoWeWork_sideFirstParagraph": "<1>Überprüfung und Feedback:</1> Präsentieren Sie dem Kunden die optimierten Lösungen und berücksichtigen Sie dabei sein Feedback und nehmen Sie bei Bedarf Anpassungen vor, um die Übereinstimmung mit seinen Zielen sicherzustellen.",
-  "services_howDoWeWork_sideSecondParagraph": "<1>Unterstützung bei der Umsetzung:</1> Bieten Sie umfassende Beratung und Unterstützung während der Implementierungsphase, um eine nahtlose Integration zu gewährleisten und die Projekteffizienz zu maximieren.",
+  "services_howDoWeWork_sideFirstParagraph": "<1>Überprüfung und Feedback:</1> Wir präsentieren dem Kunden die optimierten Lösungen, berücksichtigen sein Feedback und nehmen bei Bedarf Anpassungen vor, um die Übereinstimmung mit seinen Zielen sicherzustellen.",
+  "services_howDoWeWork_sideSecondParagraph": "<1>Unterstützung bei der Umsetzung:</1> Wir bieten umfassende Beratung und Unterstützung während der Implementierungsphase, um eine nahtlose Integration zu gewährleisten und die Projekteffizienz zu maximieren.",
   "services_howDoWeWork_Icon1": "Eingabeparameter (Projektspezifika)",
   "services_howDoWeWork_Icon2": "Datenprüfung durch Experten",
   "services_howDoWeWork_Icon3": "Komplexe Modellierung",
