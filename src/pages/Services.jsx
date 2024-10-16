@@ -27,7 +27,7 @@ const Services = () => {
           <h1 className='mb-4 text-center text-title font-medium text-primary'>
             {t('services_whatWeDoBest_title')}
           </h1>
-          <p className='mx-auto mb-4 text-center  text-paragraph leading-relaxed lg:w-2/3'>
+          <p className='mx-auto mb-4 text-center text-paragraph leading-relaxed lg:w-2/3'>
             {t('services_whatWeDoBest_paragraph')}{' '}
           </p>
           <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4'>
