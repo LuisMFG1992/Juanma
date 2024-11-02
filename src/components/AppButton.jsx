@@ -11,12 +11,13 @@ const AppButton = ({
   border = '',
   type = 'button',
   width = '',
-  callBack
+  callBack,
+  className
 }) => {
   return (
     <button
       type={type}
-      className={`${bgColorVariant[bgColor]} ${textColorVariant[textColor]} ${borderColorVariant[border]} ${width} rounded-lg px-4 py-2 text-paragraph hover:brightness-125`}
+      className={`${bgColorVariant[bgColor]} ${textColorVariant[textColor]} ${borderColorVariant[border]} ${width} rounded-lg px-4 py-2 text-paragraph hover:brightness-125 ${className}`}
       onClick={callBack}
     >
       {text}

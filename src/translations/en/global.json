@@ -14,9 +14,10 @@
   "footer_copyright": "© 2024 FIDgate Ltd. All rights reserved",
   "footer_privacyPolicy": "Privacy policy",
 
-  "home_hero_title": "Unlock Full Potential",
+  "home_hero_title": "The ultimate optimization tool to unlock the full financial potential of utility-scale solar",
   "home_hero_paragraph": "FIDgate offers intelligent solutions to optimize solar plants quickly and efficiently without limits on simulations, area, or capacity.",
-  "home_hero_button": "Our services",
+  "home_hero_button": "Book a demo",
+  "home_hero_button2": "Learn more",
   "home_howDoWeHelpYouTitle_title": "HOW WE HELP YOU",
   "home_howDoWeHelpYouTitle_firstParagraph": "Over 60% of projects do not pass the FID gate, and of the 40% that do get built they often lose 5-15% of IRR",
   "home_howDoWeHelpYouTitle_secondParagraph": "<1>Solutions Born from Collaboration:</1> By aligning our expertise with your business goals, we transform energy projects into optimized, high-performing assets.",
@@ -164,7 +165,7 @@
   "services_result_title": "The result for your company",
   "services_result_firstElement": "Most valuable insights for project development and execution.",
   "services_result_secondElement": "Extremely convenient business case and streamlined decision-making process.",
-  "services_result_button": "SCHEDULE AN INITIAL CONSULTATION NOW",
+  "services_result_button": "Book a demo",
 
   "about_mission_title": "MISSION",
   "about_mission_paragraph": "At FIDgate, we are dedicated to maximizing the potential of renewable energy projects through cutting-edge solutions and advanced optimization techniques. Our mission is to drive the renewable energy sector forward, enabling companies and countries to achieve their sustainability goals.",

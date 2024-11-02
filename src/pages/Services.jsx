@@ -50,9 +50,9 @@ const Services = () => {
 
       <HowWeWork />
 
-      <div className='bg-light'>
+      {/* <div className='bg-light'>
         <ComplementaryServices />
-      </div>
+      </div> */}
 
       <ContentImage
         title={t('services_personalizedProcess_title')}
