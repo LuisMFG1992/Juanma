@@ -18,7 +18,7 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
     }
   }, [toggleState])
 
-  const [selectedLanguage, setSelectedLanguage] = useState('en')
+  const [selectedLanguage, setSelectedLanguage] = useState('de')
 
   const { t } = useTranslation()
 
