@@ -50,7 +50,7 @@ const Navbar = () => {
 
       <nav className='border-b-1 bg-primary px-2 md:px-6'>
         <div className='flex flex-col'>
-          <div className='flex items-center justify-between py-3'>
+          <div className='flex items-center justify-between pb-3'>
             <NavLink to={'/'}>
               <div className='flex flex-col items-center'>
                 <img src={logo} alt='logo' className='h-[55px] sm:h-[60px]' />
