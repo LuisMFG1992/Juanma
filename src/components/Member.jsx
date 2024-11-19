@@ -17,7 +17,7 @@ const Member = ({ member }) => {
         src={teamPictures[member.image]}
       />
       <div className='flex w-full flex-col gap-1'>
-        <h2 className='text-lg font-medium text-gray-900'>{member.name}</h2>
+        <h2 className='text-lg font-medium text-primary'>{member.name}</h2>
         <div className='flex items-center justify-center gap-2'>
           <h3 className='text-lg text-gray-500'>{member.rol}</h3>
           <Link to={member.linkedInURL}>
