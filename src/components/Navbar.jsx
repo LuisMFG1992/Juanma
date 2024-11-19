@@ -50,10 +50,10 @@ const Navbar = () => {
 
       <nav className='border-b-1 bg-primary px-2 md:px-6'>
         <div className='flex flex-col'>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-between py-3'>
             <NavLink to={'/'}>
               <div className='flex flex-col items-center'>
-                <img src={logo} alt='' className='my-2 h-[55px] sm:h-[60px]' />
+                <img src={logo} alt='logo' className='h-[55px] sm:h-[60px]' />
               </div>
             </NavLink>
 
