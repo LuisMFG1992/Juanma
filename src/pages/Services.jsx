@@ -22,7 +22,7 @@ const Services = () => {
 
   return (
     <>
-      <section className='flex w-full flex-col items-center justify-center p-2 py-6'>
+      <section className='flex w-full flex-col items-center justify-center p-2 py-20'>
         <div className='max-w-[1500px]'>
           <h1 className='mb-4 text-center text-title font-medium text-primary'>
             {t('services_whatWeDoBest_title')}
@@ -72,7 +72,13 @@ const Services = () => {
         </ul>
         <div className='flex justify-center px-6'>
           <Link to={'https://calendly.com/jmr-fidgate/'}>
-            <AppButton text={t('services_result_button')} />
+            <AppButton
+              text={t('services_result_button')}
+              hover={'lighter'}
+              textColor='primary'
+              bgColor='lightGreen'
+              className={'font-bold brightness-125'}
+            />
           </Link>
         </div>
       </section>

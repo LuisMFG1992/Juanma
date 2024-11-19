@@ -20,7 +20,7 @@ const ConsentCheckbox = () => {
             1: (
               <Link
                 to='/privacyPolicy'
-                className='text-blue-600 hover:underline dark:text-blue-500'
+                className='text-primary hover:underline dark:text-primary'
               ></Link>
             )
           }}

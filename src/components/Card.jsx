@@ -27,7 +27,7 @@ const Card = ({
           <p className='cursor-pointer text-lg text-primary underline'>
             {t('home_news_button')}
           </p>
-          <p className='text-lg'>{date}</p>
+          <p className='text-lg text-primary'>{date}</p>
         </div>
       </div>
     </Link>

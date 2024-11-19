@@ -14,10 +14,11 @@ export default {
       },
       colors: {
         primary: {
-          DEFAULT: '#005B81',
+          DEFAULT: '#16433A',
           foreground: 'hsl(var(--primary-foreground))'
         },
-        light: '#f3f4f6',
+        lightGreen: '#AEF66A',
+        light: '#F2F5EE',
         lightGray: '#94a3b8',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',

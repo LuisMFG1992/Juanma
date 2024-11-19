@@ -2,7 +2,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { IoMail } from 'react-icons/io5'
 import { RiSmartphoneFill } from 'react-icons/ri'
 
-import logo from '../assets/LogoFIDgate.svg'
+import logo from '../assets/logoNew.svg'
 import { NavLink } from 'react-router-dom'
 import { contactInfo, navLinks } from '../constants'
 import { useContext, useEffect, useState } from 'react'
@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [size, SetIsNavbarToggled])
 
   return (
-    <div className='sticky top-0 z-20 w-full shadow-md'>
+    <div className='w-ful sticky top-0 z-20 shadow-md'>
       <div className='flex items-center justify-center gap-2 bg-primary py-1 text-sm text-light sm:flex-row sm:justify-end sm:gap-6 sm:px-6 sm:py-3 sm:text-end '>
         <a
           href={`tel:${contactInfo.phone}`}
@@ -48,7 +48,7 @@ const Navbar = () => {
         </a>
       </div>
 
-      <nav className='border-b-1 border border-lightGray bg-white px-2 md:px-6'>
+      <nav className='border-b-1 bg-primary px-2 md:px-6'>
         <div className='flex flex-col'>
           <div className='flex items-center justify-between'>
             <NavLink to={'/'}>
@@ -64,8 +64,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'text-lg text-paragraph font-bold text-primary'
-                      : 'text-lg text-paragraph text-lightGray '
+                      ? 'text-lightGreen text-lg text-paragraph font-bold'
+                      : 'text-lg text-paragraph text-white '
                   }
                 >
                   {translatedNavLinks[link.label]}
@@ -81,7 +81,7 @@ const Navbar = () => {
               className='cursor-pointer py-4 sm:px-6 md:hidden'
               onClick={() => toggleState(SetIsNavbarToggled)}
             >
-              <GiHamburgerMenu className='text-2xl text-primary  ' />
+              <GiHamburgerMenu className='text-2xl text-white  ' />
             </div>
           </div>
           {isNavbarToggled && (
@@ -93,8 +93,8 @@ const Navbar = () => {
                   to={link.url}
                   className={({ isActive }) =>
                     isActive
-                      ? 'w-full py-2 text-center text-lg text-paragraph font-bold text-primary '
-                      : 'w-full py-2 text-center text-lg text-paragraph text-lightGray '
+                      ? 'text-lightGreen w-full py-2 text-center text-lg text-paragraph font-bold '
+                      : 'w-full py-2 text-center text-lg text-paragraph text-white '
                   }
                 >
                   {translatedNavLinks[link.label]}

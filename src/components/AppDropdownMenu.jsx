@@ -28,10 +28,10 @@ const AppDropdownMenu = ({ callbackEnglish, callbackGerman }) => {
         className='flex cursor-pointer items-center'
         onClick={() => toggleState()}
       >
-        <p className='text-lg text-paragraph text-lightGray'>
+        <p className='text-lg text-paragraph text-white'>
           {t('navbar_language')}
         </p>
-        <IoMdArrowDropdown size={'1.3rem'} className='text-lightGray' />
+        <IoMdArrowDropdown size={'1.3rem'} className='text-white' />
       </button>
       {showMenu && (
         <section

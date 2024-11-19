@@ -104,7 +104,7 @@ const HowWeWork = () => {
                     <Trans
                       i18nKey={'services_howDoWeWork_sideFirstParagraph'}
                       components={{
-                        1: <strong></strong>
+                        1: <strong className='text-primary'></strong>
                       }}
                     />
                   </li>
@@ -112,7 +112,7 @@ const HowWeWork = () => {
                     <Trans
                       i18nKey={'services_howDoWeWork_sideSecondParagraph'}
                       components={{
-                        1: <strong></strong>
+                        1: <strong className='text-primary'></strong>
                       }}
                     />
                   </li>

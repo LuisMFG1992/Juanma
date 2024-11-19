@@ -19,11 +19,18 @@ const Hero = () => {
             <AppButton
               text={t('home_hero_button')}
               hover={'lighter'}
-              className={'brightness-125'}
+              textColor='primary'
+              bgColor='lightGreen'
+              className={'font-bold brightness-125'}
             />
           </Link>
           <Link to={'/services'}>
-            <AppButton text={t('home_hero_button2')} hover={'lighter'} />
+            <AppButton
+              text={t('home_hero_button2')}
+              hover={'lighter'}
+              textColor='white'
+              className={'bg-primary font-semibold brightness-125'}
+            />
           </Link>
         </div>
       </div>

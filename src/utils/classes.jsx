@@ -3,14 +3,17 @@ const bgColorVariant = {
   white: 'bg-white',
   blue: 'bg-blue-600',
   green: 'bg-green-600',
-  red: 'bg-red-600'
+  red: 'bg-red-600',
+  lightGreen: 'bg-lightGreen'
 }
 const textColorVariant = {
   white: 'text-white',
   black: 'text-black',
   blue: 'text-blue-600',
   green: 'text-green-600',
-  red: 'text-red-600'
+  red: 'text-red-600',
+  lightGreen: 'text-lightGreen',
+  primary: 'text-primary'
 }
 
 const borderColorVariant = {

@@ -24,7 +24,7 @@ const Services = () => {
             <p className='text-gray-500s mx-auto text-paragraph leading-relaxed lg:w-[90%] '>
               <Trans
                 i18nKey={'home_howDoWeHelpYouTitle_secondParagraph'}
-                components={{ 1: <span className='font-bold' /> }}
+                components={{ 1: <span className='font-bold text-primary' /> }}
               />
             </p>
             <div className='mt-6 flex justify-center'>

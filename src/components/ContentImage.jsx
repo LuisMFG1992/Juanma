@@ -31,7 +31,7 @@ const ContentImage = ({
           </div>
         </section>
       ) : (
-        <section className='body-font text-gray-600'>
+        <section className='body-font bg-light text-gray-600'>
           <div className='container mx-auto flex flex-col items-center px-2 py-12 sm:px-5 md:flex-row'>
             <div className='mb-6 w-[250px] sm:mb-0 sm:w-[500px] md:w-[350px] lg:w-[550px]'>
               <img
